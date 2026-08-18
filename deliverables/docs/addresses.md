@@ -70,3 +70,15 @@ ret0: 按入口分别 jmp 到原版返回 0 路径
   未压栈的垃圾返回地址（堆指针）→ 必须 `call GetGlyph; jmp 尾声`。
 - **跨字体字形语义**：GetGlyph 返回字形记录、E85C10 返回字体对象，两者
   契约不同，不可混用；E85C10 返回 0 会让调用方 `[rax+0xDC]` 解引用崩溃。
+
+## 文本汉化（BOOTFLOW.bff）
+
+- BOOTFLOW.bff 目录密钥：`5RHFHER9G72eQGlkxhFMln`（kap_all.py 自动扫描）
+- 含 11 个 .tdb 文本表（file_0035~0045），Chinese-Simple 语言块条目值格式：
+  - 正常译文：UTF-16LE 文本
+  - 未翻译占位：`UNTRANSLATED (hash): KeyName`
+- 汉化管线：kap_all.py 解包 → tdb_dump/tdb_extract 提取 → build_translations（术语表）
+  → tdb_repack 回填 → kap_repack 回包 → deploy.py 部署
+- deploy.py 在 work/extract 缺失时自动复用 work/translated 已翻译 .tdb（回退模式）
+- 游戏更新后新增键的处理：重新解包 → tdb_extract 提取 UNTRANSLATED 清单 →
+  在 work/translations/translations.json 对应表补键 → deploy.py --deploy
