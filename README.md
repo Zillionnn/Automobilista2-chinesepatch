@@ -9,9 +9,9 @@ Automobilista 2 简体中文本地化补丁，包含字体渲染修复和完整�
 - AMS2.exe（非 AVX）与 AMS2AVX.exe（Steam 实际启动的，CPU 支持 AVX 时由 AMS2.exe 转启）
 - Steam 启动参数：`-novr -lang Chinese-Simple`
 
-## 快速安装
+## 快速安装 ，目录为`F:\SteamLibrary\steamapps\common\Automobilista 2`， 详细查看deliverables/README.md
 
-双击运行 `install.bat`，或手动执行：
+编辑bat，修改游戏目录，双击运行 `install.bat`，或手动执行：
 
 ```
 python tools\patch_v4.py       # 字体补丁 AMS2.exe
@@ -21,6 +21,8 @@ python tools\verify_deploy.py    # 部署验证
 ```
 
 卸载：双击运行 `uninstall.bat` 恢复原版。
+
+
 
 ## 技术细节
 
