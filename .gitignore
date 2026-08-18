@@ -11,3 +11,8 @@ Desktop.ini
 
 # 临时/日志
 *.log
+
+# 可再生的解包/备份产物
+work/extract/
+work/deploy/backup/
+
