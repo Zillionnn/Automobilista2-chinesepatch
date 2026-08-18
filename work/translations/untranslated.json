@@ -1,0 +1,8630 @@
+[
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_FinalDrive",
+    "english": "FINAL DRIVE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_GearDown",
+    "english": "Gear Down",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_SteeringLeft",
+    "english": "STEER LEFT",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_SteeringRight",
+    "english": "STEER RIGHT",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_ClutchDeadzone",
+    "english": "CLUTCH DEADZONE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_ClutchSensitivity",
+    "english": "CLUTCH SENSITIVITY",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Resolution",
+    "english": "RESOLUTION",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_TextureResolution",
+    "english": "TEXTURE RESOLUTION",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_TextureFiltering",
+    "english": "TEXTURE FILTERING",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_VSync",
+    "english": "V-SYNC",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_MotionBlur",
+    "english": "MOTION BLUR",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_TrackDetail",
+    "english": "TRACK DETAIL",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_ShadowDetail",
+    "english": "SHADOW DETAIL",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_VisualsScreensNonunifo",
+    "english": "OFF",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_QuotationLeft",
+    "english": "UNTRANSLATED (1345454102): Game_MainMenu_QuotationLeft",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_QuotationRight",
+    "english": "UNTRANSLATED (687437220): Game_MainMenu_QuotationRight",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_SharedMemory",
+    "english": "SHARED MEMORY",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_RainDrops",
+    "english": "RAIN DROPS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_WeightDist",
+    "english": "WEIGHT DISTRIBUTION",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_DrivingAidsNone",
+    "english": "Off",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_AutomaticEngineStart",
+    "english": "AUTOMATIC ENGINE START",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Yes1",
+    "english": "YES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_No",
+    "english": "NO",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_ManualPitStops",
+    "english": "MANUAL PITSTOPS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_GamepadDamping",
+    "english": "CONTROLLER DAMPING",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_UDP",
+    "english": "UDP FREQUENCY",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_FFBFX",
+    "english": "FX",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_PitCrewDetail",
+    "english": "PIT CREW DETAIL",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_PitStopCinematicCameras",
+    "english": "PITSTOP CINEMATIC CAMERA",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_GazeControl",
+    "english": "GAZE CONTROL",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_RecenterViewOnBoot",
+    "english": "RECENTER VIEW ON BOOT",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_RecenterViewAtRaceSt",
+    "english": "RECENTER VIEW AT RACE START",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_GamepadRumble",
+    "english": "CONTROLLER VIBRATION",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_ControllerVibration",
+    "english": "CONTROLLER VIBRATION",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_AudioDevice",
+    "english": "AUDIO DEVICE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_GraphicsBias",
+    "english": "GRAPHICS BIAS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_ControlsDesc",
+    "english": "Select, configure and calibrate your chosen control methods",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_VisualFX",
+    "english": "VISUAL FX",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_VisualFXDesc",
+    "english": "Personalise the aesthetics of the engine",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Performance",
+    "english": "PERFORMANCE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_PerformanceDesc",
+    "english": "Adjust advanced graphics settings",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_CameraDesc",
+    "english": "Determine the behaviour and view of the gameplay camera and driver helmet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_AudioDesc",
+    "english": "Adjust the volume levels and speaker configuration",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_SystemDesc",
+    "english": "Configure the game's interaction with external apps",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_VirtualRealityDesc",
+    "english": "Configure your settings for the ultimate immersive experience",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_TripleScreenDesc",
+    "english": "Configure your settings to match your triple screen setup",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Vehicle6",
+    "english": "VEHICLE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Qualifying1",
+    "english": "QUALIFYING",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Length3",
+    "english": "LENGTH",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_HostSettings1",
+    "english": "HOST SETTINGS.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_HostSettingsDesc",
+    "english": "Name, Password, Privacy",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_RealismSettings",
+    "english": "Realism Settings",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_RealismSettingsDesc",
+    "english": "Tire & Fuel Use, Aids",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_OpponentSettings2",
+    "english": "OPPONENT SETTINGS.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_OpponentSettingsDesc",
+    "english": "Set allowed vehicle classes and number of AI",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_RulesRegulations1",
+    "english": "Rules & Regulations",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_RulesRegulationsDesc",
+    "english": "Penalties & license requirements",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_RaceSettings3",
+    "english": "RACE SETTINGS.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_RaceSettingsDesc",
+    "english": "Laps, Weather, Time",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_SessionSettings2",
+    "english": "SESSION SETTINGS.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_VehicleSelection1",
+    "english": "VEHICLE SELECTION.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_VehicleSelectionDesc",
+    "english": "Select your car and livery",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_CircuitSelection",
+    "english": "CIRCUIT SELECTION.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_CircuitSelectionDesc",
+    "english": "Select a racetrack from around the globe",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_CustomRace3",
+    "english": "Custom Event",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_OnlineCustomEvent",
+    "english": "Online Custom Event",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_SessionSettingsTestDayDesc",
+    "english": "Weather & Time",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Records1",
+    "english": "RECORDS.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_SelectVehicle1",
+    "english": "SELECT VEHICLE.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Electronics",
+    "english": "Electronics",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Torque1",
+    "english": "TORQUE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_SelectTrack1",
+    "english": "Select Track",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Turns1",
+    "english": "TURNS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Type1",
+    "english": "TYPE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Model1",
+    "english": "MODEL",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Display",
+    "english": "DISPLAY",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_VehicleClasses1",
+    "english": "VEHICLE CLASSES.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_WeatherSelection1",
+    "english": "WEATHER SELECTION.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_SelectWeather",
+    "english": "SELECT WEATHER.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Overlays",
+    "english": "OVERLAYS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Playback",
+    "english": "PLAYBACK",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_BrowseOnline1",
+    "english": "BROWSE ONLINE.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_LobbyName1",
+    "english": "LOBBY NAME.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Host1",
+    "english": "HOST.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Session",
+    "english": "SESSION.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Circuit1",
+    "english": "CIRCUIT.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Vehicle7",
+    "english": "VEHICLE.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_CooldownLap1",
+    "english": "COOLDOWN LAP",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Livery1",
+    "english": "LIVERY",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_EditSetup1",
+    "english": "EDIT SETUP.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Class2",
+    "english": "CLASS.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Track2",
+    "english": "TRACK.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_ResetProgress",
+    "english": "RESET PROGRESS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_TimeTrialDesc",
+    "english": "Set your fastest time on the global leaderboards",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_SteeringDeadzone1",
+    "english": "STEERING DEADZONE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_SteeringSensitiviy",
+    "english": "STEERING SENSITIVITY",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_ThrottleDeadzone1",
+    "english": "THROTTLE DEADZONE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_ThrottleSensitivity1",
+    "english": "THROTTLE SENSITIVITY",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_BrakeDeadzone",
+    "english": "BRAKE DEADZONE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_BrakeSensitivity",
+    "english": "BRAKE SENSITIVITY",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_SwitchTab",
+    "english": "SWITCH TAB",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_StartNewChampionship",
+    "english": "START NEW CHAMPIONSHIP",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_StartNewChampionship1",
+    "english": "START NEW CHAMPIONSHIP.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_SelectChampionship",
+    "english": "SELECT CHAMPIONSHIP.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_AvailableVehicles",
+    "english": "AVAILABLE VEHICLES.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_SelectedVehicle",
+    "english": "SELECTED VEHICLE.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_EditHUDDesc",
+    "english": "Adjust the position and visibility of HUD elements and on-screen messages seen during gameplay",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_CycleTelemetryHudMod",
+    "english": "CYCLE TELEMETRY HUD MODE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_WheelOnly",
+    "english": "Wheel Only",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_AvailableLiveries",
+    "english": "AVAILABLE LIVERIES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_MaxAvailable",
+    "english": "MAX AVAILABLE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_EditChampionship",
+    "english": "EDIT CHAMPIONSHIP",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_EditChampionship1",
+    "english": "EDIT CHAMPIONSHIP.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_SelectTrack3",
+    "english": "SELECT TRACK",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_RemoveRound1",
+    "english": "REMOVE ROUND",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_LivetrackPreset",
+    "english": "LIVETRACK PRESET",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_DistanceUpper",
+    "english": "DISTANCE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_GForceEffectLateral",
+    "english": "G-Force Effect Lateral",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_GForceEffectLongitud",
+    "english": "G-Force Effect Longitudinal",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_GForceEffectVertical",
+    "english": "G-Force Effect Vertical",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_LimitedTyreSets",
+    "english": "LIMITED TYRE SETS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_StaticWheel",
+    "english": "Static Wheel",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_AnimatedWheel",
+    "english": "Animated Wheel",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_GForceEffectLateralUpper",
+    "english": "G-FORCE EFFECT LATERAL",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_GForceEffectLongitudUpper",
+    "english": "G-FORCE EFFECT LONGITUDINAL",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_GForceEffectVerticalUpper",
+    "english": "G-FORCE EFFECT VERTICAL",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_AvailableVehicles2",
+    "english": "AVAILABLE VEHICLES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Even",
+    "english": "Even",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_ManualGrid",
+    "english": "MANUAL GRID",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_OfficialEvents",
+    "english": "OFFICIAL EVENTS.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_OfficialEventsDesc",
+    "english": "Compete in organised time trial events",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_PresetSelection",
+    "english": "PRESET SELECTION.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_PresetSelectionDesc",
+    "english": "Apply preset rules and content filters",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_ClearPreset",
+    "english": "CLEAR PRESET",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_PitSpeedLimitKph",
+    "english": "PIT SPEED LIMIT KPH",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_SelectEventPreset",
+    "english": "SELECT EVENT PRESET.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_VehiclesUpper",
+    "english": "VEHICLES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Liveries",
+    "english": "LIVERIES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_MaxOpponents",
+    "english": "MAX OPPONENTS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_TotalSelected",
+    "english": "TOTAL SELECTED",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_EditGrid",
+    "english": "EDIT GRID",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_EditClasses",
+    "english": "EDIT CLASSES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_PleaseSelectAtLeast1Class",
+    "english": "Please select at least 1 class",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_HideHaloStem",
+    "english": "HIDE HALO STEM",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_PrivateSession",
+    "english": "PRIVATE SESSION",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_MandatoryStopMinTyres",
+    "english": "MANDATORY PIT STOP MIN TYRES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_MinimumTyres",
+    "english": "MINIMUM TYRES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_PauseOnFocusLoss",
+    "english": "PAUSE ON FOCUS LOSS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_MaxVisibleVehicles",
+    "english": "MAX VISIBLE VEHICLES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_MandatoryStopMinTyresV2",
+    "english": "Mandatory Pit Stop Minimum Tyres",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_LivetrackPresetV2",
+    "english": "Livetrack Preset",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_PitSpeedLimitKphv2",
+    "english": "Pit Speed Limit (km/h)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_EditClassesV2",
+    "english": "Edit Classes",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_EditGridV2",
+    "english": "Edit Grid",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_MaxAvailableLower",
+    "english": "Max Available",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_MaximumAvailableLower",
+    "english": "Maximum Available",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_ManualGridLower",
+    "english": "Manual Grid",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_AudioDeviceLower",
+    "english": "Audio Device",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_RainDropsLower",
+    "english": "Rain Drops",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Grade",
+    "english": "Grade",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_PerformanceLower",
+    "english": "Performance",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_ResolutionLower",
+    "english": "Resolution",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_PauseOnFocusLossLower",
+    "english": "Pause On Focus Loss",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_TextureResolutionLower",
+    "english": "Texture Resolution",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_TextureFilteringLower",
+    "english": "Texture Filtering",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_VSyncLower",
+    "english": "V-Sync",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_ShadowDetailLower",
+    "english": "Shadow Detail",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_MaximumVisibleVehiclesLower",
+    "english": "Maximum Visible Vehicles",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_MotionBlurLower",
+    "english": "Motion Blur",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_TrackDetailLower",
+    "english": "Track Detail",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_VerticalSyncLower",
+    "english": "Vertical Sync",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_PostProcessingAntiAliasingLower",
+    "english": "Post-Processing Anti-Aliasing",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_HideHaloStemLower",
+    "english": "Hide Halo Stem",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_PitStopCinematicCamerasLower",
+    "english": "Pit Stop Cinematic Camera",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_SelectLivery",
+    "english": "Select Livery",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_ShiftType",
+    "english": "Shift Type",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_WeightDistributionLower",
+    "english": "Weight Distribution",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_ClutchDeadzoneLower",
+    "english": "Clutch Deadzone",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_ClutchSensitivityLower",
+    "english": "Clutch Sensitivity",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_GamepadDampingLower",
+    "english": "Controller Damping",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_GamepadVibrationLower",
+    "english": "Controller Vibration",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_UDPLower",
+    "english": "UDP Frequency",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_GazeControlLower",
+    "english": "Gaze Control",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_RecenterViewOnBootLower",
+    "english": "Recenter View On Boot",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_RecenterViewAtRaceStartLower",
+    "english": "Recenter View At Race Start",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_DistanceLower",
+    "english": "Distance",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_DrivelineLower",
+    "english": "Driveline",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_EventsLower",
+    "english": "Events",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_AvailableVehiclesLower",
+    "english": "Available Vehicles",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_WindVolume",
+    "english": "Wind Volume",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_StartNewChampionshipLower",
+    "english": "Start New Championship",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_SelectChampionshipLower",
+    "english": "Select Championship",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_SelectedVehicleLower",
+    "english": "Selected Vehicle",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_EditChampionshipLower",
+    "english": "Edit Championship",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_EditChampionshipLowerV2",
+    "english": "Edit Championship -",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_EditChampionshipLowerV3",
+    "english": "Edit Championship:",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_MinimumTyresLower",
+    "english": "Minimum Tyres",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_MinimumTyresLowerShort",
+    "english": "Min. Tyres",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_PrivateSessionLower",
+    "english": "Private Session",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_FinalDriveLower",
+    "english": "Final Drive",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_Percentage",
+    "english": "Percentage",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_PitSpeedLimitLower",
+    "english": "Pit Speed Limit",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_ClearPresetLower",
+    "english": "Clear Preset",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_EnablePresetFilterLower",
+    "english": "Enable Preset Filter",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_DisablePresetFilterLower",
+    "english": "Disable Preset Filter",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_DryWetSkill",
+    "english": "Dry/Wet Skill",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_ThrottleBrakeSkill",
+    "english": "Throttle/Brake Skill",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_ApplyPresetTrackSettingsTitle",
+    "english": "APPLY TRACK-SPECIFIC SERIES SETTINGS?",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_ApplyPresetTrackSettingsBody",
+    "english": "This series ([SERIESNAME]) has track-specific preset duration/rules settings available for the currently selected track ([TRACKNAME]). Would you like to overwrite your current event settings with those from the preset?",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_DisableTracksideObjectCollisions",
+    "english": "Disable Trackside Object Collisions",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_TracksideObjectCollisions",
+    "english": "Trackside Object Collisions",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_AllowVehicleReset",
+    "english": "Allow Vehicle Reset",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_AutoloadLastUsedSetup",
+    "english": "Autoload Last Used Setup",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_ShiftTypeUpper",
+    "english": "SHIFT TYPE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_TimeTrialOfTheWeekUpper",
+    "english": "TIME TRIAL OF THE WEEK",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_QualifyingRules",
+    "english": "Qualifying Rules",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_MaxRuns",
+    "english": "Max Runs",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_MaxLaps",
+    "english": "Max Laps",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_ParallaxOcclusionQuality",
+    "english": "Parallax Occlusion Quality",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_ReverbVolumeLower",
+    "english": "Reverb Volume",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_WallReflectionsVolumeLower",
+    "english": "Wall Reflections Volume",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Buttons_TestDay",
+    "english": "TEST DAY",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Buttons_TimeTrialDesc",
+    "english": "Set your fastest time on the global leaderboards",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Buttons_Back1",
+    "english": "BACK",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Buttons_Cancel1",
+    "english": "CANCEL",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Buttons_Championship1",
+    "english": "CHAMPIONSHIP.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Buttons_RearDifferential",
+    "english": "REAR DIFFERENTIAL",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Buttons_ResetSelectionLower",
+    "english": "Reset Selection",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Buttons_ResetSelectionUpper",
+    "english": "RESET SELECTION",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Buttons_YesLower",
+    "english": "Yes",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Buttons_NoLower",
+    "english": "No",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Buttons_ButtonsLower",
+    "english": "Buttons",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Buttons_ApplyPresetTrackDefaultsLower",
+    "english": "Apply Preset Track Defaults",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MultiplayerMenus_Waiting",
+    "english": "WAITING",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MultiplayerMenus_MultiplayerDirectJoin",
+    "english": "Multiplayer Direct Join",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MultiplayerMenus_LookingForServer",
+    "english": "Looking for server: [SERVERHOSTNAME]",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MultiplayerMenus_CouldntFindServer",
+    "english": "Couldn't find server: [SERVERHOSTNAME]",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_RACING",
+    "english": "RACING",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_TractionControl",
+    "english": "TRACTION CONTROL",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_Resume",
+    "english": "RESUME",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_Qualifying",
+    "english": "QUALIFYING.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_ReturnToRaceCentral",
+    "english": "Exit To Main Menu",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_CarManagement",
+    "english": "IN-CAR MANAGEMENT",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_IcmMenuUp",
+    "english": "ICM MENU UP",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_IcmMenuDown",
+    "english": "ICM MENU DOWN",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_IcmMenuLeft",
+    "english": "ICM MENU LEFT",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_IcmMenuRight",
+    "english": "ICM MENU RIGHT",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_RetireQuestion",
+    "english": "RETIRE?",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_CurrentTime",
+    "english": "CURRENT TIME",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_AreYouSureLeaveMPLB2",
+    "english": "Are you sure you want to leave this multiplayer lobby and return to the main menu?",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_SwapDriverUpper",
+    "english": "SWAP DRIVER",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_CockpitConfiguration",
+    "english": "COCKPIT CONFIGURATION",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_CockpitConfigurationDesc",
+    "english": "Adjust cockpit seat and mirror positions",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_AutoshiftMode",
+    "english": "AUTOSHIFT MODE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_CockpitConfigurationLower",
+    "english": "Cockpit Configuration",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_WaitingForAllClients",
+    "english": "WAITING FOR ALL CLIENTS TO LOAD",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_AeroSusp",
+    "english": "Aero + Susp",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_WarnLapLimit",
+    "english": "You have a total of [NUMLAPS] laps to qualify in this session.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HUD_SplitTimesEditorName",
+    "english": "SPLIT TIMES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HUD_Wind",
+    "english": "WIND",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HUD_Pit",
+    "english": "PIT",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HUD_Dist",
+    "english": "DIST",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HUD_ContactPenaltyWarningEditorName",
+    "english": "MPRS messages",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HUD_HUDLiveEditMessages",
+    "english": "HUD Live Edit Messages",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_Steering",
+    "english": "STEERING",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_Throttle",
+    "english": "THROTTLE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_Brake",
+    "english": "BRAKE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_GearUp",
+    "english": "GEAR UP",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_GearDown",
+    "english": "GEAR DOWN",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_Clutch",
+    "english": "CLUTCH",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_Pause",
+    "english": "PAUSE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_ResetCar",
+    "english": "Reset Car",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_LookLeft",
+    "english": "LOOK LEFT",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_LookRight",
+    "english": "LOOK RIGHT",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_Gear1",
+    "english": "GEAR 1",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_Gear2",
+    "english": "GEAR 2",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_Gear3",
+    "english": "GEAR 3",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_Gear4",
+    "english": "GEAR 4",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_Gear5",
+    "english": "GEAR 5",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_Gear6",
+    "english": "GEAR 6",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_Gear7",
+    "english": "GEAR 7",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_ReverseGear",
+    "english": "REVERSE GEAR",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_Handbrake",
+    "english": "EXTRA BRAKE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_CycleHUDMode",
+    "english": "HUD VIEW",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_Nitrous",
+    "english": "NITROUS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_DrivingAids",
+    "english": "DRIVING ASSISTS ALLOWED",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_Camera",
+    "english": "CAMERA",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_LookBack",
+    "english": "LOOK BACK",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_FreeLook",
+    "english": "FREE LOOK",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_PDAMode",
+    "english": "TELEMETRY MODE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_TractionControl",
+    "english": "TRACTION CONTROL",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_StabilityControl",
+    "english": "STABILITY CONTROL",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_AutoSteer",
+    "english": "AUTO-STEER",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_AutoBrake",
+    "english": "AUTO-BRAKE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_AutoGears",
+    "english": "Automatic Gears",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_AutoClutch",
+    "english": "AUTO-CLUTCH",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_TractionControlOff",
+    "english": "TRACTION CONTROL: OFF",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_TractionControlOn",
+    "english": "TRACTION CONTROL: ON",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_SteeringLeft",
+    "english": "STEER LEFT",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_SteeringRight",
+    "english": "STEER RIGHT",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_BrakeReverse",
+    "english": "BRAKE/REVERSE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_OpponentNames",
+    "english": "OPPONENT NAMES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_Gears",
+    "english": "GEARS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_CycleMotecLCD",
+    "english": "CYCLE MOTEC LCD",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_IncreaseBrakeBias",
+    "english": "INCREASE BRAKE BIAS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_DecreaseBrakeBias",
+    "english": "DECREASE BRAKE BIAS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_DecreaseFrontAntiRollBa",
+    "english": "DECREASE FRONT ANTI-ROLL BAR",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_IncreaseFrontAntiRollBa",
+    "english": "INCREASE FRONT ANTI-ROLL BAR",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_DecreaseRearAntiRollBar",
+    "english": "DECREASE REAR ANTI-ROLL BAR",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_IncreaseRearAntiRollBar",
+    "english": "INCREASE REAR ANTI-ROLL BAR",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_Ignition",
+    "english": "Ignition",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_StartEngine",
+    "english": "START ENGINE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_PitSpeedLimiter",
+    "english": "PIT LIMITER",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_ResetVRToCentre",
+    "english": "RESET VR TO CENTER",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_RequestPitStop",
+    "english": "REQUEST PITSTOP",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_ShiftModeUpOnly",
+    "english": "Up Only",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_ShiftModeDownOnly",
+    "english": "Down Only",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_ShiftModeBoth",
+    "english": "Both",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_DrivingAidsLower",
+    "english": "Driving Assists Allowed",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Controls_OpponentNamesLower",
+    "english": "Opponent Names",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_TuningScreen_FrontCenter",
+    "english": "FRONT CENTRE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_TuningScreen_RearCenter",
+    "english": "REAR CENTRE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_GT3Ice",
+    "english": "Extreme",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_GT3IceRear",
+    "english": "Extreme",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_GT3AllTerrainRear",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_GT3AllTerrain",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_GT5IceRear",
+    "english": "Extreme",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_GT5Ice",
+    "english": "Extreme",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_GT5AllTerrain",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_GT5AllTerrainRear",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FR35AllTerrain",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FR35AllTerrainRear",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FR35Ice",
+    "english": "Extreme",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FR35IceRear",
+    "english": "Extreme",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_CaterhamZZR",
+    "english": "Avon ZZR",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_CaterhamZZS",
+    "english": "Avon ZZS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_CaterhamZZRRear",
+    "english": "Avon ZZR",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_CaterhamZZSRear",
+    "english": "Avon ZZS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_TCSlickFWD",
+    "english": "Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_TCSlickFWDRear",
+    "english": "Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_TCSlickRWD",
+    "english": "Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_TCSlickRWDRear",
+    "english": "Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_TCSlickB",
+    "english": "Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_TCSlickBRear",
+    "english": "Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_KartGX390",
+    "english": "Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_KartGX390Rear",
+    "english": "Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Kart2Slick",
+    "english": "Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Kart3Slick",
+    "english": "Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Kart2SlickRear",
+    "english": "Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Kart3SlickRear",
+    "english": "Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1991SlickSoftRear",
+    "english": "Soft Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1991SlickSoft",
+    "english": "Soft Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1988SlickSoftRear",
+    "english": "Soft Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1988SlickSoft",
+    "english": "Soft Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Formula2017Soft",
+    "english": "Soft Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Formula2017SoftRear",
+    "english": "Soft Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Formula2017HardRear",
+    "english": "Hard Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Formula2017Hard",
+    "english": "Hard Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Formula2017RainRear",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Formula2017Rain",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_SupercarStreet",
+    "english": "Dry",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_SupercarStreetRear",
+    "english": "Dry",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_GT3PirelliDM",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_GT3PirelliDMRear",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_DPIPirelliDS",
+    "english": "Soft Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_DPIPirelliDSRear",
+    "english": "Soft Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_GTEPirelliDM",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_GTEPirelliDMRear",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_StockV8PirelliDM",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_StockV8PirelliDMRear",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_SprintSlick",
+    "english": "Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_SprintSlickRear",
+    "english": "Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FWDSlick",
+    "english": "Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FWDSlickRear",
+    "english": "Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_DPIMichelinDS",
+    "english": "Soft Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_DPIMichelinDSRear",
+    "english": "Soft Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_GTEMichelinDM",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_GTEMichelinDMRear",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaUSAG2Soft",
+    "english": "Soft Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaUSAG2SoftRear",
+    "english": "Soft Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Formula2017Medium",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Formula2017MediumRear",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_MediumSlick",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Formula2022Soft",
+    "english": "Soft Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Formula2022SoftRear",
+    "english": "Soft Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Formula2022Medium",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Formula2022MediumRear",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaUSA2023SWRear",
+    "english": "Slick Speedway",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaUSASWRear",
+    "english": "Slick Speedway",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1991SlickB",
+    "english": "Slick B (Hard)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1986SlickBRear",
+    "english": "Slick B (Hard)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1988SlickCRear",
+    "english": "Slick C (Medium)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1990SlickC",
+    "english": "Slick C (Medium)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1991SlickD",
+    "english": "Slick D (Soft)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1991SlickDRear",
+    "english": "Slick D (Soft)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1990SlickB",
+    "english": "Slick B (Hard)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1991SlickBRear",
+    "english": "Slick B (Hard)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1988SlickC",
+    "english": "Slick C (Medium)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1991SlickC",
+    "english": "Slick C (Medium)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1990SlickDRear",
+    "english": "Slick D (Soft)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1990SlickD",
+    "english": "Slick D (Soft)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1990SlickBRear",
+    "english": "Slick B (Hard)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1986SlickB",
+    "english": "Slick B (Hard)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1991SlickCRear",
+    "english": "Slick C (Medium)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1986SlickCRear",
+    "english": "Slick C (Medium)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1986SlickD",
+    "english": "Slick D (Soft)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1986SlickDRear",
+    "english": "Slick D (Soft)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormulaRetroSlickQual",
+    "english": "Slick Qual",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaClassicQual",
+    "english": "Slick Qual",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormulaRetroSlickQualRear",
+    "english": "Slick Qual",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaClassicQualRear",
+    "english": "Slick Qual",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaV12Wet",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaV12WetRear",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaV10Wet",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaV10WetRear",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaReizaMedium",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaReizaMediumRear",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaReizaWet",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaReizaWetRear",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaIntermediate",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaIntermediateRear",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaIntermediate2",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaIntermediate2Rear",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_SprintWet",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_SprintWetRear",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaV10G1SoftRear",
+    "english": "Soft Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaReizaIntermediate",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaReizaIntermediateRear",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaUltimateIntermediate",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaUltimateIntermediateRear",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaUSASW",
+    "english": "Slick Speedway",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_SlickQual",
+    "english": "Slick Qual",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_SlickSpeedway",
+    "english": "Slick Speedway",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaUSAG2Oval",
+    "english": "Slick Speedway",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaUSA2023SW",
+    "english": "Slick Speedway",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaUSAG2OvalRear",
+    "english": "Slick Speedway",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_SlickOption",
+    "english": "Slick Option",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_SlickPrimary",
+    "english": "Slick Primary",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_SlickOval",
+    "english": "Slick Oval",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaUSA2023SoftRear",
+    "english": "Slick Option",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaUSA2023Soft",
+    "english": "Slick Option",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaUSA2023HardRear",
+    "english": "Slick Primary",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaUSA2023Hard",
+    "english": "Slick Primary",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaUSA2023OvalRear",
+    "english": "Slick Oval",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaUSA2023Oval",
+    "english": "Slick Oval",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaUSAOval",
+    "english": "Slick Oval",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaUSAOvalRear",
+    "english": "Slick Oval",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_StockV8PirelliOval",
+    "english": "Slick Oval",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_StockV8PirelliOvalRear",
+    "english": "Slick Oval",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_StockV82020PirelliOval",
+    "english": "Slick Oval",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_StockV82020PirelliOvalRear",
+    "english": "Slick Oval",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_V8SCSlickOval",
+    "english": "Slick Oval",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_V8SCSlickOvalRear",
+    "english": "Slick Oval",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Stock86OvalSlick",
+    "english": "Slick Oval",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Stock86OvalSlickRear",
+    "english": "Slick Oval",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Stock99OvalSlick",
+    "english": "Slick Oval",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Stock99OvalSlickRear",
+    "english": "Slick Oval",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_CorvetteGTPSlickHard",
+    "english": "Hard Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_CorvetteGTPSlickHardRear",
+    "english": "Hard Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Kart4Slick",
+    "english": "Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Kart4SlickRear",
+    "english": "Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_OldStockOval",
+    "english": "Oval",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_OldStockOvalRear",
+    "english": "Oval",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Stock79Oval",
+    "english": "Oval",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Stock79OvalRear",
+    "english": "Oval",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1988SlickB",
+    "english": "Slick B (Hard)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1988SlickBRear",
+    "english": "Slick B (Hard)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1990SlickCRear",
+    "english": "Slick C (Medium)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1986SlickC",
+    "english": "Slick C (Medium)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1988SlickD",
+    "english": "Slick D (Soft)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1988SlickDRear",
+    "english": "Slick D (Soft)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Formula4Wet",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_Formula4WetRear",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_COPARain",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_COPARainRear",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaHitechG2Soft",
+    "english": "Soft Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaHitechG2SoftRear",
+    "english": "Soft Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1992SlickB",
+    "english": "Slick B (Hard)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1992SlickBRear",
+    "english": "Slick B (Hard)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1992SlickC",
+    "english": "Slick C (Medium)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1992SlickCRear",
+    "english": "Slick C (Medium)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1992SlickD",
+    "english": "Slick D (Soft)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_VintageFormula1992SlickDRear",
+    "english": "Slick D (Soft)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_SuperKartRain",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_SuperKartRainRear",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FWDWet",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FWDWetRear",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_LMDHMichelinDM",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_LMDHMichelinDMRear",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaHitechG2Medium",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaHitechG2MediumRear",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaReizaRain",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaReizaRainRear",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaHitechG2Hard",
+    "english": "Hard Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaHitechG2HardRear",
+    "english": "Hard Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_LMP2MichelinDM",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_LMP2MichelinDMRear",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_SCUSARain",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_SCUSARainRear",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_SCUSAG3Rain",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_SCUSAG3RainRear",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_GT12005SlickMed",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_GT12005SlickMedRear",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_GT22005SlickMed",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_GT22005SlickMedRear",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_LMP12005SlickMed",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_LMP12005SlickMedRear",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_LMP22005SlickMed",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_LMP22005SlickMedRear",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaV10G3Wet",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaV10G3WetRear",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaHybridG1Hard",
+    "english": "Hard Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaHybridG1HardRear",
+    "english": "Hard Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaHybridG1Medium",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaHybridG1MediumRear",
+    "english": "Medium Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaHybridG1Soft",
+    "english": "Soft Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaHybridG1SoftRear",
+    "english": "Soft Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaV10G2MichelinSoft",
+    "english": "Soft Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaV10G2MichelinSoftRear",
+    "english": "Soft Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaV10G3MichelinSoft",
+    "english": "Soft Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaV10G3MichelinSoftRear",
+    "english": "Soft Slick",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaV8G1MichelinWet",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaV8G1MichelinWetRear",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaV10G1Intermediate",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaV10G1IntermediateRear",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaV10G2MichelinIntermediate",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaV10G2MichelinIntermediateRear",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaV10G3MichelinIntermediate",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaV10G3MichelinIntermediateRear",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaHybridG2Intermediate",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_FormulaHybridG2IntermediateRear",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_GT12005Intermediate",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_GT12005IntermediateRear",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_GT22005Intermediate",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_GT22005IntermediateRear",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_LMP2005Intermediate",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Tyre_LMP2005IntermediateRear",
+    "english": "Intermediate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Monitor_CycleCamera",
+    "english": "CYCLE CAMERA",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Monitor_On",
+    "english": "ON",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Monitor_Off",
+    "english": "OFF",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Monitor_Watching",
+    "english": "WATCHING",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HintsTips_TheFxSliderInTheFfbM",
+    "english": "The FX slider in the FFB menu can enhance tire forces such as scrub, brake lockup, the feeling of over and understeer as well as the road surface irregularities.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HintsTips_TiresAndBrakesAreAtT",
+    "english": "Tires and brakes are at their optimal temperature range while green in the HUD Display - blue is under temp, yellow is over, and red is critically over temp at risk of failure.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HintsTips_TheVehicleWeightList",
+    "english": "The vehicle weight listed in the info above includes 85kg for the driver with complete racing gear, as well as other car fluids not including fuel.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HintsTips_AdjustYourBrakeDucts",
+    "english": "Adjust your brake ducts to best suit the current track conditions - a higher brake duct setting will cool them more, while a lower will retain more heat.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HintsTips_AdjustableOnboardAnt",
+    "english": "Adjustable onboard anti-roll bars and brake bias are valuable tools to adjust the car balance as the tires wear and fuel tank runs low.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HintsTips_BrakeDuctsAndRadiato",
+    "english": "Brake ducts and radiator openings are important to cool brake and engine temperatures, but also add a small amount of aero drag & lift - don´t run them more open than you need to!",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HintsTips_WhenDrivingOnADrying",
+    "english": "When driving on a drying track, try to make sure to keep the loaded outside wheels in a given corner inside the dry line - stepping them on a wet patch may lead to running wide and losing a lot of time!",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HintsTips_TheLowForceBoostSlid",
+    "english": "The Low Force Boost slider in the FFB menu can help enhance low-end forces at the center - weaker wheels should use higher values, while DD wheels should have it low or zeroed.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HintsTips_SetupModificationsAr",
+    "english": "Setup modifications are auto-saved and marked by \"*\" once it has modified from factory defaults - defaults may still be restored by clicking the \"Reset to Default\" button.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HintsTips_KeepAnEyeOnTheAmbien",
+    "english": "Keep an eye on the ambient and track temperatures in the monitor screen - they are critical to keep tire and brake conditions within their optimal range and avoid excessive wear.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HintsTips_TheTrackAltitudeAndR",
+    "english": "The track altitude and resulting atmospheric pressure has a big impact in performance - the higher the location, the more aspirated engines will suffer, and the less aero will work.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HintsTips_SetYourBrakePressure",
+    "english": "Set your brake pressure just high enough to avoid locking up on the hardest braking zone - that may be determined by monitoring the brake disc temperatures.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HintsTips_MakeSureToSelectAndO",
+    "english": "Make sure to select and / or adjust your pit strategy in the In-Car menu before coming in for a pit stop.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HintsTips_TheTelemetryHUDpage",
+    "english": "The telemetry HUD page features various widgets that can help you better set up your car and force feedback.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HintsTips_TimeTrialModeAllowsY",
+    "english": "Time Trial Mode allows you to measure up against the fastest drivers in any given car-track combo, and also download the setups used in their fastest times.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HintsTips_InCarsWithAdjustable",
+    "english": "In cars with adjustable boost, higher values will generate more engine heat - make sure to adjust radiator opening accordingly to cool it down.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HintsTips_MakeSureToRespectThe",
+    "english": "Make sure to respect the white lines exiting the pits in order to not get a penalty or cause collisions with approaching traffic.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HintsTips_IfYouAreUsingHeadpho",
+    "english": "If you are using headphones, make sure to select \"Headphone Mix\" in the Audio settings.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HintsTips_AdjustingFieldOfView",
+    "english": "Adjusting field of view (FOV) correctly is crucial for an accurate perception of speed and distances.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HintsTips_IfTheSessionForecast",
+    "english": "If the session forecast is set to real or random weather, the chances of rain will vary according to the climate of the region.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HintsTips_LongTracksMaySeeRain",
+    "english": "Long tracks may see rain falling harder on some points of the circuit, and less in others - keep that in mind before diving into the pits!",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Mas",
+    "english": "MASTER VOLUME",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Sou",
+    "english": "SOUND FX VOLUME",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Coc2",
+    "english": "COCKPIT MIRRORS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_In2",
+    "english": "IN-GAME-CHAT BOX",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Pos",
+    "english": "POST-PROCESSING FILTERS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Blo2",
+    "english": "BLOOM",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Hea2",
+    "english": "HEAT HAZE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Det",
+    "english": "DETAILED GRASS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Exp2",
+    "english": "EXPOSURE COMPENSATION",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Vig",
+    "english": "VIGNETTE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Par",
+    "english": "PARTICLE LEVEL",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Par2",
+    "english": "PARTICLE DENSITY",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Cre2",
+    "english": "CREPUSCULAR RAYS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Ref",
+    "english": "REFLECTIONS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Car3",
+    "english": "CAR DETAIL",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Ren",
+    "english": "RENDER FRAMES AHEAD",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Inv2",
+    "english": "INVERTED GEARING",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Opp2",
+    "english": "OPPOSITE LOCK ASSIST",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Cal",
+    "english": "CALIBRATE WHEEL",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Ste4",
+    "english": "STEER LEFT",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Ste5",
+    "english": "STEER RIGHT",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_KER",
+    "english": "BOOST",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Sea2",
+    "english": "SEAT FORWARD",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Sea3",
+    "english": "SEAT BACKWARD",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Sea4",
+    "english": "SEAT UP",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Sea5",
+    "english": "SEAT DOWN",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Inc3",
+    "english": "INCREASE VIEW ANGLE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Dec03",
+    "english": "DECREASE VIEW ANGLE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Cen",
+    "english": "CENTER VR HEADSET",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Bum3",
+    "english": "BUMPER CAMERA",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Hoo",
+    "english": "Bonnet Camera",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Coc3",
+    "english": "Cockpit Camera",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Roo",
+    "english": "Roof Camera",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Cha11",
+    "english": "CHASE CAMERA",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Hel2",
+    "english": "Helmet Camera",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Min",
+    "english": "MIN SPEED SENSITIVE FOV",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Max",
+    "english": "MAX SPEED SENSITIVE FOV",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Min2",
+    "english": "MIN SPEED SENSITIVE SPEED",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Max2",
+    "english": "MAX SPEED SENSITIVE SPEED",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Hig",
+    "english": "HIGH SPEED SHAKE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Wor2",
+    "english": "WORLD MOVEMENT",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_GF",
+    "english": "G-FORCE EFFECT",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Sho5",
+    "english": "SHOW HELMET",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Hel3",
+    "english": "HELMET DEPTH OF FIELD",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Hel4",
+    "english": "HELMET LOOK TO APEX",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Hel5",
+    "english": "HELMET LEANING",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Cam6",
+    "english": "CAMERA LEANING",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Cal3",
+    "english": "CALIBRATE PEDALS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Scr2",
+    "english": "SCREEN DIRT",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Sea7",
+    "english": "SEAT ANGLE UP",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Sea8",
+    "english": "SEAT ANGLE DOWN",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Rea42",
+    "english": "REAR PASSENGER CAMERA",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Fie2",
+    "english": "FOV SPEED SENSITIVITY",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_menuspringstrength",
+    "english": "MENU SPRING STRENGTH",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_CustomEvent",
+    "english": "CUSTOM EVENT.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ResolutionScale",
+    "english": "SUPER SAMPLING",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_PostAA",
+    "english": "POST AA",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_EnhancedMirror",
+    "english": "ENHANCED MIRROR",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RadioSubtitles",
+    "english": "RADIO SUBTITLES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ElementStateOff",
+    "english": "OFF",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ManualCooldownLap",
+    "english": "MANUAL COOLDOWN LAP",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_CalibrateMonitors",
+    "english": "CALIBRATE MONITORS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ExteriorSunFlare",
+    "english": "EXTERIOR SUN FLARE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_InteriorSunFlare",
+    "english": "INTERIOR SUN FLARE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_MenuMusicVolume",
+    "english": "MENU MUSIC VOLUME",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_PlayerEngineVolume",
+    "english": "PLAYER ENGINE VOLUME",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_OpponentEngineVolume",
+    "english": "OPPONENT ENGINE VOLUME",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_TrackSurfaceVolume",
+    "english": "TRACK SURFACE VOLUME",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_PitToCarRadioVolume",
+    "english": "PIT RADIO VOLUME",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_EnableHeadphoneMix",
+    "english": "ENABLE HEADPHONE MIX",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_InvertedCameraYAxis",
+    "english": "INVERTED CAMERA Y AXIS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FFBFlavour",
+    "english": "FLAVOUR",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FFBGain",
+    "english": "GAIN",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FFBTone",
+    "english": "LOW FORCE BOOST",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_MenuVolume",
+    "english": "MENU VOLUME",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_GeneralCarVolume",
+    "english": "GENERAL CAR VOLUME",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_TyreVolume",
+    "english": "TYRE VOLUME",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_CollisionVolume",
+    "english": "COLLISION VOLUME",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_EnvironmentVolume",
+    "english": "ENVIRONMENT VOLUME",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_PedalType",
+    "english": "PEDAL TYPE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_LowFEExtraVolume",
+    "english": "LFE EXTRA VOLUME",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Track",
+    "english": "TRACK",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_VehicleLabel",
+    "english": "VEHICLE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Loading",
+    "english": "LOADING...",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_SingleRace",
+    "english": "SINGLE RACE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_SingleRaceDesc",
+    "english": "Create a custom offline race",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Multiplayer",
+    "english": "MULTIPLAYER",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_MultiplayerDesc",
+    "english": "Race human players online",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Championship",
+    "english": "CHAMPIONSHIP",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ChampionshipDesc",
+    "english": "Compete in a championship against AI opponents",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_TestDay",
+    "english": "TEST DAY",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_TestDayDesc",
+    "english": "Start a private session and improve your skills",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RaceMenu",
+    "english": "RACE MENU",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Replays",
+    "english": "REPLAYS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_TimeTrial",
+    "english": "TIME TRIAL",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_GameplayOptionsDesc",
+    "english": "Adjust the game's challenge and realism to suit your preferences",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Time",
+    "english": "TIME",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Disabled1",
+    "english": "DISABLED",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_SingleRace1",
+    "english": "Single Race",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Championship1",
+    "english": "CHAMPIONSHIP.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Multiplayer1",
+    "english": "MULTIPLAYER.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_TimeTrial1",
+    "english": "TIME TRIAL.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_EditPracticeSession",
+    "english": "EDIT PRACTICE SESSION",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_EditQualifyingSessio",
+    "english": "EDIT QUALIFYING SESSION",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Q",
+    "english": "Q",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_VehicleSetup",
+    "english": "VEHICLE SETUP.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_TyreCompound",
+    "english": "TYRE COMPOUND",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_BrakePressure",
+    "english": "BRAKE PRESSURE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_BrakeBalance",
+    "english": "BRAKE BALANCE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FrontDuctOpening1",
+    "english": "FRONT DUCT OPENING",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RearDuctOpening1",
+    "english": "REAR DUCT OPENING",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FrontDownforce",
+    "english": "FRONT DOWNFORCE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RearDownforce",
+    "english": "REAR DOWNFORCE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_LongitudinalWeightBi",
+    "english": "LONGITUDINAL WEIGHT BIAS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_LateralWeightBias",
+    "english": "LATERAL WEIGHT BIAS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_SteeringLock",
+    "english": "STEERING LOCK",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_QuickSetup",
+    "english": "QUICK SETUP",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_AdvancedSetup",
+    "english": "ADVANCED SETUP",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_SetupInfo",
+    "english": "SETUP INFO",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_AntRollBar",
+    "english": "ANTI-ROLL BAR",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_3RDSpring1",
+    "english": "3RD SPRING",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FrontAntRollBar",
+    "english": "FRONT ANT-ROLL BAR",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RearAntRollBar",
+    "english": "REAR ANT-ROLL BAR",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_AutoSavedSetupHelp",
+    "english": "* indicates auto-saved setup",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_BoostPressure1",
+    "english": "BOOST PRESSURE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_AirRestrictor1",
+    "english": "AIR RESTRICTOR",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RadiatorOpening",
+    "english": "RADIATOR OPENING",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_EngineBraking1",
+    "english": "ENGINE BRAKING",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FuelMap",
+    "english": "FUEL MAP",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FrontDifferential",
+    "english": "FRONT DIFFERENTIAL",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Spool1",
+    "english": "SPOOL",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_GearedLsd1",
+    "english": "GEARED LSD",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_BiasRatioCoast1",
+    "english": "BIAS RATIO, COAST",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_BiasRatioPower1",
+    "english": "BIAS RATIO, POWER",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ClutchLsd1",
+    "english": "CLUTCH LSD",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Preload1",
+    "english": "PRELOAD",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Clutches1",
+    "english": "CLUTCHES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_PowerRamp1",
+    "english": "POWER RAMP",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_CoastRamp1",
+    "english": "COAST RAMP",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ViscousLsd1",
+    "english": "VISCOUS LSD",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ViscousLock",
+    "english": "VISCOUS LOCK",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Ratcheting1",
+    "english": "RATCHETING",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Drivetrain",
+    "english": "DRIVETRAIN",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_EngineElectronics",
+    "english": "ENGINE / ELECTRONICS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_TimeAcceleration1",
+    "english": "TIME ACCELERATION:",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_EditorDriverPosition",
+    "english": "Driver Position",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_EditorLeaderboard2",
+    "english": "Leaderboard",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_BrakeBiasFR",
+    "english": "BRAKE BIAS (F/R)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_BrakeBiasForward",
+    "english": "BRAKE BIAS FORWARD",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_BrakeBiasRearward",
+    "english": "BRAKE BIAS REARWARD",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Altitude",
+    "english": "ALTITUDE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_SpeedSensitivity",
+    "english": "SPEED SENSITIVITY",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_MinimumShiftTime",
+    "english": "MINIMUM SHIFT TIME",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_PitSpeedLimit",
+    "english": "PIT SPEED LIMIT",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RaceDistanceScale",
+    "english": "Race Distance Scale",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_SingleChampResetProgress",
+    "english": "Are you sure you wish to reset all progress in this championship?",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_PitStopEstimationSec",
+    "english": "PIT STOP ESTIMATION (SECS)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FuelTyres",
+    "english": "FUEL & TYRES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FrontLeftSuspension",
+    "english": "FRONT LEFT SUSPENSION",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_CutWarningsBeforeDri",
+    "english": "TRACK LIMIT WARNINGS BEFORE PENALTY",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FrontRightSuspension",
+    "english": "FRONT RIGHT SUSPENSION",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RearLeftSuspension",
+    "english": "REAR LEFT SUSPENSION",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RearRightSuspension",
+    "english": "REAR RIGHT SUSPENSION",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FrontLeftBrakes",
+    "english": "FRONT LEFT BRAKES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FrontRightBrakes",
+    "english": "FRONT RIGHT BRAKES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RearLeftBrakes",
+    "english": "REAR LEFT BRAKES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RearRightBrakes",
+    "english": "REAR RIGHT BRAKES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Gearbox",
+    "english": "GEARBOX",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FrontAero",
+    "english": "FRONT AERO",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RearAero",
+    "english": "REAR AERO",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_AddFuel",
+    "english": "ADD FUEL",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ChangeTyres",
+    "english": "CHANGE TYRES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FrontLeftTyreCompoun",
+    "english": "FRONT LEFT TYRE COMPOUND",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FrontRightTyreCompou",
+    "english": "FRONT RIGHT TYRE COMPOUND",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RearLeftTyreCompound",
+    "english": "REAR LEFT TYRE COMPOUND",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RearRightTyreCompoun",
+    "english": "REAR RIGHT TYRE COMPOUND",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FrontLeftTyrePressur",
+    "english": "FRONT LEFT TYRE PRESSURE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FrontRightTyrePressu",
+    "english": "FRONT RIGHT TYRE PRESSURE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RearLeftTyrePressure",
+    "english": "REAR LEFT TYRE PRESSURE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RearRightTyrePressur",
+    "english": "REAR RIGHT TYRE PRESSURE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_MatchAllTyreCompound",
+    "english": "MATCH ALL TYRE COMPOUNDS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Pods",
+    "english": "PODS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_DriverAhead",
+    "english": "Driver ahead",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_DriverBehind",
+    "english": "Driver behind",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Ret1",
+    "english": "RET",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_WindowMode",
+    "english": "WINDOW MODE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_WIndowedBorderlessMode",
+    "english": "Borderless",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_HeadMovement",
+    "english": "HEAD MOVEMENT",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_UseLegacyHeadMovement",
+    "english": "USE LEGACY HEAD MOVEMENT",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_EnablesLegacyHeadMovement",
+    "english": "Enables legacy Head Movement.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_OpponentAggression",
+    "english": "AI Aggression",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_VehicleFFBGain",
+    "english": "VEHICLE FFB GAIN",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_VehicleSpecificFFB",
+    "english": "VEHICLE SPECIFIC FFB",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_AINamePostfixFull",
+    "english": " (AI)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_DriveLayout",
+    "english": "DRIVE LAYOUT",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FFBDamping",
+    "english": "DAMPING",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_WithRules",
+    "english": "With Rules",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_AdjustableTurbo",
+    "english": "ADJUSTABLE TURBO",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_BoostButton",
+    "english": "Boost Button",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_OnboardRollBars",
+    "english": "Onboard Roll Bars",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_OnboardBrakeBias",
+    "english": "Onboard Brake Bias",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_EngineBrakingReduction",
+    "english": "ENGINE BRAKING REDUCTION",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_EditName",
+    "english": "EDIT NAME",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ScoreType",
+    "english": "SCORE TYPE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_PolePosition",
+    "english": "POLE POSITION",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FastestRaceLap",
+    "english": "FASTEST RACE LAP",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RemainingPlacesFinis",
+    "english": "REMAINING PLACES (FINISHER)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_TrackWetness",
+    "english": "TRACK WETNESS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_TrackRubber",
+    "english": "TRACK RUBBER",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_TuningEditUsesRanges",
+    "english": "Suspension Setup Display",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_SuspensionSetupDisplayValueUnits",
+    "english": "Units",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_SuspensionSetupDisplayValueRates",
+    "english": "Rates",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_EnableAnalogueInputsInMenu",
+    "english": "ENABLE ANALOGUE INPUTS IN MENU",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_UserControlPreset",
+    "english": "USER CONTROL PRESET",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_CopyFromOtherControlSet",
+    "english": "COPY FROM ANOTHER PRESET",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ControllerPresetCopyConfirmMsg",
+    "english": "Are you sure you want to copy controller settings from '[SOURCEPRESETNAME]' to '[DESTINATIONPRESETNAME]'?",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_DamageScale",
+    "english": "DAMAGE SCALE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_TimePlusOneLap",
+    "english": "TIME +1 LAP",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_PitStopRefuellingAllowed",
+    "english": "PIT STOP REFUELLING ALLOWED",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_BestSectors",
+    "english": "BEST SECTORS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Top5",
+    "english": "TOP 5",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Top10",
+    "english": "TOP 10",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Races",
+    "english": "RACES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_MultiplayerRating",
+    "english": "MULTIPLAYER RATING",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Rating",
+    "english": "RATING",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_SafetyRatingProgress",
+    "english": "SAFETY RATING PROGRESS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RecentHistory",
+    "english": "RECENT HISTORY",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_MultiplayerRatingEna",
+    "english": "MULTIPLAYER RATING ENABLED",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_MinimumRating",
+    "english": "MINIMUM RATING",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_CompareProfiles",
+    "english": "COMPARE PROFILES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ICMAutoClose",
+    "english": "ICM Auto-Close",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FavouriteVehicles",
+    "english": "FAVOURITE VEHICLES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FavouriteLocations",
+    "english": "FAVOURITE LOCATIONS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_OutLap",
+    "english": "OUT LAP",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FrontTyres",
+    "english": "FRONT TYRES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RearTyres",
+    "english": "REAR TYRES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_Mixed",
+    "english": "Mixed",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ICMResetStrategyOption",
+    "english": "Default Option",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ICMResetStrategyMenu",
+    "english": "Default Page",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ICMResetStrategyOptionDelayed",
+    "english": "Default Option (Delayed)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ICMResetStrategyMenuDelayed",
+    "english": "Default Page (Delayed)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_IcmResetOnExit",
+    "english": "ICM Reset On Exit",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FullCourseYellow",
+    "english": "Full Course Yellow",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FullCourseYellowUpper",
+    "english": "FULL COURSE YELLOW",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FullCourseYellowsUpper",
+    "english": "FULL COURSE YELLOWS",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RandomFailures",
+    "english": "RANDOM FAILURES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_EditorRadar",
+    "english": "Radar",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_HudRadarZoom",
+    "english": "HUD Radar Zoom",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FcyFollowLabel",
+    "english": "FCY Follow Label",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_OptionsFCYFollowLabel",
+    "english": "Display a label above the car you need to follow during a Full Course Yellow/Safety Car periods.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ResetPerVehicleFFB",
+    "english": "RESET PER VEHICLE FFB",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_MinRequiredTyres",
+    "english": "MIN REQUIRED TYRES",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_LobbyDetailFCYScheduled",
+    "english": "FULL COURSE YELLOWS / SCHEDULED",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_PitStopRefuellingAllowedV2",
+    "english": "Pit Stop Refuelling Allowed",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_TimePlusOneLapV2",
+    "english": "Time +1 Lap",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_MultiplayerRatingV2",
+    "english": "Multiplayer Rating",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_MinimumRatingV2",
+    "english": "Minimum Rating",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_CutWarningsBeforeDriV2",
+    "english": "Track Limit Warnings",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_SELECTED",
+    "english": "SELECTED",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_DamageScaleLower",
+    "english": "Damage Scale",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RandomFailuresLower",
+    "english": "Random Failures",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_EditPracticeSessionLower",
+    "english": "Edit Practice Session",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_EditQualifyingSessionLower",
+    "english": "Edit Qualifying Session",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_MasterVolumeLower",
+    "english": "Master Volume",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_MenuVolumeLower",
+    "english": "Menu Volume",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_PlayerEngineVolumeLower",
+    "english": "Player Engine Volume",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_GeneralCarVolumeLower",
+    "english": "General Car Volume",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_TyreVolumeLower",
+    "english": "Tyre Volume",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_CollisionVolumeLower",
+    "english": "Collision Volume",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_TrackSurfaceVolumeLower",
+    "english": "Track Surface Volume",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_EnvironmentVolumeLower",
+    "english": "Environment Volume",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_PitToCarRadioVolumeLower",
+    "english": "Pit Radio Volume",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_EnableHeadphoneMixLower",
+    "english": "Enable Headphone Mix",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_LowFEExtraVolumeLower",
+    "english": "LFE Extra Volume",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_OpponentEngineVolumeLower",
+    "english": "Opponent Engine Volume",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_PostProcesssingFiltersLower",
+    "english": "Post-Processing Filters",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ExteriorSunFlareLower",
+    "english": "Exterior Sun Flare",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_InteriorSunFlareLower",
+    "english": "Interior Sun Flare",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_BloomLower",
+    "english": "Bloom",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_HeatHazeLower",
+    "english": "Heat Haze",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ExposureCompensationLower",
+    "english": "Exposure Compensation",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_VignetteLower",
+    "english": "Vignette",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_CrepuscularRaysLower",
+    "english": "Crepuscular Rays",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ScreenDirtLower",
+    "english": "Screen Dirt",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_CockpitMirrorsLower",
+    "english": "Cockpit Mirrors",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_VisualFXOptionsLower",
+    "english": "Visual FX Options",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_BumperCameraLower",
+    "english": "Bumper Camera",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RearPassengerCameraLower",
+    "english": "Rear Passenger Camera",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_MinimumSpeedSensitiveFOVLower",
+    "english": "Minimum Speed Sensitive FOV",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_MinimumSpeedSensitiveSpeedLower",
+    "english": "Minimum Speed Sensitive Speed",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_MaximumSpeedSensitiveFOVLower",
+    "english": "Maximum Speed Sensitive FOV",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_MaximumSpeedSensitiveSpeedLower",
+    "english": "Maximum Speed Sensitive Speed",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_HighSpeedShakeLower",
+    "english": "High Speed Shake",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_HeadMovementLower",
+    "english": "Head Movement",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_UseLegacyHeadMovementLower",
+    "english": "Use Legacy Head Movement",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_LegacyHeadMovementLower",
+    "english": "Legacy Head Movement",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ShowHelmetLower",
+    "english": "Show Helmet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_HelmetDepthOfFieldLower",
+    "english": "Helmet Depth Of Field",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_HelmetLookToApexLower",
+    "english": "Helmet Look To Apex",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_HelmetLeaningLower",
+    "english": "Helmet Leaning",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_CameraLeaningLower",
+    "english": "Camera Leaning",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_MinimumSpeedSensitiveUnitLower",
+    "english": "Minimum Speed Sensitive (km/h)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_MaximumSpeedSensitiveUnitLower",
+    "english": "Maximum Speed Sensitive (km/h)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_SpeedSensitiveFOVLower",
+    "english": "Speed Sensitive FOV",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FOVSpeedSensitivityLower",
+    "english": "FOV Speed Sensitivity",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_AltitudeLower",
+    "english": "Altitude",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_WindowModeLower",
+    "english": "Window Mode",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RenderFramesAheadLower",
+    "english": "Render Frames Ahead",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_CarDetailLower",
+    "english": "Car Detail",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_DetailedGrassLower",
+    "english": "Detailed Grass",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ParticleLevelLower",
+    "english": "Particle Level",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ParticleDensityLower",
+    "english": "Particle Density",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_MultisampleAntiAliasingLower",
+    "english": "Multisample Anti-Aliasing",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_EnvironmentDetailLower",
+    "english": "Environment Detail",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_EnhancedMirrorsLower",
+    "english": "Enhanced Mirrors",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_GrassDetailLower",
+    "english": "Grass Detail",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ParticleDetailLower",
+    "english": "Particle Detail",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_SupersamplingAntiAliasingLower",
+    "english": "Supersampling Anti-Aliasing",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_GraphicsPerformanceLower",
+    "english": "Graphics & Performance",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_VehicleDetailLower",
+    "english": "Vehicle Detail",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_TrackReflectionDetailLower",
+    "english": "Track Reflection Detail",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_VehicleReflectionDetailLower",
+    "english": "Vehicle Reflection Detail",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_OppositeLockAssistLower",
+    "english": "Opposite Lock Assist",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ManualCooldownLapLower",
+    "english": "Manual Cooldown Lap",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RadioSubtitlesLower",
+    "english": "Radio Subtitles",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_DriveLayoutLower",
+    "english": "Drive Layout",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_TyreTypes",
+    "english": "Tyre Types",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_UserControlPresetLower",
+    "english": "User Control Preset",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_EditNameLower",
+    "english": "Edit Name",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_CopyFromOtherControlSetLower",
+    "english": "Copy From Another Preset",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_CalibrateWheelLower",
+    "english": "Calibrate Wheel",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_CalibratePedalsLower",
+    "english": "Calibrate Pedals",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_InvertedGearingLower",
+    "english": "Inverted Gearing",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_InvertedCameraYAxisLower",
+    "english": "Inverted Camera Y Axis",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_PedalTypeLower",
+    "english": "Pedal Type",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_EnableAnalogueInputsInMenuLower",
+    "english": "Enable Analogue Inputs In Menu",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FFBGainLower",
+    "english": "Gain",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FFBToneLower",
+    "english": "Low Force Boost",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FFBDampingLower",
+    "english": "Damping",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_menuspringstrength1",
+    "english": "Menu Spring Strength",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ResetPerVehicleFFBLower",
+    "english": "Reset Per Vehicle FFB",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RatingLower",
+    "english": "Rating",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_SafetyRatingProgressLower",
+    "english": "Safety Rating Progress",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ChampionshipLower",
+    "english": "Championship",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_TimeTrialLower",
+    "english": "Time Trial",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FastestRaceLapLower",
+    "english": "Fastest Race Lap",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RecentHistoryLower",
+    "english": "Recent History",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FavouriteVehiclesLower",
+    "english": "Favourite Vehicles",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FavouriteLocationsLower",
+    "english": "Favourite Locations",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_AdjustableTurboLower",
+    "english": "Adjustable Turbo",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_SelectSeriesPresetLower",
+    "english": "Select Series Preset",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_TimeTrialOfficialEventLower",
+    "english": "Time Trial - Official Events",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ScoreTypeLower",
+    "english": "Score Type",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ClassScoringLower",
+    "english": "Class Scoring",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FullCourseYellowsLower",
+    "english": "Full Course Yellows",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_HostNameLower",
+    "english": "Host Name",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_HostDetailsLower",
+    "english": "Host Details",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_DifferentialPreloadIncreaseLower",
+    "english": "Differential Preload Increase",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_DifferentialPreloadDecreaseLower",
+    "english": "Differential Preload Decrease",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_DifferentialPowerIncreaseLower",
+    "english": "Differential Power Increase",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_DifferentialPowerDecreaseLower",
+    "english": "Differential Power Decrease",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_DifferentialCoastIncreaseLower",
+    "english": "Differential Coast Increase",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_DifferentialCoastDecreaseLower",
+    "english": "Differential Coast Decrease",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_AdvancedSetupLower",
+    "english": "Advanced Setup",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_QuickSetupLower",
+    "english": "Quick Setup",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_VehicleFFBGainLower",
+    "english": "Vehicle FFB Gain",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FrontTyresLower",
+    "english": "Front Tyres",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RearTyresLower",
+    "english": "Rear Tyres",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_BrakeBiasFRLower",
+    "english": "Brake Bias (F/R)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_DrivetrainLower",
+    "english": "Drivetrain",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ActiveSuspensionUpper",
+    "english": "ACTIVE SUSPENSION",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ReactionSpeedLower",
+    "english": "Reaction Speed",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_SetupInfoLower",
+    "english": "Setup Info",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_SaveSetupLower",
+    "english": "Save Setup",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FrontLeftTyreCompounLower",
+    "english": "Front Left Tyre Compound",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_FrontRightTyreCompouLower",
+    "english": "Front Right Tyre Compound",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RearLeftTyreCompoundLower",
+    "english": "Rear Left Tyre Compound",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RearRightTyreCompounLower",
+    "english": "Rear Right Tyre Compound",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_TabsLower",
+    "english": "Tabs",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_MenusLower",
+    "english": "Menus",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_PitStopRefuellingLower",
+    "english": "Pit Stop Refuelling",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_RefuellingAllowedLower",
+    "english": "Refuelling Allowed",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_OpponentThrottleSkillLower",
+    "english": "AI Throttle Skill Scalar",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_OpponentBrakeSkillLower",
+    "english": "AI Brake Skill Scalar",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_OpponentMistakesLower",
+    "english": "AI Mistakes",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_NumberOpponentSamplesLower",
+    "english": "Number Opponent Samples",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_MaximumOpponentSamplesLower",
+    "english": "Maximum Opponent Samples",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_OpponentSamplesNumberLower",
+    "english": "Opponent Samples Number",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_OpponentSamplesLower",
+    "english": "Sound Detail",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_OpponentWetSkillLower",
+    "english": "AI Wet Skill Scalar",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_OpponentWetSkillLevelLower",
+    "english": "Opponent Wet Skill Level",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_OpponentWetSkillScalarLower",
+    "english": "Opponent Wet Skill Scalar",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_StrategyLower",
+    "english": "Strategy",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_StrategyUpper",
+    "english": "STRATEGY",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_EnterChampionshipNameLower",
+    "english": "Enter Championship Name",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_AdjustmentLower",
+    "english": "Adjustment",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_AdjustmentUpper",
+    "english": "ADJUSTMENT",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_PitStopLower",
+    "english": "Pit Stop",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_PitStopUpper",
+    "english": "PIT STOP",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_OutLapLower",
+    "english": "Out Lap",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_UseLODFades",
+    "english": "Use LOD Fades",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_ICMEnableHudOptionsPage",
+    "english": "ICM Enable HUD Options Page",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_LimitedSetupLower",
+    "english": "Limited Setup",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_ProfileStats_BumperCamera",
+    "english": "BUMPER CAMERA",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_AllowableTrackCutPenalties",
+    "english": "The number of track limit warnings that will be issued to a driver before a drive-through or time penalty is given.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_TimePlusOneLap",
+    "english": "When enabled a timed race session will end one full lap after the the race duration ends.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_PitStopRefuellingAllowed",
+    "english": "This setting determines if refuelling is allowed during pit stops.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_LimitedTyreSetsOption",
+    "english": "When enabled the Limited Tyre Sets option determines the maximum number of new tyre sets players have available for the event as a whole. Each time a tyre set is used on track its last state is maintained and any future use of that tyre will start with the previous wear and compound applied.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_ICMAutoCloseDelay",
+    "english": "the ICM Auto-Close option controls the length of time after the last user input that the In Car Management menu will automatically close",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_OptionsHUDRadarZoom",
+    "english": "Adjusts the zoom level of the HUD Radar gadget.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_MandatoryPitstopMinTyres",
+    "english": "Sets the minimum number of tyres which must be changed in order for a pits tops to count as a valid mandatory stop.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_OptionsPerformancePauseOnFocusLoss",
+    "english": "When enabled the game will pause when alt-tabbed from fullscreen in single player game modes.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_OptionsPerformanceMaxVisibleVehicles",
+    "english": "Limits the number of visible vehicles. The selection of which vehicles to render is weighted towards those ahead of the player.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_DurationPlusOneLap",
+    "english": "When enabled timed races will have one extra complete lap after the timer ends.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_WindVolume",
+    "english": "The volume of wind related sound effects, ranging from 100 (highest) to 0 (lowest).",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_EditGrid",
+    "english": "Manually adjust the number of opponents in each class.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_ScheduledFullCourseYellow",
+    "english": "Schedules a full course yellow to take place at a predetermined race distance.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_DurationPercentage",
+    "english": "Sets the race distance as a percentage of the current series preset time for this track",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_OpponentMistakes",
+    "english": "Scales the rate of AI mistakes",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_OpponentThrottleSkill",
+    "english": "This setting scales the corner exit traction points and how fast the AI applies full throttle from that point; increase it if you find the AI is losing time in corner exits, decrease if you find their traction is too good.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_OpponentBrakeSkill",
+    "english": "This setting scales the corner brake points and how much grip the AI has under braking to apply brakes later and harder; increase it if you find the AI is losing time under braking, decrease if you find they are braking too late.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_OptionsAudioOpponentSamples",
+    "english": "Adjusts the performance cost of opponent  and environment  audio playback by limiting the maximum number of samples which can be played simultaneously.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_FFBFXAMS2",
+    "english": "Scales the vertical vibration part of signal, vibration produced by tires on heavy slippage, drivetrain vibration / pulses; it also scales chassis effects (lateral acceleration, yaw, weight transfer) present in Default and Default+.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_FFBLFB",
+    "english": "LFB amplifies \"light forces“ close to zero/center, gradually rolling off amplification as force output increases. Use for low torque wheels to enhance small signals that may be missed and reduce the lightness around the center. DD wheels should set low or zeroed.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_FFBDamping",
+    "english": "Adds resistance to help prevent oscillations and governs how quickly you can steer from left to right. Lower values allows you to steer quicker with less resistance whilst higher values makes steering slower with more resistance.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_FFBResetPerVehicle",
+    "english": "Resets all vehicles FFB gain adjusted within the quick setup menu back to 100%.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_OpponentWetSkill",
+    "english": "This scales the AI performance in wet conditions relative to the main AI Skill setting; adjust this scalar if you find the AI to be too fast or too slow relative to its dry performance.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_OptionsControlsPresetSelect",
+    "english": "Select your active controller preset from up to 5 personal saved controller slots. Presets named (eg. 'User Set 1') are default presets shipped with the game until you modify and save.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_OptionsControlsPresetNameEdit",
+    "english": "This option allows to edit the name of your active controller preset.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_OptionsControlsPresetCopy",
+    "english": "This option allows you to copy the settings from another preset into your active controller preset.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_RulesRegulationsFCY",
+    "english": "This option allows you to enable or disable 'Full Course Yellow' cautions for your race weekend event.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_OptionsAudioEngineVol",
+    "english": "The volume of your engine sounds, ranging from 100 (highest) to 0 (lowest).",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_PrivateQualifyingSession",
+    "english": "When Private Session is enabled each driver will compete in isolation with no other vehicles on track as they would in a superpole or oval-style qualifying.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_OptionsGameDamageScale",
+    "english": "Damage Scale determines the amount of damage your vehicle receives when making contact with a opponents vehicle or trackside object.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_UseLODFades",
+    "english": "Enables or disables fading effect when switching between higher and lower detail models at distance on some trackside objects and foliage.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_DisableTracksideObjectCollisions",
+    "english": "Forces all clients to disable collisions with dynamic trackside objects such as cones, tyres, and brake markers.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_TracksideObjectCollisions",
+    "english": "Enables/Disables collisions and physics effects on dynamic trackside objects such as cones, bollards, and brake markers. Setting may be overridden by MP server and TT rules.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_HUDLiveInputMessages",
+    "english": "Enables or disables on-screen confirmation messages for changes to onboard vehicle settings such as TC/ABS level, Brake Bias, ERS modes, etc",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_AllowVehicleReset",
+    "english": "Allows drivers to use the vehicle reset control bind to return to the track",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_ICMEnableHUDOptionsPage",
+    "english": "Enables the additional ICM page for in-car adjustment of hud options",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_OptionsGameTuningSetupAutoload",
+    "english": "When enabled the last used setup for the current vehicle will be autoloaded at the start of an event.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_CarClasses_Trofeo2005",
+    "english": "Maserati Trofeo 2005",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_TrackFilters_Grade1",
+    "english": "Grade 1",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_TrackFilters_Grade2",
+    "english": "Grade 2",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_TrackFilters_Grade3",
+    "english": "Grade 3",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_TrackFilters_Grade4",
+    "english": "Grade 4",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_TrackFilters_Alt",
+    "english": "Ungraded/Alternate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_TrackFilters_Historic",
+    "english": "Historic",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_TrackFilters_HistoricAlt",
+    "english": "Historic Alternate",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_TrackFilters_Kart",
+    "english": "Kart",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_TrackFilters_Unknown",
+    "english": "UNKNOWN",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_TrackFilters_FilterTypeGrade",
+    "english": "GRADE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_TrackFilters_FilterTypeLocation",
+    "english": "LOCATION",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_TrackFilters_OffRoad",
+    "english": "Off-road",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_TrackFilters_Temp",
+    "english": "Temporary",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_VehicleFilters_All",
+    "english": "ALL",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_VehicleFilters_Brazilian",
+    "english": "Brazilian Series",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_VehicleFilters_Prototype",
+    "english": "Prototype",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_VehicleFilters_GT",
+    "english": "GT & Touring",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_VehicleFilters_Club",
+    "english": "Club",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_VehicleFilters_Street",
+    "english": "Street",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_VehicleFilters_HistoricTouring",
+    "english": "Historic Touring",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_VehicleFilters_ClassicGP",
+    "english": "Classic GP",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_VehicleFilters_Formula",
+    "english": "Formula",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_VehicleFilters_Kart",
+    "english": "Kart",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_VehicleFilters_AllByType",
+    "english": "ALL (By Type)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_VehicleFilters_AllAlphabetical",
+    "english": "ALL (Alphabetical)",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_VehicleFilters_Offroad",
+    "english": "Off-road",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_LiveTrackPresets_DefaultProgressing",
+    "english": "Default Progressing",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_LiveTrackPresets_Dirty",
+    "english": "Dirty",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_LiveTrackPresets_Green",
+    "english": "Green",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_LiveTrackPresets_LightRubber",
+    "english": "Light Rubber",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_LiveTrackPresets_Medium",
+    "english": "Medium",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_LiveTrackPresets_Heavy",
+    "english": "Heavy",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_LiveTrackPresets_HeavyRubber",
+    "english": "Heavy Rubber",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_LiveTrackPresets_MaxRubber",
+    "english": "Max Rubber",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_LiveTrackPresets_MediumRubber",
+    "english": "Medium Rubber",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_LiveTrackPresets_Damp",
+    "english": "Damp",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_LiveTrackPresets_Wet",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Weather_RealHistoricWeather",
+    "english": "Real Historic Weather",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Weather_CurrentLiveWeather",
+    "english": "Current Live Weather",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Weather_NoHistoricDataQual",
+    "english": "Couldn't find real historic weather data for the qualifying time and date (1 day before race date). Current live weather will be used instead.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Weather_NoHistoricDataPractice",
+    "english": "Couldn't find real historic weather data for the practice time and date (2 days before race date). Current live weather will be used instead.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Weather_NoHistoricData",
+    "english": "Couldn't find real historic weather data for the selected time and date. Current live weather will be used instead.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Weather_RealWeatherForecast",
+    "english": "Real Weather Forecast",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Weather_SearchingForRealWeather",
+    "english": "Searching For Real Weather...",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_Weather_NoLiveWeatherFound",
+    "english": "No Live Weather Found",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_ERSModes_Auto",
+    "english": "Auto",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_ERSModes_Off",
+    "english": "Off",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_ERSModes_Build",
+    "english": "Build",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_ERSModes_Balanced",
+    "english": "Balanced",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_ERSModes_Attack",
+    "english": "High",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_ERSModes_Qualify",
+    "english": "Max",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_ERSModes_ErsMode",
+    "english": "ERS Mode",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_ERSModes_ErsModeUpper",
+    "english": "ERS MODE",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TimeDateCurrency_UnitMetreShort",
+    "english": "m",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TimeDateCurrency_UnitFeetShort",
+    "english": "ft",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_NurburgringGP",
+    "english": "Nürburgring",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_BrandsHatchGP",
+    "english": "Brands Hatch",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_HockenheimGP",
+    "english": "Hockenheim",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_HockenheimShortA",
+    "english": "Hockenheim Short A",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_SilverstoneGP",
+    "english": "Silverstone",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Silverstone2001National",
+    "english": "Silverstone National Historic 2001",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_DoningtonGP",
+    "english": "Donington GP",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_DoningtonNat",
+    "english": "Donington National",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Hockenheim2001",
+    "english": "Hockenheim Historic 2001",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Spielberg",
+    "english": "Spielberg",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_ImolaGP2018",
+    "english": "Imola",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Silverstone2001",
+    "english": "Silverstone Historic 2001",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Hockenheim1977",
+    "english": "Hockenheim Historic 1977",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_AzureCircuit88",
+    "english": "Azure Circuit 1988",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Goiania",
+    "english": "Goiânia",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_AdelaideHistoric",
+    "english": "Adelaide Historic 1988",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_MontrealHistoric",
+    "english": "Montreal Historic 1988",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_MontrealModern",
+    "english": "Montreal",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_AdelaideModern",
+    "english": "Adelaide",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_CampoGrande",
+    "english": "Campo Grande",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_CuritibaInternacional",
+    "english": "Curitiba",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Curitibaouter",
+    "english": "Curitiba Outer",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Curvelo",
+    "english": "Curvelo",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_CurveloLong",
+    "english": "Curvelo Long",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_CurveloShort",
+    "english": "Curvelo Short",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_GoianiaMixed",
+    "english": "Goiânia",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_GoianiaShort",
+    "english": "Goiânia Short",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_GoianiaOuter",
+    "english": "Goiânia External",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Curitiba",
+    "english": "Curitiba",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Cascavel2",
+    "english": "Cascavel",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Cascavel4",
+    "english": "Cascavel",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Ibarra4",
+    "english": "Ibarra",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_CampoGrande1",
+    "english": "Campo Grande",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_ImolaGP1988",
+    "english": "Imola Historic 1988",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_InterlagosHistoricOuter",
+    "english": "Interlagos Historic 1978 Outer",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_InterlagosHistoric",
+    "english": "Interlagos Historic 1976",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_InterlagosGP",
+    "english": "Interlagos GP",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_JacarepaguaHistoric",
+    "english": "Jacarepaguá Historic 1988",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Jacarepagua",
+    "english": "Jacarepaguá",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_KansaiGP",
+    "english": "Kansai GP",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_KansaiWest",
+    "english": "Kansai West",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_KansaiEast",
+    "english": "Kansai East",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_KansaiClassic",
+    "english": "Kansai Classic",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_KyalamiHistoric",
+    "english": "Kyalami Historic 1976",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Londrinalong",
+    "english": "Londrina Long",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Londrinashort",
+    "english": "Londrina Short",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_LondrinaKart1",
+    "english": "Londrina Kart One",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_LondrinaKart2",
+    "english": "Londrina Kart Two",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_LondrinaKart3",
+    "english": "Londrina Kart Three",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Ortona4",
+    "english": "Ortona Kart Four",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Ortona3",
+    "english": "Ortona Kart Three",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Ortona2",
+    "english": "Ortona Kart Two",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Ortona1",
+    "english": "Ortona Kart One",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_OultonParkClassic",
+    "english": "Oulton Park Classic",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_VeloCitta",
+    "english": "Velo Città",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_VeloCitta1",
+    "english": "Velo Città",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_VeloCittaTD",
+    "english": "Velo Città Track Day",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Velopark2017",
+    "english": "Velopark 2017",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Velopark2010",
+    "english": "Velopark 2010",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_VirginiaFull",
+    "english": "VIRginia International Raceway Full",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_ImolaAMS2",
+    "english": "Imola",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_SpielbergHistoric",
+    "english": "Spielberg Historic 1977",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_SpielbergModern",
+    "english": "Spielberg",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_VirginiaGrand",
+    "english": "VIRginia International Raceway Grand",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_VirginiaNorth",
+    "english": "VIRginia International Raceway North",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_VirginiaPatriot",
+    "english": "VIRginia International Raceway Patriot",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_VirginiaSouth",
+    "english": "VIRginia International Raceway South",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Imola",
+    "english": "Bologna",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_ImolaGP1972",
+    "english": "Imola Historic 1972",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_SpielbergVintage",
+    "english": "Spielberg Historic 1974",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_SpielbergShort",
+    "english": "Spielberg Short",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_JerezGP2019",
+    "english": "Jerez Chicane",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_JerezStandard",
+    "english": "Jerez Moto",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_EstorilGP",
+    "english": "Estoril",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_SantaCruz",
+    "english": "Santa Cruz",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_SantaCruzDoSul",
+    "english": "Santa Cruz do Sul",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_ImolaGP2001",
+    "english": "Imola Historic 2001",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Brasilia",
+    "english": "Brasília",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_BrasiliaFull",
+    "english": "Brasília Full",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_BrasiliaOuter",
+    "english": "Brasília Outer",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Guapore",
+    "english": "Guaporé",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_HockenheimShortB",
+    "english": "Hockenheim Short B",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Hockenheim1988",
+    "english": "Hockenheim Historic 1988",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_InterlagosKart1",
+    "english": "Interlagos Kart One",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_InterlagosKart2",
+    "english": "Interlagos Kart Two",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_InterlagosKart3",
+    "english": "Interlagos Kart Three",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Interlagos",
+    "english": "Interlagos",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Kyalami",
+    "english": "Kyalami",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Jerez",
+    "english": "Jerez",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Kyalami2019",
+    "english": "Kyalami",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Silverstone2001International",
+    "english": "Silverstone International Historic 2001",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Silverstone1991",
+    "english": "Silverstone Historic 1991",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_VeloCittaClubDay",
+    "english": "Velo Città Club Day",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_TermasRioHondo",
+    "english": "Termas de Río Hondo",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_GranjaViana",
+    "english": "Granja Viana",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_GranjaViana1",
+    "english": "Granja Viana Kart One",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Silverstone1975",
+    "english": "Silverstone Historic 1975",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Silverstone1975NoChicane",
+    "english": "Silverstone Historic 1975 (no chicane)",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_SilverstoneIntl2019",
+    "english": "Silverstone International",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_SilverstoneNatl2019",
+    "english": "Silverstone National",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Hockenheim1988short",
+    "english": "Hockenheim Historic 1988 Short",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_BuskerudShort",
+    "english": "Buskerud Kart Short",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_BuskerudLong",
+    "english": "Buskerud Kart Long",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Nordschleife202024hr",
+    "english": "Nordschleife 24 Hour 2020",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_IbarraReverse",
+    "english": "Autódromo Yahuarcocha Reverse",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Jacarepagua2005",
+    "english": "Jacarepaguá Historic 2005",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_JacarepaguaOVAL",
+    "english": "Jacarepaguá Historic 2005 Oval",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_JacarepaguaSHORT",
+    "english": "Jacarepaguá Historic 2012 Short",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_JacarepaguaSCB",
+    "english": "Jacarepaguá Historic 2012 SCB",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_VeloCitta1TSICup",
+    "english": "Velo Città",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_VeloCittaClubDayTSICup",
+    "english": "Velo Città Club Day",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_VeloCittaTDTSICup",
+    "english": "Velo Città Track Day",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Bathurst1983",
+    "english": "Bathurst Historic 1983",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Cascais1988",
+    "english": "Cascais Historic 1988",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_JerezGP1988",
+    "english": "Jerez Historic 1988",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Nurb1971Suds",
+    "english": "Südschleife Historic 1971",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Nurb1971Nords",
+    "english": "Nordschleife Historic 1971",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Nurb1971Gesamt",
+    "english": "Gesamtstrecke Historic 1971",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Interlagos1993",
+    "english": "Interlagos Historic 1993",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_MontrealHistoric1991",
+    "english": "Montreal Historic 1991",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Interlagos1991",
+    "english": "Interlagos Historic 1991",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Nurb1971Beton",
+    "english": "Betonschleife Historic 1971",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_AdelaideModernSTT",
+    "english": "Adelaide STT",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_GuaporeSTT",
+    "english": "Guaporé STT",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_SpielbergSTT",
+    "english": "Spielberg STT",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_VeloparkSTT",
+    "english": "Velopark STT",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Nordschleife202524hr",
+    "english": "Nordschleife 24 Hour 2025",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_FontanaOVALHistoric",
+    "english": "Fontana Oval Historic",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_LeMans24h2005",
+    "english": "Circuit des 24 Heures du Mans Historic 2005",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_RoadAtlanta2005",
+    "english": "Road Atlanta Historic 2005",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_RoadAtlanta2005short",
+    "english": "Road Atlanta Historic 2005 Short",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Spielberg2001",
+    "english": "Spielberg Historic 2001",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_ImolaGP2005",
+    "english": "Imola Historic 2005",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Monza2005",
+    "english": "Monza Historic 2005",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Indianapolis2001Oval",
+    "english": "Indianapolis Motor Speedway Historic 2001 Oval",
+    "chinese": ""
+  },
+  {
+    "table": "General",
+    "key": "General_TrackDetails_Indianapolis2001RC",
+    "english": "Indianapolis Motor Speedway Historic 2001 Road",
+    "chinese": ""
+  },
+  {
+    "table": "Pit",
+    "key": "Pit_Strategy_LeastWorn",
+    "english": "Least Worn",
+    "chinese": ""
+  },
+  {
+    "table": "Pit",
+    "key": "Pit_Strategy_OnlyNew",
+    "english": "Only New",
+    "chinese": ""
+  },
+  {
+    "table": "Pit",
+    "key": "Pit_Strategy_SelectedSet",
+    "english": "Selected Set",
+    "chinese": ""
+  },
+  {
+    "table": "Pit",
+    "key": "Pit_Strategy_FromSetup",
+    "english": "From Setup",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_Controller_ConfirmResetPerVehFFB",
+    "english": "Are you sure you want to reset all all stored per vehicle force feedback settings?",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_ControllerPresets_LookUp",
+    "english": "Look Up",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_ControllerPresets_LookDown",
+    "english": "Look Down",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_ControllerPresets_FFBDefault",
+    "english": "Default",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_ControllerPresets_SimuCube1",
+    "english": "Simucube 1",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_ControllerPresets_Simucube2Sport",
+    "english": "Simucube 2 Sport",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_ControllerPresets_Simucube2Pro",
+    "english": "Simucube 2 Pro",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_ControllerPresets_Simucube2Ultimate",
+    "english": "Simucube 2 Ultimate",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_ControllerPresets_FanatecDDCustom",
+    "english": "Fanatec DD Custom",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_ControllerPresets_CustomDD",
+    "english": "Custom DD Wheel",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_ControllerPresets_FanatecCustom",
+    "english": "Fanatec custom setup",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_ControllerPresets_ThrustmasterCustom",
+    "english": "Thrustmaster custom setup",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_ControllerPresets_LogitechCustom",
+    "english": "Logitech custom setup",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_ControllerPresets_FFBDefaultNew",
+    "english": "New Default",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_ControllerPresets_PCSimagicM10",
+    "english": "Simagic M10",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_ControllerPresets_FFBDefaultPlus",
+    "english": "Default+",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_Input_DDGeneric",
+    "english": "Direct Drive Generic",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_SaveGame_ProfileOverNo",
+    "english": "UNTRANSLATED (214592104): Platform_SaveGame_ProfileOverNo",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_SaveGame_ProfileOverText",
+    "english": "UNTRANSLATED (1915258243): Platform_SaveGame_ProfileOverText",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_SaveGame_ProfileOverTitle",
+    "english": "UNTRANSLATED (1576684714): Platform_SaveGame_ProfileOverTitle",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_SaveGame_ProfileOverYes",
+    "english": "UNTRANSLATED (1479622485): Platform_SaveGame_ProfileOverYes",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_System_Xbox360SigninChangeTitle",
+    "english": "UNTRANSLATED (1523869426): Platform_System_Xbox360SigninChangeTitle",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_System_Xbox360InviteFromInactiveControllerTitle",
+    "english": "UNTRANSLATED (3454553565): Platform_System_Xbox360InviteFromInactiveControllerTitle",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_System_Xbox360DLCDeviceEjectTitle",
+    "english": "UNTRANSLATED (2121056662): Platform_System_Xbox360DLCDeviceEjectTitle",
+    "chinese": ""
+  },
+  {
+    "table": "Presence",
+    "key": "Presence_Presence_GAMEMODETTotW",
+    "english": "Time Trial of the Week",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_HUD_ThousandSeparator",
+    "english": "UNTRANSLATED (3798328613): RAC_HUD_ThousandSeparator",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_HUD_TrackLimitsWarning",
+    "english": "TRACK LIMITS WARNING",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_HUD_MandatoryPitWindowOpen",
+    "english": "MANDATORY PIT WINDOW OPEN",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_HUD_MapModeStatic",
+    "english": "Static",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_HUD_MapModeDynamic",
+    "english": "Dynamic",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_HUD_BumpStopUpperShort",
+    "english": "BUMP",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_HUD_VehicleResetNotPossibleMP",
+    "english": "Vehicle reset is disabled by the host",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_HUD_VehicleResetAvailabl",
+    "english": "Vehicle reset available in [SECONDS]s",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_HUD_ServeYourDTThisLap",
+    "english": "Serve your drive-through penalty this lap or be disqualified",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_HUD_XLapsToServeDT",
+    "english": "You have [NUMLAPS] lap(s) left to serve your drive-through penalty",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_HUD_XLapsAfterGreenForDT",
+    "english": "You will have [NUMLAPS] lap(s) left to serve your drive-through penalty after the green flag",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_HUD_ExitClosed",
+    "english": "EXIT CLOSED",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_HUD_ExitOpen",
+    "english": "EXIT OPEN",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_HUD_StopTime",
+    "english": "STOP TIME",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_HUD_ServicingVehicle",
+    "english": "SERVICING VEHICLE",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_Steering",
+    "english": "STEERING",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_Throttle",
+    "english": "THROTTLE",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_Brake",
+    "english": "BRAKE",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_GearUp",
+    "english": "GEAR UP",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_GearDown",
+    "english": "GEAR DOWN",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_Clutch",
+    "english": "CLUTCH",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_Pause",
+    "english": "PAUSE",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_ResetCar",
+    "english": "RESET CAR",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_LookLeft",
+    "english": "LOOK LEFT",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_LookRight",
+    "english": "LOOK RIGHT",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_Gear1",
+    "english": "GEAR 1",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_Gear2",
+    "english": "GEAR 2",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_Gear3",
+    "english": "GEAR 3",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_Gear4",
+    "english": "GEAR 4",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_Gear5",
+    "english": "GEAR 5",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_Gear6",
+    "english": "GEAR 6",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_Gear7",
+    "english": "GEAR 7",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_ReverseGear",
+    "english": "REVERSE GEAR",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_Handbrake",
+    "english": "HANDBRAKE",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_CycleHUDMode",
+    "english": "Cycle HUD Display",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_Nitrous",
+    "english": "NITROUS",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_DrivingAids",
+    "english": "DRIVING ASSISTS ALLOWED",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_Camera",
+    "english": "CAMERA",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_LookBack",
+    "english": "LOOK BACK",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_FreeLook",
+    "english": "FREE LOOK",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_PDAMode",
+    "english": "TELEMETRY MODE",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_TractionControl",
+    "english": "Traction Control",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_StabilityControl",
+    "english": "Stability Control",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_AutoSteer",
+    "english": "Steering Assist",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_AutoBrake",
+    "english": "Braking Assist",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_AutoGears",
+    "english": "Automatic Gears",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_AutoClutch",
+    "english": "Automatic Clutch",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_TractionControlOff",
+    "english": "TRACTION CONTROL: OFF",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_TractionControlLow",
+    "english": "TRACTION CONTROL: LOW",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_TractionControlHigh",
+    "english": "TRACTION CONTROL: HIGH",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_SteeringLeft",
+    "english": "STEER LEFT",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_SteeringRight",
+    "english": "STEER RIGHT",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_BrakeReverse",
+    "english": "Brake",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_OpponentNames",
+    "english": "OPPONENT NAMES",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_Gears",
+    "english": "GEARS",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_CycleMotecLCD",
+    "english": "Cycle Motec LCD",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_TractionControlOn",
+    "english": "TRACTION CONTROL: ON",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_IncreaseBrakeBias",
+    "english": "Brake Bias Forward",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_DecreaseBrakeBias",
+    "english": "Brake Bias Rearward",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_DecreaseFrontAntiRollBa",
+    "english": "Front Anti-roll Bar Decrease",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_IncreaseFrontAntiRollBa",
+    "english": "Front Anti-roll Bar Increase",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_DecreaseRearAntiRollBar",
+    "english": "Rear Anti-roll Bar Decrease",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_IncreaseRearAntiRollBar",
+    "english": "Rear Anti-roll Bar Increase",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_Ignition",
+    "english": "Ignition",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_StartEngine",
+    "english": "START ENGINE",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_PitSpeedLimiter",
+    "english": "Pit Speed Limiter",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_ResetVRToCentre",
+    "english": "Center VR Headset",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_RequestPitStop",
+    "english": "REQUEST PITSTOP",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_SteeringAssist",
+    "english": "STEERING ASSIST",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_AntiLockBrakes",
+    "english": "ANTI-LOCK BRAKES",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_AutomaticClutch",
+    "english": "AUTOMATIC CLUTCH",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_BrakingAssist",
+    "english": "BRAKING ASSIST",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_ToggleHUDDials",
+    "english": "Cycle Telemetry HUD Mode",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_IncreaseFuelMapping",
+    "english": "Fuel Mapping Increase",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_DecreaseFuelMapping",
+    "english": "Fuel Mapping Decrease",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_IncreaseWeightJacker",
+    "english": "Weight Jacker Increase",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_DecreaseWeightJacker",
+    "english": "Weight Jacker Decrease",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_IncreaseTurboBoost",
+    "english": "INCREASE TURBO BOOST",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_DecreaseTurboBoost",
+    "english": "DECREASE TURBO BOOST",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_IncreaseABSStrength",
+    "english": "INCREASE ABS STRENGTH",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_DecreaseABSStrength",
+    "english": "DECREASE ABS STRENGTH",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_IncreaseFFBVolume",
+    "english": "INCREASE FFB VOLUME",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_DecreaseFFBVolume",
+    "english": "DECREASE FFB VOLUME",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_IncreaseFFBTone",
+    "english": "INCREASE FFB TONE",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_DecreaseFFBTone",
+    "english": "DECREASE FFB TONE",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_PitLimiterOn",
+    "english": "PIT LIMITER ON",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_PitSpeedLimiterOff",
+    "english": "PIT LIMITER OFF",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_CycleCamForward",
+    "english": "Next Replay Camera",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_CycleCamBack",
+    "english": "Previous Replay Camera",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_VehicleFFBGainIncrease",
+    "english": "Vehicle FFB Gain Increase",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_VehicleFFBGainDecrease",
+    "english": "Vehicle FFB Gain Decrease",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_Gear8",
+    "english": "GEAR 8",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_OnboardTractionControlIncrease",
+    "english": "Onboard TC Increase",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_OnboardTractionControlDecrease",
+    "english": "Onboard TC Decrease",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_OnboardABSDecrease",
+    "english": "Onboard ABS Decrease",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_OnboardABSIncrease",
+    "english": "Onboard ABS Increase",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_IcmCycle",
+    "english": "Cycle ICM",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_ErsModeDecrease",
+    "english": "ERS Mode Decrease",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_ErsModeIncrease",
+    "english": "ERS Mode Increase",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_ErsModeOvertake",
+    "english": "ERS MODE OVERTAKE",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_ResetSeatPosition",
+    "english": "Reset Seat Position",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_OnboardAutoshiftOff",
+    "english": "ONBOARD AUTOSHIFT: OFF",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_OnboardAutoshiftUpOnly",
+    "english": "ONBOARD AUTOSHIFT: UP ONLY",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_OnboardAutoshiftDownOnly",
+    "english": "ONBOARD AUTOSHIFT: DOWN ONLY",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_OnboardAutoshiftFull",
+    "english": "ONBOARD AUTOSHIFT: FULL",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_LaunchControl",
+    "english": "Launch Control",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_IncreaseActiveSuspensionReactionSpeed",
+    "english": "Active Suspension Reaction Speed Increase",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_DecreaseActiveSuspensionReactionSpeed",
+    "english": "Active Suspension Reaction Speed Decrease",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_DecreaseActiveSuspensionDamping",
+    "english": "Active Suspension Damping Decrease",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_IncreaseActiveSuspensionDamping",
+    "english": "Active Suspension Damping Increase",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_OnboardAutoshiftModeIncrease",
+    "english": "Onboard Autoshift Mode Increase",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_OnboardAutoshiftModeDecrease",
+    "english": "Onboard Autoshift Mode Decrease",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_HighBeam",
+    "english": "High Beam Headlights",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_OnboardDiffCoastIncrease",
+    "english": "DIFF COAST INCREASE",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_OnboardDiffCoastDecrease",
+    "english": "DIFF COAST DECREASE",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_OnboardDiffPowerDecrease",
+    "english": "DIFF POWER DECREASE",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_OnboardDiffPowerIncrease",
+    "english": "DIFF POWER INCREASE",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_OnboardDiffPreloadDecrease",
+    "english": "DIFF PRELOAD DECREASE",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Controls_OnboardDiffPreloadIncrease",
+    "english": "DIFF PRELOAD INCREASE",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_8th",
+    "english": "Gear 8",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_YesLower",
+    "english": "Yes",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_No",
+    "english": "NO",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_ON",
+    "english": "On",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_OFF",
+    "english": "Off",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_Handbrake",
+    "english": "Extra Brake",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_GearDown",
+    "english": "GEAR DOWN",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_SteeringRight",
+    "english": "Steer Right",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_In2",
+    "english": "In-Game Chat Box",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_KERS",
+    "english": "Boost",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_NoLower",
+    "english": "No",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_TrackMapMode",
+    "english": "Track Map Mode",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_PrivateShootoutQual",
+    "english": "Private shootout qualifying with a single hotlap",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_ShootoutQual",
+    "english": "Shootout qualifying with a single hotlap",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_OpenSession",
+    "english": "Open Session",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_NumlapsLapLimitInOut",
+    "english": "[NUMLAPS] lap limit including in/out laps",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_Unlimited",
+    "english": "Unlimited",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_SetupOpen",
+    "english": "Setup Open",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_SetupClosed",
+    "english": "Setup Closed",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_LapsRemaining",
+    "english": "Laps Remaining",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_RunsRemaining",
+    "english": "Runs Remaining",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_MaxLapsRun",
+    "english": "Max Laps/Run",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_RaceFlag_Green",
+    "english": "Green Flag",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_RaceFlag_Blue",
+    "english": "Blue Flag",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_RaceFlag_Red",
+    "english": "Red Flag",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_RaceFlag_Yellow",
+    "english": "Yellow Flag",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_RaceFlag_YellowDouble",
+    "english": "Double Yellow Flag",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_RaceFlag_Chequered",
+    "english": "Race Over",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_ERSModes_Auto",
+    "english": "Auto",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_ERSModes_Off",
+    "english": "Off",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_ERSModes_Build",
+    "english": "Build",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_ERSModes_Balanced",
+    "english": "Balanced",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_ERSModes_Attack",
+    "english": "High",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_ERSModes_Qualify",
+    "english": "Max",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_ERSModes_ErsMode",
+    "english": "ERS Mode",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_ERSModes_ErsModeUpper",
+    "english": "ERS MODE",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_ERSModes_AttackUpper",
+    "english": "HIGH",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_ERSModes_AutoUpper",
+    "english": "AUTO",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_ERSModes_BalancedUpper",
+    "english": "BALANCED",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_ERSModes_BuildUpper",
+    "english": "BUILD",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_ERSModes_OffUpper",
+    "english": "OFF",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_ERSModes_QualifyUpper",
+    "english": "MAX",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_FullCourseYellow_SafetyCar",
+    "english": "SAFETY CAR",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_FullCourseYellow_FullCourseYellow",
+    "english": "FULL COURSE YELLOW",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_FullCourseYellow_VirtualSafetyCar",
+    "english": "VIRTUAL SAFETY CAR",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_FullCourseYellow_PitClosed",
+    "english": "PIT CLOSED",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_FullCourseYellow_PitExitClosed",
+    "english": "PIT EXIT CLOSED",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_FullCourseYellow_ThoseOnTheLeadLapMayPit",
+    "english": "THOSE ON THE LEAD LAP MAY NOW PIT",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_FullCourseYellow_PitOpen",
+    "english": "PIT OPEN",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_FullCourseYellow_LappedCarsMayNowOvertake",
+    "english": "LAPPED CARS MAY NOW OVERTAKE",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_FullCourseYellow_RacingResumesAtEndOfLap",
+    "english": "RACING WILL RESUME AT THE END OF THIS LAP",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_FullCourseYellow_Overtakes",
+    "english": "OVERTAKES",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_FullCourseYellow_GiveBackPosition",
+    "english": "SLOW DOWN AND GIVE THE POSITION BACK",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_FullCourseYellow_SpeedUpYouAreTooSlow",
+    "english": "SPEED UP, YOU ARE TOO SLOW",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_FullCourseYellow_CautionDoNotOvertake",
+    "english": "CAUTION, DO NOT OVERTAKE",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_FullCourseYellow_OvertakeTheSlowCar",
+    "english": "OVERTAKE THE SLOW CAR AHEAD",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_FullCourseYellow_PitEntryWasClosed",
+    "english": "PIT ENTRY WAS CLOSED",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_FullCourseYellow_PitEntryWasClosedToLapped",
+    "english": "PIT ENTRY WAS CLOSED TO LAPPED CARS",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_FullCourseYellow_PitExitWasClosed",
+    "english": "PIT EXIT WAS CLOSED",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_FullCourseYellow_YouCanPushNow",
+    "english": "YOU CAN PUSH NOW",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_FullCourseYellow_OvertakeTheSafetyCar",
+    "english": "OVERTAKE THE SAFETY CAR AHEAD",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_FullCourseYellow_SlowDownAndLetTheSafetyCarPass",
+    "english": "SLOW DOWN AND LET THE SAFETY CAR PASS",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_FullCourseYellow_OvertakingTheSafetyCarIsNotAllowed",
+    "english": "Overtaking the safety car is not allowed",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_FullCourseYellow_OvertakingTheSafetyCar",
+    "english": "Overtaking the safety car",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_FullCourseYellow_PitOpenForDamagedVehicles",
+    "english": "PIT OPEN FOR DAMAGED VEHICLES",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_FullCourseYellow_ScheduledFullCourseYellow",
+    "english": "SCHEDULED FULL COURSE YELLOW",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Failures_Activated",
+    "english": "New Failure",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Failures_Failure",
+    "english": "Failure",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Failures_Minor",
+    "english": "Minor",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Failures_Major",
+    "english": "Major",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Failures_Severe",
+    "english": "Severe",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Failures_Terminal",
+    "english": "Terminal",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Failures_EngineFailure",
+    "english": "Engine Failure",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Failures_CoolantLeak",
+    "english": "Coolant Leak",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Failures_OilLeak",
+    "english": "Oil Leak",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Failures_LooseWheel",
+    "english": "Loose Wheel",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Failures_Misfires",
+    "english": "Misfires",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Failures_DriveFailure",
+    "english": "Drive Failure",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Failures_TurboFailure",
+    "english": "Turbo Failing",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Failures_Deactivated",
+    "english": "Failure Fixed",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Failures_FWDetach",
+    "english": "Front Wing Failure",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Failures_RWDetach",
+    "english": "Rear Wing Detached",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_ScheduledFCY_25PctRaceDistance",
+    "english": "25% Race Distance",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_ScheduledFCY_50PctRaceDistance",
+    "english": "50% Race Distance",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_ScheduledFCY_75PctRaceDistance",
+    "english": "75% Race Distance",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_ScheduledFCY_Off",
+    "english": "Off",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_ScheduledFCY_ScheduledFullCourseYellow",
+    "english": "Scheduled Full Course Yellow",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_ScheduledFCY_ScheduledFullCourseYellowUpper",
+    "english": "SCHEDULED FULL COURSE YELLOW",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_ScheduledFCY_ScheduledFullCourseYellowShort",
+    "english": "Scheduled FCY",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_TrackStates_Damp",
+    "english": "Damp",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_TrackStates_Dry",
+    "english": "Dry",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_TrackStates_Moist",
+    "english": "Moist",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_TrackStates_Soaked",
+    "english": "Soaked",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_TrackStates_Wet",
+    "english": "Wet",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_Compass_EastShort",
+    "english": "E",
+    "chinese": ""
+  }
+]

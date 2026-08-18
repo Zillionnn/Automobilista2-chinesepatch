@@ -1,0 +1,190 @@
+AMS2 简体中文汉化包 - 术语表
+==============================
+
+== 轮胎配方 (Tyre Compounds) ==
+Slick           → 光头胎
+Soft Slick      → 软光头胎
+Medium Slick    → 中性光头胎
+Hard Slick      → 硬光头胎
+Slick Qual      → 排时光头胎
+Slick Option    → 选项光头胎
+Slick Primary   → 首选光头胎
+Slick Oval      → 椭圆光头胎
+Slick Speedway  → 高速椭圆光头胎
+Wet             → 雨胎
+Intermediate    → 半雨胎
+Extreme         → 极端天气胎
+Dry             → 干胎
+Oval            → 椭圆胎
+
+== 车辆设置 (Vehicle Setup) ==
+Final Drive         → 最终传动
+Brake Pressure      → 刹车压力
+Brake Balance       → 刹车平衡
+Brake Bias (F/R)    → 刹车偏置（前/后）
+Front Downforce     → 前下压力
+Rear Downforce      → 后下压力
+Anti-Roll Bar       → 防倾杆
+3rd Spring          → 第三弹簧
+Boost Pressure      → 增压压力
+Air Restrictor      → 进气限制器
+Radiator Opening    → 散热器开口
+Engine Braking      → 引擎制动
+Fuel Map            → 燃油映射
+Differential        → 差速器
+Spool               → 锁止式
+Geared LSD          → 齿轮式LSD
+Clutch LSD          → 离合器式LSD
+Viscous LSD         → 粘性LSD
+Preload             → 预载
+Power Ramp          → 加速斜面
+Coast Ramp          → 减速斜面
+Steering Lock       → 转向锁
+Weight Distribution → 配重分布
+Drivetrain          → 传动系统
+Gearbox             → 变速箱
+Front Aero          → 前空气动力学
+Rear Aero           → 后空气动力学
+
+== 控制输入 (Controls) ==
+Steering        → 转向
+Throttle        → 油门
+Brake           → 刹车
+Clutch          → 离合器
+Gear Up         → 升档
+Gear Down       → 降档
+Steer Left      → 左转
+Steer Right     → 右转
+Handbrake       → 手刹
+Pit Limiter     → 维修区限速
+Launch Control  → 起步控制
+Traction Control → 牵引力控制
+Stability Control → 稳定性控制
+Anti-Lock Brakes → 防抱死刹车
+
+== 赛事规则 (Race Rules) ==
+Full Course Yellow → 全场黄旗
+Safety Car         → 安全车
+Virtual Safety Car → 虚拟安全车
+Drive-Through      → 通过维修区（处罚）
+Pit Stop           → 进站
+Out Lap            → 出场圈
+Cooldown Lap       → 冷却圈
+Pole Position      → 杆位
+Fastest Race Lap   → 最快圈速
+Track Limits       → 赛道限制
+Drive-Through Penalty → 通过维修区处罚
+
+== 赛道状态 (Track States) ==
+Dry    → 干
+Damp   → 潮湿
+Moist  → 微湿
+Wet    → 湿
+Soaked → 湿透
+
+== 旗语 (Flags) ==
+Green Flag        → 绿旗
+Blue Flag         → 蓝旗
+Red Flag          → 红旗
+Yellow Flag       → 黄旗
+Double Yellow Flag → 双黄旗
+Chequered         → 比赛结束
+
+== 故障 (Failures) ==
+Engine Failure  → 引擎故障
+Coolant Leak    → 冷却液泄漏
+Oil Leak        → 机油泄漏
+Loose Wheel     → 车轮松动
+Misfires        → 失火
+Turbo Failure   → 涡轮故障
+Front Wing Failure → 前翼故障
+Rear Wing Detached → 后翼脱落
+
+== 力反馈 (Force Feedback) ==
+FFB            → 力反馈
+Gain           → 增益
+Damping        → 阻尼
+FX             → 特效
+Low Force Boost → 低力增益
+Flavour        → 风格
+Vehicle FFB Gain → 车辆力反馈增益
+
+== 游戏模式 (Game Modes) ==
+Single Race    → 单场赛事
+Championship   → 锦标赛
+Multiplayer    → 多人游戏
+Test Day       → 测试日
+Time Trial     → 计时赛
+
+== 图形设置 (Graphics Settings) ==
+Resolution              → 分辨率
+Texture Resolution      → 纹理分辨率
+Texture Filtering       → 纹理过滤
+V-Sync                  → 垂直同步
+Motion Blur             → 运动模糊
+Shadow Detail           → 阴影细节
+Track Detail            → 赛道细节
+Super Sampling          → 超采样
+Post AA                 → 后处理抗锯齿
+Bloom                   → 泛光
+Vignette                → 暗角
+
+== ERS 能量回收系统 (ERS Modes) ==
+ERS Mode        → ERS 模式
+Auto            → 自动
+Off             → 关闭
+Build           → 蓄能
+Balanced        → 平衡
+High (Attack)   → 高功率
+Max (Qualify)   → 最大
+Overtake        → 超车
+
+== 封闭区规则 (Parc Ferme) ==
+Parc Ferme              → 封闭区
+Parc Ferme with Fuel    → 封闭区（含燃油限制）
+Shootout Qualifying     → 飞行圈排位赛
+Hot Lap                 → 飞行圈
+Lap Limit               → 圈数限制
+
+== 全场黄旗程序 (Full Course Yellow Procedure) ==
+Pit Closed              → 维修区关闭
+Pit Exit Closed         → 维修区出口关闭
+Pit Open                → 维修区开放
+Pit Open for Damaged    → 维修区对受损车辆开放
+Lapped Cars May Overtake → 被套圈车辆可超车
+Racing Resumes          → 比赛即将恢复
+Give Back Position      → 放慢并让回位置
+Caution Do Not Overtake → 注意，禁止超车
+
+== 故障严重度 (Failure Severity) ==
+Minor       → 轻微
+Major       → 严重
+Severe      → 重度
+Terminal    → 致命
+
+== 控制器预设 (Controller Presets) ==
+Combined Pedals  → 踏板合并
+Separate Pedals  → 踏板分离
+Direct Drive     → 直驱
+Legacy Wheels    → 传统方向盘
+
+== HUD 显示 (HUD Display) ==
+Split Times         → 分段计时
+Sector Split        → 分段成绩
+Race Complete       → 比赛完成
+Track Limits Warning → 赛道限制警告
+Star Objectives     → 星级目标
+Pit Window Open     → 进站窗口开放
+Mandatory Pit       → 强制进站
+
+== 车辆设置进阶 (Advanced Setup) ==
+Active Suspension Reaction Speed → 主动悬挂反应速度
+Active Suspension Damping       → 主动悬挂阻尼
+Onboard TC                      → 车载牵引力控制
+Onboard ABS                     → 车载防抱死
+Diff Coast                      → 差速器减速
+Diff Power                      → 差速器加速
+Diff Preload                    → 差速器预载
+Weight Jacker                   → 配重调节
+Fuel Mapping                    → 燃油映射
+ERS Mode                        → ERS 模式

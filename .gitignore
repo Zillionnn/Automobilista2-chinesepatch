@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# 第三方工具（procdump 等，可从 Sysinternals 官方下载）
+work/procdump/
+
+# 系统文件
+Thumbs.db
+Desktop.ini
+
+# 临时/日志
+*.log

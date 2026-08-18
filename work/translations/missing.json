@@ -1,0 +1,8 @@
+[
+  {
+    "table": "Game",
+    "key": "Game_HelpText_FFBLFB",
+    "english": "LFB amplifies \"light forces“ close to zero/center, gradually rolling off amplification as force output increases. Use for low torque wheels to enhance small signals that may be missed and reduce the lightness around the center. DD wheels should set low or zeroed.",
+    "chinese": ""
+  }
+]

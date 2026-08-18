@@ -1,0 +1,83 @@
+sub	key	English	French	Italian	German	Spanish	Russian	Polish	Japanese	Brazilian-Portuguese	Neutral-Spanish	French-Canadian	Korean	Chinese-Simple	Chinese-Traditional
+VehicleDetails	VehicleDetails_VehicleDetails_Road	Road	Road	Strada	Road	Carretera	Road	Droga	ロード	Pista	Carretera	Road	로드	街车	路車
+VehicleDetails	VehicleDetails_VehicleDetails_TimeAttack	Time Attack	Time Attack	Gara a tempo	Zeitfahren	Contrarreloj	Гонка на время	Próba czasowa	タイムアタック	Contra o relógio	Contrarreloj	Time Attack	타임 어택	单圈计时赛	單圈計時賽
+VehicleDetails	VehicleDetails_VehicleDetails_DriveTrainRWD	RWD	PROP.	RWD	RWD	TT	Задний привод	Napęd RWD	RWD	Tração traseira	TT	PROP.	후륜 구동	后轮驱动	後輪驅動
+VehicleDetails	VehicleDetails_VehicleDetails_DriveTrain4WD	4WD	4x4	4WD	4WD	4x4	Полный привод	Napęd 4x4	4WD	Tração nas 4 rodas	4x4	4x4	4륜 구동	四轮驱动	四輪驅動
+VehicleDetails	VehicleDetails_VehicleDetails_DriveTrainFWD	FWD	TRA.	FWD	FWD	TD	Передний привод	Napęd FWD	FWD	Tração dianteira	TD	TRA.	전륜 구동	前轮驱动	前輪驅動
+VehicleDetails	VehicleDetails_VehicleDetails_EngineV6	V6	V6	V6	V6	V6	V6	Silnik V6	V6	V6	V6	V6	6기통	V 6 汽缸	V6 汽缸
+VehicleDetails	VehicleDetails_VehicleDetails_EngineV8	V8	V8	V8	V8	V8	V8	Silnik V8	V8	V8	V8	V8	8기통	V 8 汽缸	V8 汽缸
+VehicleDetails	VehicleDetails_VehicleDetails_EngineV10	V10	V10	V10	V10	V10	V10	Silnik V10	V10	V10	V10	V10	10기통	V 10 汽缸	V10 汽缸
+VehicleDetails	VehicleDetails_VehicleDetails_EngineV12	V12	V12	V12	V12	V12	V12	Silnik V12	V12	V12	V12	V12	12기통	V 12 汽缸	V12 汽缸
+VehicleDetails	VehicleDetails_VehicleDetails_EngineStraight4	Straight 4	4 cylindres en ligne	4 in linea	4-Zylinder Reihe	4 en línea	Рядный (4)	rzędowy (4-cylindry)	直4	Em linha 4	4 cilindros en línea	4 cylindres en ligne	직렬 4기통	直列四缸引擎	直列四缸引擎
+VehicleDetails	VehicleDetails_VehicleDetails_EngineStraight5	Straight 5	5 cylindres en ligne	5 in linea	5-Zylinder Reihe	5 en línea	Рядный (5)	rzędowy (5-cylindrów)	直5	Em linha 5	5 cilindros en línea	5 cylindres en ligne	직렬 5기통	直列五缸引擎	直列五缸引擎
+VehicleDetails	VehicleDetails_VehicleDetails_EngineStraight6	Straight 6	6 cylindres en ligne	6 in linea	6-Zylinder Reihe	6 en línea	Рядный (6)	rzędowy (6-cylindrów)	直6	Em linha 6	6 cilindros en línea	6 cylindres en ligne	직렬 6기통	直列六缸引擎	直列六缸引擎
+VehicleDetails	VehicleDetails_VehicleDetails_EngineRotary2	Rotary 2	Rotatif 2	2 rotativi	2-Scheiben-Wankel	2 rotativo	Роторный (2)	rotacyjny (2-cylindry)	2ローター	Rotor 2	2 rotores	Rotatif 2	2로터리 엔진	双转子引擎	雙轉子引擎
+VehicleDetails	VehicleDetails_VehicleDetails_EngineRotary3	Rotary 3	Rotatif 3	3 rotativi	3-Scheiben-Wankel	3 rotativo	Роторный (3)	rotacyjny (3-cylindry)	3ローター	Rotor 3	3 rotores	Rotatif 3	3로터리 엔진	三转子引擎	三轉子引擎
+VehicleDetails	VehicleDetails_VehicleDetails_EngineFlat4	Flat 4	4 cylindres à plat	4 boxer	4-Zylinder Boxer	4 bóxer	Оппозитный (4)	bokser (4-cylindry)	フラット4	Boxer 4	bóxer de 4 cilindros	4 cylindres à plat	4기통 수평 엔진	水平对置四缸引擎	水平對臥四缸引擎
+VehicleDetails	VehicleDetails_VehicleDetails_EngineFlat6	Flat 6	6 cylindres à plat	6 boxer	6-Zylinder Boxer	6 bóxer	Оппозитный (6)	bokser (6-cylindrów)	フラット6	Boxer 6	bóxer de 6 cilindros	6 cylindres à plat	6기통 수평 엔진	水平对置六缸引擎	水平對臥六缸引擎
+VehicleDetails	VehicleDetails_VehicleDetails_EngineW16	W16	W16	W16	- W16	W16	W16	widlasty W16	W16	- W16	W16	W16	W16 엔진	W 16 汽缸	W16 汽缸
+VehicleDetails	VehicleDetails_VehicleDetails_EngineW12	W12	W12	W12	- W12	W12	W12	widlasty W12	W12	- W12	W12	W12	W12 엔진	W 12 汽缸	W12 汽缸
+VehicleDetails	VehicleDetails_VehicleDetails_All	All	Tout	Tutte	Alle	Todos	Все	Wszystkie	すべて	Tudo	Todas	Tous	전부	全部	全部
+VehicleDetails	VehicleDetails_VehicleDetails_DTM	DTM	DTM	DTM	DTM	DTM	DTM	DTM	DTM	DTM	DTM	DTM	DTM	德国房车大师赛	德國房車大師賽
+VehicleDetails	VehicleDetails_VehicleDetails_F1	F1	F1	F1	F1	F1	F1	F1	F1	F1	F1	F1	F1	一级方程式	一級方程式
+VehicleDetails	VehicleDetails_VehicleDetails_F2	F2	F2	F2	F2	F2	F2	F2	F2	F2	F2	F2	F2	二级方程式	二級方程式
+VehicleDetails	VehicleDetails_VehicleDetails_F3	F3	F3	F3	F3	F3	F3	F3	F3	F3	F3	F3	F3	三级方程式	三級方程式
+VehicleDetails	VehicleDetails_VehicleDetails_F4	F4	F4	F4	F4	F4	F4	F4	F4	F4	F4	F4	F4	四级方程式	四級方程式
+VehicleDetails	VehicleDetails_VehicleDetails_F5	F5	F5	F5	F5	F5	F5	F5	F5	F5	F5	F5	F5	五级方程式	五級方程式
+VehicleDetails	VehicleDetails_VehicleDetails_GT3	GT3	GT3	GT3	GT3	GT3	GT3	GT3	GT3	GT3	GT3	GT3	GT3	GT3 组	GT3 組
+VehicleDetails	VehicleDetails_VehicleDetails_GT4	GT4	GT4	GT4	GT4	GT4	GT4	GT4	GT4	GT4	GT4	GT4	GT4	GT4 组	GT4 組
+VehicleDetails	VehicleDetails_VehicleDetails_GT5	GT5	GT5	GT5	GT5	GT5	GT5	GT5	GT5	GT5	GT5	GT5	GT5	GT5 组	GT5 組
+VehicleDetails	VehicleDetails_VehicleDetails_GTE	GTE	GTE	GTE	GTE	GTE	GTE	GTE	GTE	GTE	GTE	GTE	GTE	GT 耐久组	GT 耐久組
+VehicleDetails	VehicleDetails_VehicleDetails_VintageStockcar	Vintage Stockcar	Stockcar vintage	Auto stock vintage	Vintage Stockcar	Coches clásicos de stock	Vintage Stockcar	Samochody fabryczne – klasyki	ビンテージストックカー	Vintage Stockcar	Autos de serie vintage	Stock car vintage	빈티지 스톡 카	老式房车改装赛车	老式房車改裝賽車
+VehicleDetails	VehicleDetails_VehicleDetails_VintageGT	Vintage GT	GT vintage	GT vintage	Vintage GT	GT Vintage	Vintage GT	Vintage GT	ビンテージGT	Vintage GT	GT retro	GT vintage	빈티지 GT	老式房车	老式房車
+VehicleDetails	VehicleDetails_VehicleDetails_Group4	Group 4	Group 4	Gruppo 4	Gruppe 4	Grupo 4	Group 4	Grupa 4	グループ4	Grupo 4	Grupo 4	Group 4	그룹 4	4 组	4 組
+VehicleDetails	VehicleDetails_VehicleDetails_Group5	Group 5	Group 5	Gruppo 5	Gruppe 5	Grupo 5	Group 5	Grupa 5	グループ5	Grupo 5	Grupo 5	Group 5	그룹 5	5 组	5 組
+VehicleDetails	VehicleDetails_VehicleDetails_GroupA	Group A	Group A	Gruppo A	Gruppe A	Grupo A	Group A	Grupa A	グループA	Grupo A	Grupo A	Group A	그룹 A	A 组	A 組
+VehicleDetails	VehicleDetails_VehicleDetails_GroupC1	Group C1	Group C1	Gruppo C1	Gruppe C1	Grupo C1	Group C1	Grupa C1	グループC1	Grupo C1	Grupo C1	Group C1	그룹 C1	C1 组	C1 組
+VehicleDetails	VehicleDetails_VehicleDetails_GT1X	GT1X	GT1X	GT1X	GT1X	GT1X	GT1X	GT1X	GT1X	GT1X	GT1X	GT1X	GT1X	GT1X 组	GT1X 組
+VehicleDetails	VehicleDetails_VehicleDetails_HistoricTouring2	Historic Touring 2	Touring historique 2	Turismo storico 2	Touring 2 historisch 	Historic Touring 2	Historic Touring 2	Historic Touring 2	ヒストリックツーリング2	Historic Touring 2	Historic Touring 2	Touring historique 2	히스토릭 투어링 2	老式房车 2 组	老式房車 2
+VehicleDetails	VehicleDetails_VehicleDetails_Kart1	Kart1	Kart1	Kart1	Kart1	Karts 1	Картинг1	Kart1	カート1	Kart1	Karts 1	Kart1	카트1	卡丁 1 组	卡丁 1 組
+VehicleDetails	VehicleDetails_VehicleDetails_Kart3	Kart3	Kart3	Kart3	Kart3	Karts 3	Картинг3	Kart3	カート3	Kart3	Karts 3	Kart3	카트3	卡丁 3 组	卡丁 3 組
+VehicleDetails	VehicleDetails_VehicleDetails_LMP1	LMP1	LMP1	LMP1	LMP1	LMP1	LMP1	LMP1	LMP1	LMP1	LMP1	LMP1	LMP1	LMP1 组	LMP1 組
+VehicleDetails	VehicleDetails_VehicleDetails_LMP2	LMP2	LMP2	LMP2	LMP2	LMP2	LMP2	LMP2	LMP2	LMP2	LMP2	LMP2	LMP2	LMP2 组	LMP2 組
+VehicleDetails	VehicleDetails_VehicleDetails_LMP3	LMP3	LMP3	LMP3	LMP3	LMP3	LMP3	LMP3	LMP3	LMP3	LMP3	LMP3	LMP3	LMP3 组	LMP3 組
+VehicleDetails	VehicleDetails_VehicleDetails_RoadA	Road A	Road A	Road A	Road A	Carretera A	Road A	Road A	ロードA	Road A	Carretera A	Road A	로드 A	街车 A 组	路車 A 組
+VehicleDetails	VehicleDetails_VehicleDetails_RoadB	Road B	Road B	Road B	Road B	Carretera B	Road B	Road B	ロードB	Road B	Carretera B	Road B	로드 B	街车 B 组	路車 B 組
+VehicleDetails	VehicleDetails_VehicleDetails_RoadC1	Road C1	Road C1	Road C1	Road C1	Carretera C1	Road C1	Road C1	ロードC1	Road C1	Carretera C1	Road C1	로드 C1	街车 C1 组	路車 C1 組
+VehicleDetails	VehicleDetails_VehicleDetails_RoadC2	Road C2	Road C2	Road C2	Road C2	Carretera C2	Road C2	Road C2	ロードC2	Road C2	Carretera C2	Road C2	로드 C2	街车 C2 组	路車 C2 組
+VehicleDetails	VehicleDetails_VehicleDetails_RoadD	Road D	Road D	Road D	Road D	Carretera D	Road D	Road D	ロードD	Road D	Carretera D	Road D	로드 D	街车 D 组	路車 D 組
+VehicleDetails	VehicleDetails_VehicleDetails_TransAm	Trans-Am	Trans-Am	Trans-Am	Trans-Am	Trans-Am	Trans-Am	Trans-Am	アメリカ横断	Trans-Am	Trans-Am	Trans-Am	트랜스암	泛美房车锦标赛	泛美房車錦標賽
+VehicleDetails	VehicleDetails_VehicleDetails_VintageF1A	Vintage F1 A	Vintage F1 A	F1 A vintage	Vintage F1 A	F1 A Vintage	Vintage F1 A	Vintage F1 A	ビンテージF1 A	Vintage F1 A	F1 A Vintage	Vintage F1 A	빈티지 F1 A	老式一级方程式 A 组	老式一級方程式 A 組
+VehicleDetails	VehicleDetails_VehicleDetails_VintageF1B	Vintage F1 B	Vintage F1 B	F1 B vintage	Vintage F1 B	F1 B Vintage	Vintage F1 B	Vintage F1 B	ビンテージF1 B	Vintage F1 B	F1 B Vintage	Vintage F1 B	빈티자 F1 B	老式一级方程式 B 组	老式一級方程式 B 組
+VehicleDetails	VehicleDetails_VehicleDetails_VintageF1C	Vintage F1 C	Vintage F1 C	F1 C vintage	Vintage F1 C	F1 C Vintage	Vintage F1 C	Vintage F1 C	ビンテージF1 C	Vintage F1 C	F1 C Vintage	Vintage F1 C	빈티지 F1 C	老式一级方程式 C 组	老式一級方程式 C 組
+VehicleDetails	VehicleDetails_VehicleDetails_Prototype	Prototype	Prototype	Prototipo	Prototyp	Prototipos	Prototype	Prototyp	プロトタイプ	Protótipo	Prototipo	Prototype	프로토타입	原型车组	原型車組
+VehicleDetails	VehicleDetails_VehicleDetails_GT4andGT5	GT4 and GT5	GT4 et GT5	GT4 e GT5	GT4 und GT5	GT4 y GT5	GT4 и GT5	GT4 i GT5	GT4&GT5	GT4 e GT5	GT4 y GT5	GT4 et GT5	GT4 & GT5	GT4 及 GT5 组	GT4 及 GT5 組
+VehicleDetails	VehicleDetails_VehicleDetails_SilhouetteGT	Silhouette-GT	Silhouette-GT	Silhouette-GT	Silhouette-GT	Silhouette-GT	Silhouette-GT	Silhouette-GT	シルエットGT	Silhouette-GT	Silhouette-GT	Silhouette-GT	실루엣-GT	廓形 GT 组	廓形 GT 組
+VehicleDetails	VehicleDetails_VehicleDetails_Touring	Touring	Tourisme	Turismo	Touring	Turismos	Touring	Touring	ツーリング	Touring	Turismos	Tourisme	투어링	房车组	房車組
+VehicleDetails	VehicleDetails_VehicleDetails_TrackDay	Track Day	Track Day	Track Day	Track Day	Tandas en circuito	Track Day	Track Day	トラックデー	Track Day	Track Day	Track Day	트랙 데이	赛道日	賽道日
+VehicleDetails	VehicleDetails_VehicleDetails_Openwheel	Openwheel	Monoplace	Monoposto	Open-Wheel	Monoplazas	Openwheel	Bolid	オープンホイール	Monoposto	Monoplazas	Roue à découvert	오픈휠	开轮式赛车	輪胎外露式賽車
+VehicleDetails	VehicleDetails_VehicleDetails_Kart	Kart	Kart	Kart	Kart	Karts	Картинг	Kart	カート	Kart	Karts	Kart	카트	卡丁车	卡丁車
+VehicleDetails	VehicleDetails_VehicleDetails_HistoricOpenwheel	Historic Openwheel	Monoplace historique	Monoposto storica	Open-Wheel historisch	Monoplazas históricos	Historic Openwheel	Historyczny bolid	ヒストリックオープンホイール	Monoposto histórico	Monoplazas históricos	Roue à découvert historique	히스토릭 오픈휠	老式开轮式赛车	老式輪胎外露式賽車
+VehicleDetails	VehicleDetails_VehicleDetails_HistoricGTTouring	Historic GT-Touring	Tourisme GT historique	GT storico	GT-Touring historisch	Turismos GT históricos	Historic GT-Touring	Historyczny GT-Touring	ヒストリックGTツーリング	GT-Touring histórico	Historic GT-Touring	Tourisme GT historique	히스토릭 GT-투어링	老式 GT 房车	老式 GT 房車
+VehicleDetails	VehicleDetails_VehicleDetails_VintagePrototypeGT1	Vintage Prototype-GT1	Prototype GT1 historique	Prototipo GT1 vintage	Vintage Prototyp-GT1	Prototipos GT1 vintage	Vintage Prototype-GT1	Prototyp GT1 Vintage	ビンテージプロトタイプGT1	Protótipo-GT1 Vintage	Prototipos GT1 vintage	Prototype GT1 historique	빈티지 프로토타입-GT1	老式原型 GT1 组	老式原型 GT1 組
+VehicleDetails	VehicleDetails_VehicleDetails_Stockcar	Stockcar	Stockcar	Stock Car	Stockcar	Coche de stock	Stockcar	Samochód fabryczny	ストックカー	Stockcar	Autos de serie	Stock car	스톡 카	房车改装赛车	房車改裝賽車
+VehicleDetails	VehicleDetails_VehicleDetails_RoadC	Road C	Road C	Road C	Road C	Carretera C	Road C	Road C	ロードC	Road C	Carrera C	Road C	로드 C	路车 C 组	路車 C 組
+VehicleDetails	VehicleDetails_VehicleDetails_TC1	TC1	TC1	TC1	TC1	TC1	TC1	TC1	TC1	TC1	TC1	TC1	TC1	TC1房车赛	TC1房車賽
+VehicleDetails	VehicleDetails_VehicleDetails_Sin	Single Cylinder	Monocylindre	Monocilindrico	Einzylinder	Un cilindro	Одноцилиндровый	Jeden cylinder	単気筒	Monocilíndrico	Un cilindro	Monocylindre	단기통	单缸	單缸
+VehicleDetails	VehicleDetails_VehicleDetails_Twi	Twin Cylinder	Bicylindre	Bicilindrico	Zweizylinder	Doble cilindro	Двухцилиндровый	Dwa cylindry	2気筒	Bicilíndrico	Doble cilindro	Bicylindre	쌍기통	双缸	雙缸
+VehicleDetails	VehicleDetails_VehicleDetails_England	England	en Angleterre	in Inghilterra	in England	en Inglaterra	Англия	w Anglii	イギリス	na Inglaterra	en Inglaterra	en Angleterre	영국	英国	英國
+VehicleDetails	VehicleDetails_VehicleDetails_France	France	en France	in Francia	in Frankreich	en Francia	Франция	we Francji	フランス	na França	en Francia	en France	프랑스	法国	法國
+VehicleDetails	VehicleDetails_VehicleDetails_Germany	Germany	en Allemagne	in Germania	in Deutschland	en Alemania	Германия	w Niemczech	ドイツ	na Alemanha	en Alemania	en Allemagne	독일	德国	德國
+VehicleDetails	VehicleDetails_VehicleDetails_Italy	Italy	en Italie	in Italia	in Italien	en Italia	Италия	we Włoszech	イタリア	na Itália	en Italia	en Italie	이탈리아	意大利	義大利
+VehicleDetails	VehicleDetails_VehicleDetails_Japan	Japan	au Japon	in Giappone	in Japan	en Japón	Япония	w Japonii	日本	no Japão	en Japón	au Japon	일본	日本	日本
+VehicleDetails	VehicleDetails_VehicleDetails_USA	USA	aux États-Unis	negli Stati Uniti d'America	in den Vereinigten Staaten von Amerika	en Estados Unidos	США	w Stanach Zjednoczonych	アメリカ	nos EUA	en Estados Unidos	aux États-Unis	미국	美国	美國
+VehicleDetails	VehicleDetails_VehicleDetails_Mid	Mid	Centrale	Centrale	Mitte	Central	Середина	Centralny	ミッドシップ	Central	Central	Centrale	미드	中置	中置
+VehicleDetails	VehicleDetails_VehicleDetails_Front	Front	Avant	Anteriore	Front	Delantero	Перед	Przedni	フロント	Dianteiro	Delantero	Avant	프런트	前置	前置
+VehicleDetails	VehicleDetails_VehicleDetails_Rear	Rear	Arrière	Posteriore	Heck	Trasero	Зад	Tylny	リア	Traseiro	Trasero	Arrière	리어	后置	後置
+VehicleDetails	VehicleDetails_VehicleDetails_McLarenP1	McLaren P1 ™	McLaren P1 ™	McLaren P1 ™	McLaren P1 ™	McLaren P1 ™	McLaren P1 ™	McLaren P1 ™	McLaren P1 ™	McLaren P1 ™	McLaren P1 ™	McLaren P1 ™	맥라렌 P1 ™	McLaren P1 ™	McLaren P1 ™
+VehicleDetails	VehicleDetails_VehicleDetails_EngineFlat8	Flat 8	8 cylindres à plat	8 boxer	8-Zylinder Boxer	8 bóxer	Горизонт. (8)	Silnik bokser (8-cylindrowy)	フラット8	- Boxer 8	8 bóxer	8 cylindres à plat	8기통 수평 엔진	Flat 8	Flat 8
+VehicleDetails	VehicleDetails_VehicleDetails_EngineFlat12	Flat 12	12 cylindres à plat	12 boxer	12-Zylinder Boxer	12 bóxer	Горизонт. (12)	Silnik bokser (12-cylindrowy)	フラット12	- Boxer 12	12 bóxer	12 cylindres à plat	12기통 수평 엔진	Flat 12	Flat 12
+VehicleDetails	VehicleDetails_VehicleDetails_EngineV4	V4	V4	V4	V4	V4	V4	Silnik V4	V4	V4	V4	V4	W4 엔진	V4 汽缸	V4 汽缸
+VehicleDetails	VehicleDetails_VehicleDetails_TC70S	GT Classics	GT Classics	GT Classics	GT Classics	GT Classics	GT Classics	GT Classics	GT Classics	GT Classics	GT Classics	GT Classics	GT Classics	GT Classics	GT Classics
+VehicleDetails	VehicleDetails_VehicleDetails_TC60S	Vintage Touring Cars - Tier 1	Vintage Touring Cars - Tier 1	Vintage Touring Cars - Tier 1	Vintage Touring Cars - Tier 1	Vintage Touring Cars - Tier 1	Vintage Touring Cars - Tier 1	Vintage Touring Cars - Tier 1	Vintage Touring Cars - Tier 1	Vintage Touring Cars - Tier 1	Vintage Touring Cars - Tier 1	Vintage Touring Cars - Tier 1	Vintage Touring Cars - Tier 1	Vintage Touring Cars - Tier 1	Vintage Touring Cars - Tier 1
+VehicleDetails	VehicleDetails_VehicleDetails_TC60S2	Vintage Touring Cars - Tier 2	Vintage Touring Cars - Tier 2	Vintage Touring Cars - Tier 2	Vintage Touring Cars - Tier 2	Vintage Touring Cars - Tier 2	Vintage Touring Cars - Tier 2	Vintage Touring Cars - Tier 2	Vintage Touring Cars - Tier 2	Vintage Touring Cars - Tier 2	Vintage Touring Cars - Tier 2	Vintage Touring Cars - Tier 2	Vintage Touring Cars - Tier 2	Vintage Touring Cars - Tier 2	Vintage Touring Cars - Tier 2

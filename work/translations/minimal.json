@@ -1,0 +1,9 @@
+{
+  "Game": {
+    "Game_MainMenu_FinalDrive": "最终传动",
+    "Game_MainMenu_VSync": "垂直同步",
+    "Game_MainMenu_GearDown": "降档",
+    "Game_MainMenu_GearUp": "升档",
+    "Game_MainMenu_SteeringLock": "转向锁"
+  }
+}
