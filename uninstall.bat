@@ -1,53 +1,66 @@
 @echo off
-chcp 65001 >nul 2>&1
+chcp 936 >nul 2>&1
 setlocal
 
 set "GAME_DIR=F:\SteamLibrary\steamapps\common\Automobilista 2"
 set "PROJ_DIR=%~dp0"
 
 echo ============================================
-echo   AMS2 æ±‰åŒ–åŒ…å¸è½½ï¼ˆæ¢å¤åŽŸç‰ˆï¼‰
+echo   AMS2 ºº»¯°üÐ¶ÔØ£¨»Ö¸´Ô­°æ£©
 echo ============================================
 echo.
 
+tasklist /fi "imagename eq AMS2.exe" 2>nul | find /i "AMS2.exe" >nul
+if not errorlevel 1 (
+    echo [´íÎó] ÓÎÏ·ÕýÔÚÔËÐÐ£¬ÇëÏÈÍêÈ«ÍË³öÓÎÏ·£¡
+    pause
+    exit /b 1
+)
+tasklist /fi "imagename eq AMS2AVX.exe" 2>nul | find /i "AMS2AVX.exe" >nul
+if not errorlevel 1 (
+    echo [´íÎó] ÓÎÏ·ÕýÔÚÔËÐÐ£¬ÇëÏÈÍêÈ«ÍË³öÓÎÏ·£¡
+    pause
+    exit /b 1
+)
+
 set "restored=0"
 
-rem --- 1. æ¢å¤ä¸¤ä¸ª exeï¼ˆV4 è¡¥ä¸åŽŸç‰ˆå¤‡ä»½ï¼‰---
+rem --- 1. »Ö¸´Á½¸ö exe£¨V4 ²¹¶¡Ô­°æ±¸·Ý£©---
 if exist "%GAME_DIR%\AMS2.exe.bak-v4-orig" (
     copy /y "%GAME_DIR%\AMS2.exe.bak-v4-orig" "%GAME_DIR%\AMS2.exe" >nul
-    echo [OK] å·²æ¢å¤ AMS2.exe
+    echo [OK] ÒÑ»Ö¸´ AMS2.exe
     set "restored=1"
 ) else (
-    echo [è·³è¿‡] æœªæ‰¾åˆ° AMS2.exe.bak-v4-origï¼ˆå¯ç”¨ Steam éªŒè¯æ–‡ä»¶å®Œæ•´æ€§è¿˜åŽŸï¼‰
+    echo [Ìø¹ý] Î´ÕÒµ½ AMS2.exe.bak-v4-orig£¨¿ÉÓÃ Steam ÑéÖ¤ÎÄ¼þÍêÕûÐÔ»¹Ô­£©
 )
 if exist "%GAME_DIR%\AMS2AVX.exe.bak-v4-orig" (
     copy /y "%GAME_DIR%\AMS2AVX.exe.bak-v4-orig" "%GAME_DIR%\AMS2AVX.exe" >nul
-    echo [OK] å·²æ¢å¤ AMS2AVX.exe
+    echo [OK] ÒÑ»Ö¸´ AMS2AVX.exe
     set "restored=1"
 ) else (
-    echo [è·³è¿‡] æœªæ‰¾åˆ° AMS2AVX.exe.bak-v4-orig
+    echo [Ìø¹ý] Î´ÕÒµ½ AMS2AVX.exe.bak-v4-orig
 )
 
-rem --- 2. æ¢å¤ BOOTFLOW.bffï¼ˆæ±‰åŒ–æ–‡æœ¬ï¼‰---
+rem --- 2. »Ö¸´ BOOTFLOW.bff£¨ºº»¯ÎÄ±¾£©---
 if exist "%GAME_DIR%\Pakfiles\BOOTFLOW.bff.bak" (
     copy /y "%GAME_DIR%\Pakfiles\BOOTFLOW.bff.bak" "%GAME_DIR%\Pakfiles\BOOTFLOW.bff" >nul
-    echo [OK] å·²æ¢å¤ BOOTFLOW.bffï¼ˆæ¸¸æˆç›®å½•å¤‡ä»½ï¼‰
+    echo [OK] ÒÑ»Ö¸´ BOOTFLOW.bff£¨ÓÎÏ·Ä¿Â¼±¸·Ý£©
     set "restored=1"
 ) else if exist "%PROJ_DIR%work\deploy\backup\BOOTFLOW.bff.bak" (
     copy /y "%PROJ_DIR%work\deploy\backup\BOOTFLOW.bff.bak" "%GAME_DIR%\Pakfiles\BOOTFLOW.bff" >nul
-    echo [OK] å·²æ¢å¤ BOOTFLOW.bffï¼ˆå·¥ç¨‹å¤‡ä»½ï¼‰
+    echo [OK] ÒÑ»Ö¸´ BOOTFLOW.bff£¨¹¤³Ì±¸·Ý£©
     set "restored=1"
 ) else (
-    echo [è·³è¿‡] æœªæ‰¾åˆ° BOOTFLOW.bff å¤‡ä»½ï¼ˆå¯ç”¨ Steam éªŒè¯æ–‡ä»¶å®Œæ•´æ€§è¿˜åŽŸï¼‰
+    echo [Ìø¹ý] Î´ÕÒµ½ BOOTFLOW.bff ±¸·Ý£¨¿ÉÓÃ Steam ÑéÖ¤ÎÄ¼þÍêÕûÐÔ»¹Ô­£©
 )
 
 echo.
 if "%restored%"=="1" (
     echo ============================================
-    echo   å¸è½½å®Œæˆï¼æ¸¸æˆå·²æ¢å¤åŽŸç‰ˆ
+    echo   Ð¶ÔØÍê³É£¡ÓÎÏ·ÒÑ»Ö¸´Ô­°æ
     echo ============================================
 ) else (
-    echo [è­¦å‘Š] æœªæ‰¾åˆ°ä»»ä½•å¤‡ä»½æ–‡ä»¶ï¼Œè¯·ç”¨ Steam éªŒè¯æ–‡ä»¶å®Œæ•´æ€§è¿˜åŽŸ
+    echo [¾¯¸æ] Î´ÕÒµ½ÈÎºÎ±¸·ÝÎÄ¼þ£¬ÇëÓÃ Steam ÑéÖ¤ÎÄ¼þÍêÕûÐÔ»¹Ô­
 )
 echo.
 pause

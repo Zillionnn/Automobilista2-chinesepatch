@@ -1,58 +1,64 @@
 @echo off
-chcp 65001 >nul 2>&1
+chcp 936 >nul 2>&1
 setlocal
 
 set "GAME_DIR=F:\SteamLibrary\steamapps\common\Automobilista 2"
 set "TOOLS_DIR=%~dp0tools"
 
 echo ============================================
-echo   AMS2 ç®€ä½“ä¸­æ–‡æ±‰åŒ–åŒ…å®‰è£…
+echo   AMS2 ¼òÌåÖĞÎÄºº»¯°ü°²×°
 echo ============================================
 echo.
 
 if not exist "%GAME_DIR%\AMS2.exe" (
-    echo [é”™è¯¯] æœªæ‰¾åˆ° AMS2.exe: %GAME_DIR%\AMS2.exe
-    echo        è¯·ä¿®æ”¹è„šæœ¬ä¸­çš„ GAME_DIR å˜é‡
+    echo [´íÎó] Î´ÕÒµ½ AMS2.exe: %GAME_DIR%\AMS2.exe
+    echo        ÇëĞŞ¸Ä½Å±¾ÖĞµÄ GAME_DIR ±äÁ¿
     pause
     exit /b 1
 )
 
-echo [1/3] å®‰è£…å­—ä½“è¡¥ä¸ï¼ˆAMS2 + AMS2AVXï¼Œå·²æ‰“è¿‡ä¼šè‡ªåŠ¨è·³è¿‡ï¼‰...
+tasklist /fi "imagename eq AMS2.exe" 2>nul | find /i "AMS2.exe" >nul
+if not errorlevel 1 (
+    echo [´íÎó] ÓÎÏ·ÕıÔÚÔËĞĞ£¬ÇëÏÈÍêÈ«ÍË³öÓÎÏ·£¡
+    pause
+    exit /b 1
+)
+tasklist /fi "imagename eq AMS2AVX.exe" 2>nul | find /i "AMS2AVX.exe" >nul
+if not errorlevel 1 (
+    echo [´íÎó] ÓÎÏ·ÕıÔÚÔËĞĞ£¬ÇëÏÈÍêÈ«ÍË³öÓÎÏ·£¡
+    pause
+    exit /b 1
+)
+
+echo [1/3] °²×°×ÖÌå²¹¶¡£¨AMS2 + AMS2AVX£¬ÒÑ´ò¹ı×Ô¶¯Ìø¹ı£©...
 python "%TOOLS_DIR%\patch_v4.py"
-if errorlevel 1 (
-    echo [é”™è¯¯] AMS2.exe å­—ä½“è¡¥ä¸å¤±è´¥
-    pause
-    exit /b 1
-)
+if errorlevel 1 goto :err
 python "%TOOLS_DIR%\patch_v4_avx.py"
-if errorlevel 1 (
-    echo [é”™è¯¯] AMS2AVX.exe å­—ä½“è¡¥ä¸å¤±è´¥
-    pause
-    exit /b 1
-)
+if errorlevel 1 goto :err
 echo.
 
-echo [2/3] éƒ¨ç½²æ±‰åŒ–æ–‡æœ¬...
+echo [2/3] ²¿Êğºº»¯ÎÄ±¾...
 python "%TOOLS_DIR%\deploy.py" --deploy
-if errorlevel 1 (
-    echo [é”™è¯¯] æ±‰åŒ–æ–‡æœ¬éƒ¨ç½²å¤±è´¥
-    pause
-    exit /b 1
-)
+if errorlevel 1 goto :err
 echo.
 
-echo [3/3] éªŒè¯éƒ¨ç½²...
+echo [3/3] ÑéÖ¤²¿Êğ...
 python "%TOOLS_DIR%\verify_deploy.py"
-if errorlevel 1 (
-    echo [è­¦å‘Š] éªŒè¯å‘ç°é—®é¢˜ï¼Œè¯·æ£€æŸ¥è¾“å‡º
-)
+if errorlevel 1 echo [¾¯¸æ] ÑéÖ¤·¢ÏÖÎÊÌâ£¬Çë¼ì²éÊä³ö
 echo.
 
 echo ============================================
-echo   å®‰è£…å®Œæˆï¼
+echo   °²×°Íê³É£¡
 echo ============================================
 echo.
-echo Steam å¯åŠ¨å‚æ•°: -novr -lang Chinese-Simple
-echo å¦‚éœ€æ¢å¤åŸç‰ˆï¼Œè¿è¡Œ uninstall.bat
+echo Steam Æô¶¯²ÎÊı: -novr -lang Chinese-Simple
+echo ÈçĞè»Ö¸´Ô­°æ£¬ÔËĞĞ uninstall.bat
 echo.
 pause
+exit /b 0
+
+:err
+echo.
+echo [´íÎó] Ö´ĞĞÊ§°Ü£¬Çë¼ì²éÉÏ·½Êä³ö
+pause
+exit /b 1
