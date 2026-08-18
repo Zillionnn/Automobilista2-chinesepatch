@@ -9,18 +9,17 @@ Automobilista 2 简体中文本地化补丁，包含字体渲染修复和完整�
 - AMS2.exe（非 AVX）与 AMS2AVX.exe（Steam 实际启动的，CPU 支持 AVX 时由 AMS2.exe 转启）
 - Steam 启动参数：`-novr -lang Chinese-Simple`
 
-## 快速安装 ，目录为`F:\SteamLibrary\steamapps\common\Automobilista 2`， 详细查看deliverables/README.md
+## 安装（直接覆盖文件）
 
-编辑bat，修改游戏目录，双击运行 `install.bat`，或手动执行：
+游戏目录为 `<Steam 库>\steamapps\common\Automobilista 2`（本机 `F:\SteamLibrary\steamapps\common\Automobilista 2`），
+详细步骤见 `deliverables/README.md`。无需任何脚本：
 
-```
-python tools\patch_v4.py       # 字体补丁 AMS2.exe
-python tools\patch_v4_avx.py   # 字体补丁 AMS2AVX.exe
-python tools\deploy.py --deploy  # 文本汉化部署
-python tools\verify_deploy.py    # 部署验证
-```
+1. 复制 `deliverables\patched_exe\AMS2.exe`、`AMS2AVX.exe` → 游戏目录覆盖
+2. 复制 `deliverables\translated_pak\BOOTFLOW.bff` → 游戏目录 `Pakfiles\` 覆盖
+3. Steam 启动选项填入：`-novr -lang Chinese-Simple`
 
-卸载：双击运行 `uninstall.bat` 恢复原版。
+> 覆盖前建议备份原文件；Steam"验证文件完整性"可随时还原。
+> 游戏更新后会覆盖被修改的文件，需重新覆盖。
 
 
 
@@ -112,12 +111,8 @@ python deploy.py --deploy
 
 ## 恢复原版
 
-运行 `uninstall.bat`，或手动恢复（或 Steam"验证文件完整性"）：
-```
-copy "SteamLibrary\steamapps\common\Automobilista 2\AMS2.exe.bak-v4-orig" "SteamLibrary\steamapps\common\Automobilista 2\AMS2.exe"
-copy "SteamLibrary\steamapps\common\Automobilista 2\AMS2AVX.exe.bak-v4-orig" "SteamLibrary\steamapps\common\Automobilista 2\AMS2AVX.exe"
-copy "Pakfiles\BOOTFLOW.bff.bak" "Pakfiles\BOOTFLOW.bff"   # 或 Steam 验证完整性
-```
+Steam 库 → 右键游戏 → 属性 → 已安装文件 → **验证游戏文件完整性**（一键还原），
+或手动用备份覆盖回原文件（exe 备份 `AMS2.exe.bak-v4-orig` 等位于游戏目录）。
 
 ## 术语表
 
