@@ -97,7 +97,7 @@ AMS2 的字体系统在渲染中文字符时显示为 `*`/方块，原因是多�
 | `tdb_extract.py` | 提取未翻译条目到 JSON |
 | `build_translations.py` | 翻译字典引擎（含术语表） |
 | `tdb_repack.py` | 翻译回填到 .tdb 二进制 |
-| `find_translation.py` | 在 translations.json 中按关键词查找翻译条目 |
+| `find_translation.py` | 查找翻译条目（`--all` 可搜游戏内置翻译 all_entries.json 查键名） |
 | `deploy.py` | 一键端到端部署（extract 缺失时自动对已翻译 .tdb 重新应用译文） |
 | `verify_deploy.py` | 部署验证 |
 | `verify_v4.py` | 运行时验证（游戏运行中检查字体槽位/钩子） |
@@ -112,10 +112,12 @@ AMS2 的字体系统在渲染中文字符时显示为 `*`/方块，原因是多�
 ```cmd
 chcp 65001          rem 防止 cmd 中文乱码（PowerShell 可跳过）
 rem 1. 查找要改的条目（按中文/键名关键词）
-python tools\find_translation.py 光头胎
-python tools\find_translation.py TestDay Game
+python tools\find_translation.py 光头胎                 rem 搜补丁翻译
+python tools\find_translation.py 煞车死区 --all        rem 连游戏内置翻译一起搜（查键名）
+python tools\find_translation.py TestDay Game          rem 限定表名
 
 rem 2. 用编辑器打开 work\translations\translations.json，按键名搜索并修改中文值
+rem    （游戏内置翻译的条目也能改：把查到"表名/键名/新中文"加进 JSON 即可覆盖内置值）
 
 rem 3. 重新生成 .tdb → 回包 BOOTFLOW.bff → 备份原版并覆盖到游戏目录
 python tools\deploy.py --deploy
@@ -123,6 +125,12 @@ python tools\deploy.py --deploy
 
 要点：
 
+- **`all_entries.json` 是只读参考文件**（全量导出：表/键/英文/中文，共 10.7 万行），
+  用来**查键名**（比如游戏里看到"煞车死区"，搜它得到 `Game_UI_Bra6`），
+  deploy.py 不读它，改它没有任何效果——修改永远只写 `translations.json`。
+- **游戏内置中文**：游戏文件自带一个不完整的 Chinese-Simple 语言块（约 1.7 万条，
+  台湾用词风格如"煞车/设定"），缺失的条目原样是 `UNTRANSLATED_xxx` 占位。
+  汉化包补全了缺失条目；对内置条目不满意时，把键加进 translations.json 即可覆盖。
 - `deploy.py` 会对 `work/translated/` 中已有的 .tdb **重新应用**当前 translations.json
   （幂等：未改动的条目保持原样，只更新你改过的键），无需重新解包 18GB 的 extract。
 - 部署前自动备份游戏目录当前 BOOTFLOW.bff 到 `work/deploy/backup/`（仅首次）。
