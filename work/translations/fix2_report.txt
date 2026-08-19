@@ -1,0 +1,399 @@
+[term] Game/Game_MainMenu_AudioVideo
+  旧: 声音/影片
+  新: 音频/视频
+
+[term] Game/Game_MainMenu_DNF
+  旧: 在线断线次数：
+  新: 在线掉线次数：
+
+[term] Game/Game_MainMenu_ReflectionQuality
+  旧: 反射品质
+  新: 反射质量
+
+[term] Game/Game_MainMenu_Movies
+  旧: 影片评价
+  新: 视频评价
+
+[term] Game/Game_MainMenu_DeleteSavedGame
+  旧: 确定要删除目前选择的游戏保存资料吗？
+  新: 确定要删除当前选择的游戏存档数据吗？
+
+[term] Game/Game_MainMenu_Telemetry
+  旧: 遥测资料
+  新: 遥测数据
+
+[term] Game/Game_MainMenu_UnlockPics
+  旧: 解锁游戏开发过程中的相片及影片
+  新: 解锁游戏开发过程中的相片及视频
+
+[term] Game/Game_MainMenu_Speedo
+  旧: 仪表板
+  新: 仪表盘
+
+[term] Game/Game_MainMenu_Drafting
+  旧: 牵引气流
+  新: 尾流
+
+[term] Game/Game_MainMenu_WatchEsportsVideoOnD
+  旧: 随时观看 Esports 影片
+  新: 随时观看 Esports 视频
+
+[term] Game/Game_MainMenu_ReplayIntro
+  旧: 重新观看开头影片
+  新: 重新观看开头视频
+
+[term] Game/Game_MainMenu_NoCareerSaveFilesAva
+  旧: 没有可用的生涯保存资料
+  新: 没有可用的生涯存档数据
+
+[term] Game/Game_MainMenu_Speedo1
+  旧: 仪表板
+  新: 仪表盘
+
+[term] Game/Game_MainMenu_ViewMotorsportVideo
+  旧: 观看赛事影片
+  新: 观看赛事视频
+
+[term] Game/Game_MainMenu_WatchYourSavedReplay
+  旧: 观赏你所保存的回放与生涯影片
+  新: 观赏你所保存的回放与生涯视频
+
+[term] Game/Game_MainMenu_ViewTrophyVideo
+  旧: 观看奖杯影片
+  新: 观看奖杯视频
+
+[term] Game/Game_MainMenu_LeaderboardNotAvailable
+  旧: 排行榜尚未支持目前选择的车辆和赛道
+  新: 排行榜尚未支持当前选择的车辆和赛道
+
+[term] Game/Game_MainMenu_ChampionshipDataResetDLC
+  旧: 锦标赛资料重置：所需DLC的内容无法使用。
+  新: 锦标赛数据重置：所需DLC的内容无法使用。
+
+[term] Game/Game_MultiplayerMenus_HasDisconnected
+  旧: [USER]连线中断
+  新: [USER]连接中断
+
+[term] Game/Game_MultiplayerMenus_HasAfterAFailedMigr
+  旧: [USER]因递补失败而离开
+  新: [USER]因房主迁移失败而离开
+
+[term] Game/Game_MultiplayerMenus_NoGamesFoundToJoin
+  旧: 未找到多人连线房间！
+  新: 未找到多人联机房！
+
+[term] Game/Game_MultiplayerMenus_JoiningGame
+  旧: 正在加入多人连线房间…
+  新: 正在加入多人联机房…
+
+[term] Game/Game_MultiplayerMenus_ConnectionToGameHasBeen
+  旧: 与游戏的连线中断。
+  新: 与游戏的连接中断。
+
+[term] Game/Game_MultiplayerMenus_GameDisconnectedDiconne
+  旧: 与房间的连线中断。
+  新: 与房间的连接中断。
+
+[term] Game/Game_MultiplayerMenus_GameDisconnectedMigrati
+  旧: 房主递补失败。与游戏的连线中断。
+  新: 房主迁移失败。与游戏的连接中断。
+
+[term] Game/Game_MultiplayerMenus_GameDisconnectedUnknown
+  旧: 由于未知错误，与游戏的连线中断。
+  新: 由于未知错误，与游戏的连接中断。
+
+[term] Game/Game_MultiplayerMenus_CreatingGame
+  旧: 正在创建多人连线房间……
+  新: 正在创建多人联机房……
+
+[term] Game/Game_InGameMenu_GhostData
+  旧: 幽灵资料
+  新: 幽灵数据
+
+[term] Game/Game_HUD_NoDataAvailableYet
+  旧: 尚无可用资料。
+  新: 暂无可用数据。
+
+[term] Game/Game_UI_NEE
+  旧: 需要应用程式连结！
+  新: 需要应用程序链接！
+
+[term] Game/Game_UI_Vid
+  旧: 影片校准
+  新: 视频校准
+
+[term] Game/Game_UI_Thi6
+  旧: 这个图示会显示玩家使用的控制器类别——方向盘、游戏手把、键盘
+  新: 这个图标会显示玩家使用的控制器类别——方向盘、游戏手柄、键盘
+
+[term] Game/Game_UI_GHO3
+  旧: 幽灵资料
+  新: 幽灵数据
+
+[term] Game/Game_UI_Videos
+  旧: 影片
+  新: 视频
+
+[term] Game/Game_UI_RightThumbstick
+  旧: 右游戏杆
+  新: 右摇杆
+
+[term] Game/Game_UI_EditorDisplay
+  旧: 仪表板
+  新: 仪表盘
+
+[term] Game/Game_UI_RightThumbstickLower
+  旧: 右游戏杆
+  新: 右摇杆
+
+[term] Game/Game_HelpText_InTheHighlightsSecti
+  旧: 在车手网络个人资料的重点区块中，你可使用你保存的相片或回放，并以全屏幕观看。你也可以从你的个人资料管理及删除你保存的相片和影片。
+  新: 在车手网络个人资料的重点区块中，你可使用你保存的相片或回放，并以全屏幕观看。你也可以从你的个人资料管理及删除你保存的相片和视频。
+
+[term] Game/Game_HelpText_OptionsPerformanceEnhancedMirror
+  旧: 强化镜像可提升车辆驾驶座内的镜子所显示的场景视觉真实度，提高视觉质量并使细节更加清晰，但可能会影响影画面更新率的效能。
+  新: 强化镜像可提升车辆驾驶座内的镜子所显示的场景视觉真实度，提高视觉质量并使细节更加清晰，但可能会影响影画面帧率的效能。
+
+[term] Game/Game_HelpText_OptionsControlsMotec
+  旧: 在多款车辆的驾驶座内，是采用 Motec 液晶仪表显示器。通常位于方向盘的后方或上方，或是在车辆的中央仪表板上。Motec 显示器通常会有多
+  新: 在多款车辆的驾驶座内，是采用 Motec 液晶仪表显示器。通常位于方向盘的后方或上方，或是在车辆的中央仪表盘上。Motec 显示器通常会有多
+
+[term] Game/Game_Tutorials1stTime_DNP
+  旧: 这是你的车手网络个人资料。你可在此检视你的赛车竞争执照的细节，编辑你的在线个人资料的信息，以及观看你的所有游戏成绩、相片及影片。
+  新: 这是你的车手网络个人资料。你可在此检视你的赛车竞争执照的细节，编辑你的在线个人资料的信息，以及观看你的所有游戏成绩、相片及视频。
+
+[term] Game/Game_Tutorials1stTime_PreRaceMenu
+  旧: 赛车时间到了！在查看预赛菜单时，会看到参加者名单。你也可以通过点击地图图示来查看赛道的详细地图。
+  新: 赛车时间到了！在查看预赛菜单时，会看到参加者名单。你也可以通过点击地图图标来查看赛道的详细地图。
+
+[term] Game/Game_Tutorials1stTime_PreRaceMenu1
+  旧: 赛车时间到了！在查看预赛菜单时，会看到参加者名单。你也可以通过点击地图图示来查看赛道的详细地图。
+  新: 赛车时间到了！在查看预赛菜单时，会看到参加者名单。你也可以通过点击地图图标来查看赛道的详细地图。
+
+[term] Game/Game_LoadingScreenHints_WatchDriverNetworkHi
+  旧: 来观赏车手网络头条，以及我们最爱的Project CARS 2影片：www.youtube.com/user/projectcarsgame
+  新: 来观赏车手网络头条，以及我们最爱的Project CARS 2视频：www.youtube.com/user/projectcarsgame
+
+[term] Game/Game_ManufacturerEventDescription_Honda3
+  旧: Honda急需一名车手参加即将举办于Texas Motor Speedway的赛事。这是一场椭圆跑道，使用他们的Dallara DW 12H
+  新: Honda急需一名车手参加即将举办于Texas Motor Speedway的赛事。这是一场椭圆赛道，使用他们的Dallara DW 12H
+
+[term] Pit/Pit_Engineer_PracticeLap1A1202
+  旧: 出场圈中轮胎和刹车都会是冷的，慢慢来，感受一下跑道和车子的状况。
+  新: 出场圈中轮胎和刹车都会是冷的，慢慢来，感受一下赛道和车子的状况。
+
+[term] Pit/Pit_Engineer_PracticeLap1A1203
+  旧: 好了，轮胎和刹车需要一些时间才能暖起来，放轻松感受一下跑道吧。
+  新: 好了，轮胎和刹车需要一些时间才能暖起来，放轻松感受一下赛道吧。
+
+[term] Pit/Pit_Engineer_PracticeLap1A1302
+  旧: 一旦轮胎和刹车有些温度后，试着感受一下跑道然后看看车子的状况。
+  新: 一旦轮胎和刹车有些温度后，试着感受一下赛道然后看看车子的状况。
+
+[term] Pit/Pit_Engineer_PracticeLap1A1303
+  旧: 一旦温度上升后，试着感受一下跑道然后让我们知道车子的状况。
+  新: 一旦温度上升后，试着感受一下赛道然后让我们知道车子的状况。
+
+[term] Pit/Pit_Engineer_PracticeLapRainA111
+  旧: 观察跑湿地时的车况，有必要时做些微调整，比较容易驾驶
+  新: 观察跑湿地时的车况，有必要时做略微调整，比较容易驾驶
+
+[term] Pit/Pit_Engineer_BackMarkerSingleA13c
+  旧: 套圈就在前方。保持住，稳稳地拿下他。别挤到跑道的旁边。
+  新: 套圈就在前方。保持住，稳稳地拿下他。别挤到赛道的旁边。
+
+[term] Pit/Pit_Engineer_WeatherChangeSnowingA4b
+  旧: 赛道上现在有雪了。我们放轻松点把车子带回维修站换新胎吧。
+  新: 赛道上现在有雪了。我们放轻松点把车带回维修站换新胎吧。
+
+[term] Pit/Pit_Engineer_FrontWingDamageA8a
+  旧: 你需要新的前翼。把车子带回来我们会帮你替换。
+  新: 你需要新的前翼。把车带回来我们会帮你替换。
+
+[term] Pit/Pit_Engineer_FrontWingDamageA8b
+  旧: 你需要新的前翼。把车子带回维修站。我们会给你一组新的。
+  新: 你需要新的前翼。把车带回维修站。我们会给你一组新的。
+
+[term] Platform/Platform_Install_PS3Installing
+  旧: 正在安装游戏资料。请勿关闭电源。
+  新: 正在安装游戏数据。请勿关闭电源。
+
+[term] Platform/Platform_Install_PS3TrophyDataSpace
+  旧: 需要 %ls 空间来安装奖杯资料。
+  新: 需要 %ls 空间来安装奖杯数据。
+
+[term] Platform/Platform_SaveGame_ProfileLoadBindErrorPS3
+  旧: 此保存资料为其他用户所创，故无法读取
+  新: 此存档数据由其他用户创建，故无法读取
+
+[term] Platform/Platform_SaveGame_ProfileCorruptText
+  旧: 您的保存资料已损毁无法读取。
+  新: 您的存档数据已损坏无法读取。
+
+[term] Platform/Platform_SaveGame_ProfileSaveErrorText
+  旧: 无法保存资料，要重新尝试保存吗？
+  新: 无法保存数据，要重新尝试保存吗？
+
+[term] Platform/Platform_SaveGame_MediaSaveErrorText
+  旧: 无法保存影片，要重新尝试保存吗？
+  新: 无法保存视频，要重新尝试保存吗？
+
+[term] Platform/Platform_SaveGame_MediaLoadErrorText
+  旧: 无法读取影片，选择“确定”继续。
+  新: 无法读取视频，选择“确定”继续。
+
+[term] Platform/Platform_SaveGame_MediaLoadErrorYes
+  旧: —选择“是”将尝试重新读取影片。
+  新: —选择“是”将尝试重新读取视频。
+
+[term] Platform/Platform_SaveGame_MediaSaveErrorYes
+  旧: —选择“是”将尝试重新保存影片。
+  新: —选择“是”将尝试重新保存视频。
+
+[term] Platform/Platform_SaveGame_MediaCorruptText
+  旧: 您所保存的影片已损坏并无法读取。
+  新: 您所保存的视频已损坏并无法读取。
+
+[term] Platform/Platform_SaveGame_MediaLoadNoDeviceNo
+  旧: —选“取消”将从所有设备上的影片中选择。
+  新: —选“取消”将从所有设备上的视频中选择。
+
+[term] Platform/Platform_SaveGame_GhostSaveErrorText
+  旧: 无法保存幽灵资料，要重新尝试保存吗？
+  新: 无法保存幽灵数据，要重新尝试保存吗？
+
+[term] Platform/Platform_SaveGame_GhostLoadErrorText
+  旧: 无法读取幽灵资料，选择“确定”继续。
+  新: 无法读取幽灵数据，选择“确定”继续。
+
+[term] Platform/Platform_SaveGame_GhostCorruptText
+  旧: 您保存的幽灵资料已损毁并无法读取。
+  新: 您保存的幽灵数据已损坏并无法读取。
+
+[term] Platform/Platform_SaveGame_MediaInvalid32Text
+  旧: 此影片由 32 位元版本游戏保存，无法在 64 位版本中读取。
+  新: 此视频由 32 位元版本游戏保存，无法在 64 位版本中读取。
+
+[term] Platform/Platform_SaveGame_MediaInvalid64Text
+  旧: 此影片由 64 位元版本游戏保存，无法在 32 位版本中读取。
+  新: 此视频由 64 位元版本游戏保存，无法在 32 位版本中读取。
+
+[term] Platform/Platform_SaveGame_MediaInvalidText
+  旧: 此影片由不相容版本的游戏保存，无法读取。
+  新: 此视频由不相容版本的游戏保存，无法读取。
+
+[term] Platform/Platform_SaveGame_CareerCorruptText
+  旧: 生涯模式资料已损毁，无法读取。
+  新: 生涯模式数据已损坏，无法读取。
+
+[term] RAC/RAC_HUD_DisqualifiedCutTrack
+  旧: 偏离跑道
+  新: 切弯
+
+[term] Online/Online_MultiplayerMenus_HasAfterAFailedMigr
+  旧: [USER]因递补失败而离开
+  新: [USER]因房主迁移失败而离开
+
+[term] Online/Online_MultiplayerMenus_GameDisconnectedMigrati
+  旧: 房主递补失败。游戏联机已中断。
+  新: 房主迁移失败。游戏联机已中断。
+
+[term] SetupEngineer/SetupEngineer_Solutions_LowerRearWingNotPossible
+  旧: 那可能是因为过多后方下压力造成太多阻力。很遗憾地，你目前的设置已经是最低的了。
+  新: 那可能是因为过多后方下压力造成太多阻力。很遗憾，，你目前的设置已经是最低的了。
+
+[term] SetupEngineer/SetupEngineer_Solutions_RiseRearWingNotPossible
+  旧: 尾翼角度可能太低，导致后方产生的下压力不足而造成过度转向，很遗憾地我们已经没办法再帮你调高了。
+  新: 尾翼角度可能太低，导致后方产生的下压力不足而造成过度转向，很遗憾，我们已经没办法再帮你调高了。
+
+[term] SetupEngineer/SetupEngineer_Solutions_LowerRearWingForUndersteerNotPossible
+  旧: 很遗憾地，已经无法再减少后方下压力以改善空气动力平衡，并使车子往前，因为目前已经是设置为最低了。
+  新: 很遗憾，，已经无法再减少后方下压力以改善空气动力平衡，并使车子往前，因为目前已经是设置为最低了。
+
+[term] SetupEngineer/SetupEngineer_Solutions_FinalDriveUpMod
+  旧: 好，将最终传动比从 [INITIAL] 提升到 [FINAL]，可让你达到些微高一点的最高时速。
+  新: 好，将最终传动比从 [INITIAL] 提升到 [FINAL]，可让你达到略微高一点的最高时速。
+
+[term] SetupEngineer/SetupEngineer_Solutions_FinalDriveDownModNotPossible
+  旧: 现在应该做的就是降低最终传动比，让你有更佳的加速，帮助你稍微快一点达到最高时速。但很遗憾地你已经达到极限，无法再降低了。
+  新: 现在应该做的就是降低最终传动比，让你有更佳的加速，帮助你稍微快一点达到最高时速。但很遗憾，你已经达到极限，无法再降低了。
+
+[term] SetupEngineer/SetupEngineer_Solutions_FinalDriveUpModNotPossible
+  旧: 在这提升最终传动比会有一些帮助，那会让你达到些微高一点的最高时速。很遗憾地你已经达到极限，无法再提升了。
+  新: 在这提升最终传动比会有一些帮助，那会让你达到略微高一点的最高时速。很遗憾，你已经达到极限，无法再提升了。
+
+[term] SetupEngineer/SetupEngineer_Solutions_SlowAcceleratingFinalDriveDownModNotPossible
+  旧: 现在应该做的就是降低最终传动比，让你有更佳的加速，帮助你稍微快一点达到最高时速。但很遗憾地你已经达到极限，无法再降低了。
+  新: 现在应该做的就是降低最终传动比，让你有更佳的加速，帮助你稍微快一点达到最高时速。但很遗憾，你已经达到极限，无法再降低了。
+
+[term] SetupEngineer/SetupEngineer_Solutions_CarDoesNotTurnStiffenRearBarsModNotPossible
+  旧: 很遗憾地，后防倾杆没办法再调得更硬了。
+  新: 很遗憾，，后防倾杆没办法再调得更硬了。
+
+[term] SetupEngineer/SetupEngineer_Solutions_CarDoesNotTurnRaiseRearHeightModNotPossible
+  旧: 调高后底盘高度会有帮助，但很遗憾地我们已经没办法再调更高了。
+  新: 调高后底盘高度会有帮助，但很遗憾，我们已经没办法再调更高了。
+
+[term] SetupEngineer/SetupEngineer_Solutions_CarDoesNotTurnLowerFrontHeightModNotPossible
+  旧: 我们可以降低前底盘高度，以增加一些前方下压力以对应急转弯，但很遗憾地你已经降到极限了。
+  新: 我们可以降低前底盘高度，以增加一些前方下压力以对应急转弯，但很遗憾，你已经降到极限了。
+
+[term] SetupEngineer/SetupEngineer_Solutions_CarDoesNotTurnStiffenFrontSpringsModNotPossible
+  旧: 我们可以调硬前弹簧系数，以提供更犀利的转向，但很遗憾地你已经调到极限了。
+  新: 我们可以调硬前弹簧系数，以提供更犀利的转向，但很遗憾，你已经调到极限了。
+
+[term] SetupEngineer/SetupEngineer_Solutions_CarTurnsTooMuchStiffenFrontBarsModNotPossible
+  旧: 调硬前防倾杆会是个选择，但很遗憾地你已经到达极限了。
+  新: 调硬前防倾杆会是个选择，但很遗憾，你已经到达极限了。
+
+[term] SetupEngineer/SetupEngineer_Solutions_CarTurnsTooMuchStiffenFrontSpringsModNotPossible
+  旧: 调硬前弹簧系数会是个选择，但很遗憾地你已经到达极限了。
+  新: 调硬前弹簧系数会是个选择，但很遗憾，你已经到达极限了。
+
+[term] SetupEngineer/SetupEngineer_Solutions_CarTurnsTooMuchSoftenRearBarsModNotPossible
+  旧: 调软后防倾杆会是个选择，但很遗憾地你已经到达极限了。
+  新: 调软后防倾杆会是个选择，但很遗憾，你已经到达极限了。
+
+[term] SetupEngineer/SetupEngineer_Solutions_TyreWornStiffenRearSpringsModNotPossible
+  旧: 调硬后弹簧系数可能会有帮助，但很遗憾地你已经到达极限了。
+  新: 调硬后弹簧系数可能会有帮助，但很遗憾，你已经到达极限了。
+
+[term] SetupEngineer/SetupEngineer_Solutions_TyreWornStiffenFrontSpringsModNotPossible
+  旧: 调硬前弹簧系数可能会有帮助，但很遗憾地你已经到达极限了。
+  新: 调硬前弹簧系数可能会有帮助，但很遗憾，你已经到达极限了。
+
+[term] SetupEngineer/SetupEngineer_Solutions_IncreasePressureModNotPossible
+  旧: 增加刹车压力让他们更有力，这会有帮助，但很遗憾地你已经到达极限了。
+  新: 增加刹车压力让他们更有力，这会有帮助，但很遗憾，你已经到达极限了。
+
+[term] SetupEngineer/SetupEngineer_Solutions_StoppingTooEarlyDecreasePressureModNotPossible
+  旧: 降低刹车压力会有帮助，但很遗憾地你已经到达最低了。
+  新: 降低刹车压力会有帮助，但很遗憾，你已经到达最低了。
+
+[term] SetupEngineer/SetupEngineer_Solutions_SlidingWhenBrakingFrontPressureNotPossible
+  旧: 减少刹车压力可轻易解决刹车死锁，但很遗憾地你的设置已经是最低了。
+  新: 减少刹车压力可轻易解决刹车死锁，但很遗憾，你的设置已经是最低了。
+
+[term] SetupEngineer/SetupEngineer_Solutions_SlidingWhenBrakingFrontBiasModNotPossible
+  旧: 将刹车平衡向后调一点，可以减少前煞死锁发生。很遗憾地，你已经到达极限了。
+  新: 将刹车平衡向后调一点，可以减少前煞死锁发生。很遗憾，，你已经到达极限了。
+
+[term] SetupEngineer/SetupEngineer_Solutions_SlidingWhenBrakingRearBiasModNotPossible
+  旧: 将刹车平衡向前调整会有一些帮助，很遗憾地你已经到达极限了。
+  新: 将刹车平衡向前调整会有一些帮助，很遗憾，你已经到达极限了。
+
+[curated] Pit/Pit_Spotter_OneBack7c
+  旧: 还是一个在后。
+  新: 后方还有一辆车。
+
+[curated-miss] 未找到英文原文: That's it. It hung on for a while, but your wheel 
+
+[curated-miss] 未找到英文原文: OK it looks like your best opportunities to overta
+
+[curated-miss] 未找到英文原文: OK, increase the Final Drive Ratio from [INITIAL] 
+
+[curated-miss] 未找到英文原文: Increasing the Final Drive Ratio here would help, 
+
+[curated-miss] 未找到英文原文: OK, so you feel as if your acceleration is too slo
+
+[curated-miss] 未找到英文原文: Stiffening the Front Spring Rates would be an opti

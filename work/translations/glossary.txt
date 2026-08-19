@@ -51,8 +51,8 @@ Steering        → 转向
 Throttle        → 油门
 Brake           → 刹车
 Clutch          → 离合器
-Gear Up         → 升档
-Gear Down       → 降档
+Gear Up         → 升挡
+Gear Down       → 降挡
 Steer Left      → 左转
 Steer Right     → 右转
 Handbrake       → 手刹

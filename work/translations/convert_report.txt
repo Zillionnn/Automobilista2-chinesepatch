@@ -1,0 +1,179 @@
+[existing-adjust] Game/Game_MainMenu_GearDown
+  旧: 降档
+  新: 降挡
+
+[existing-adjust] Game/Game_MainMenu_ShiftType
+  旧: 换档类型
+  新: 换挡类型
+
+[existing-adjust] Game/Game_MainMenu_ShiftTypeUpper
+  旧: 换档类型
+  新: 换挡类型
+
+[existing-adjust] Game/Game_InGameMenu_AutoshiftMode
+  旧: 自动换档模式
+  新: 自动换挡模式
+
+[existing-adjust] Game/Game_InGameMenu_AeroSusp
+  旧: 空力+悬挂
+  新: 空气动力学+悬挂
+
+[existing-adjust] Game/Game_Controls_GearUp
+  旧: 升档
+  新: 升挡
+
+[existing-adjust] Game/Game_Controls_GearDown
+  旧: 降档
+  新: 降挡
+
+[existing-adjust] Game/Game_Controls_Gear1
+  旧: 1档
+  新: 1挡
+
+[existing-adjust] Game/Game_Controls_Gear2
+  旧: 2档
+  新: 2挡
+
+[existing-adjust] Game/Game_Controls_Gear3
+  旧: 3档
+  新: 3挡
+
+[existing-adjust] Game/Game_Controls_Gear4
+  旧: 4档
+  新: 4挡
+
+[existing-adjust] Game/Game_Controls_Gear5
+  旧: 5档
+  新: 5挡
+
+[existing-adjust] Game/Game_Controls_Gear6
+  旧: 6档
+  新: 6挡
+
+[existing-adjust] Game/Game_Controls_Gear7
+  旧: 7档
+  新: 7挡
+
+[existing-adjust] Game/Game_Controls_ReverseGear
+  旧: 倒档
+  新: 倒挡
+
+[existing-adjust] Game/Game_Controls_AutoGears
+  旧: 自动换档
+  新: 自动换挡
+
+[existing-adjust] Game/Game_Controls_Gears
+  旧: 档位
+  新: 挡位
+
+[existing-adjust] Game/Game_Controls_ShiftModeUpOnly
+  旧: 仅升档
+  新: 仅升挡
+
+[existing-adjust] Game/Game_Controls_ShiftModeDownOnly
+  旧: 仅降档
+  新: 仅降挡
+
+[existing-adjust] Game/Game_UI_Inv2
+  旧: 反向换档
+  新: 反向换挡
+
+[existing-adjust] Game/Game_UI_MinimumShiftTime
+  旧: 最小换档时间
+  新: 最小换挡时间
+
+[existing-adjust] Game/Game_UI_InvertedGearingLower
+  旧: 反向换档
+  新: 反向换挡
+
+[existing-adjust] Game/Game_HelpText_MandatoryPitstopMinTyres
+  旧: 设置进站算作有效强制停站时必须更换的最少轮胎数。
+  新: 设置进站算作有效强制进站时必须更换的最少轮胎数。
+
+[existing-adjust] RAC/RAC_Controls_GearUp
+  旧: 升档
+  新: 升挡
+
+[existing-adjust] RAC/RAC_Controls_GearDown
+  旧: 降档
+  新: 降挡
+
+[existing-adjust] RAC/RAC_Controls_Gear1
+  旧: 1档
+  新: 1挡
+
+[existing-adjust] RAC/RAC_Controls_Gear2
+  旧: 2档
+  新: 2挡
+
+[existing-adjust] RAC/RAC_Controls_Gear3
+  旧: 3档
+  新: 3挡
+
+[existing-adjust] RAC/RAC_Controls_Gear4
+  旧: 4档
+  新: 4挡
+
+[existing-adjust] RAC/RAC_Controls_Gear5
+  旧: 5档
+  新: 5挡
+
+[existing-adjust] RAC/RAC_Controls_Gear6
+  旧: 6档
+  新: 6挡
+
+[existing-adjust] RAC/RAC_Controls_Gear7
+  旧: 7档
+  新: 7挡
+
+[existing-adjust] RAC/RAC_Controls_ReverseGear
+  旧: 倒档
+  新: 倒挡
+
+[existing-adjust] RAC/RAC_Controls_AutoGears
+  旧: 自动换档
+  新: 自动换挡
+
+[existing-adjust] RAC/RAC_Controls_Gears
+  旧: 档位
+  新: 挡位
+
+[existing-adjust] RAC/RAC_Controls_Gear8
+  旧: 8档
+  新: 8挡
+
+[existing-adjust] RAC/RAC_Controls_OnboardAutoshiftOff
+  旧: 车载自动换档：关
+  新: 车载自动换挡：关
+
+[existing-adjust] RAC/RAC_Controls_OnboardAutoshiftUpOnly
+  旧: 车载自动换档：仅升档
+  新: 车载自动换挡：仅升挡
+
+[existing-adjust] RAC/RAC_Controls_OnboardAutoshiftDownOnly
+  旧: 车载自动换档：仅降档
+  新: 车载自动换挡：仅降挡
+
+[existing-adjust] RAC/RAC_Controls_OnboardAutoshiftFull
+  旧: 车载自动换档：完全
+  新: 车载自动换挡：完全
+
+[existing-adjust] RAC/RAC_Controls_OnboardAutoshiftModeIncrease
+  旧: 车载自动换档模式增加
+  新: 车载自动换挡模式增加
+
+[existing-adjust] RAC/RAC_Controls_OnboardAutoshiftModeDecrease
+  旧: 车载自动换档模式减少
+  新: 车载自动换挡模式减少
+
+[existing-adjust] RAC/RAC_UI_8th
+  旧: 8档
+  新: 8挡
+
+[existing-adjust] RAC/RAC_UI_GearDown
+  旧: 降档
+  新: 降挡
+
+[extra-adjust] Game/Game_HelpText_LiveTrackPreset
+  旧: 此设置允许您设定赛道表面的起始状态，包括赛道温度、湿度和橡胶附着层。
+  新: 此设置允许您设置赛道表面的起始状态，包括赛道温度、湿度和橡胶附着层。
