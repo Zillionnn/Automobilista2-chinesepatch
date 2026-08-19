@@ -1113,7 +1113,9 @@
     "Game_MainMenu_Foc": "焦点锐化深度",
     "Game_MainMenu_Foc2": "焦点衰减深度",
     "Game_MainMenu_Bhp": "(马力)",
-    "Game_MainMenu_AZ": "A-Z"
+    "Game_MainMenu_AZ": "A-Z",
+    "Game_UI_Bra6": "刹车死区",
+    "Game_UI_Bra5": "刹车辅助"
   },
   "General": {
     "General_TimeDateCurrency_UnitMetreShort": "米",
