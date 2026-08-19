@@ -56,7 +56,8 @@ AMS2 的字体系统在渲染中文字符时显示为 `*`/方块，原因是多�
 ```
 
 > 注：`work/extract/` 为可再生解包产物，已从工程目录清理；
-> `deploy.py` 在 extract 缺失时会自动复用 `work/translated/` 中的已翻译 .tdb 直接回包。
+> `deploy.py` 在 extract 缺失时会自动对 `work/translated/` 中的已翻译 .tdb
+> 重新应用当前 translations.json 后回包（修改译文无需重新解包）。
 
 .tdb 格式关键点：
 - offset 4：field4（meta[0] 的副本，引擎内部字段，必须原样保留）
@@ -96,18 +97,41 @@ AMS2 的字体系统在渲染中文字符时显示为 `*`/方块，原因是多�
 | `tdb_extract.py` | 提取未翻译条目到 JSON |
 | `build_translations.py` | 翻译字典引擎（含术语表） |
 | `tdb_repack.py` | 翻译回填到 .tdb 二进制 |
-| `deploy.py` | 一键端到端部署（extract 缺失时自动复用已翻译 .tdb） |
+| `find_translation.py` | 在 translations.json 中按关键词查找翻译条目 |
+| `deploy.py` | 一键端到端部署（extract 缺失时自动对已翻译 .tdb 重新应用译文） |
 | `verify_deploy.py` | 部署验证 |
 | `verify_v4.py` | 运行时验证（游戏运行中检查字体槽位/钩子） |
 
-历史实验脚本已移入 `tools/_archive/`（保留备查）。
+历史实验脚本已删除（tools/ 仅保留核心工具）。
 
 ## 修改翻译
 
-编辑 `work/translations/translations.json`，然后重新部署：
+**只需改一个文件**：`work/translations/translations.json`（结构：`{"表名": {"键名": "中文译文"}}`），
+然后一条命令重新打包并部署到游戏。
+
+```cmd
+chcp 65001          rem 防止 cmd 中文乱码（PowerShell 可跳过）
+rem 1. 查找要改的条目（按中文/键名关键词）
+python tools\find_translation.py 光头胎
+python tools\find_translation.py TestDay Game
+
+rem 2. 用编辑器打开 work\translations\translations.json，按键名搜索并修改中文值
+
+rem 3. 重新生成 .tdb → 回包 BOOTFLOW.bff → 备份原版并覆盖到游戏目录
+python tools\deploy.py --deploy
 ```
-python deploy.py --deploy
-```
+
+要点：
+
+- `deploy.py` 会对 `work/translated/` 中已有的 .tdb **重新应用**当前 translations.json
+  （幂等：未改动的条目保持原样，只更新你改过的键），无需重新解包 18GB 的 extract。
+- 部署前自动备份游戏目录当前 BOOTFLOW.bff 到 `work/deploy/backup/`（仅首次）。
+- 进游戏验证：Steam 启动参数 `-novr -lang Chinese-Simple`。
+- 分享给别人：把 `work\deploy\BOOTFLOW.bff` 复制到 `deliverables\translated_pak\BOOTFLOW.bff`
+  覆盖旧包（并更新 `deliverables\docs\checksums.txt` 中的 SHA256），重新压缩 deliverables 即可；
+  两个 exe 无需重打（字体补丁与文本无关）。
+- 游戏更新后出现新的 `UNTRANSLATED_xxx` 键（当前包没有该键）时，才需要走完整管线：
+  `kap_all.py` 解包 → `tdb_extract.py` 提取 → 补键到 translations.json → `deploy.py --deploy`。
 
 ## 恢复原版
 
