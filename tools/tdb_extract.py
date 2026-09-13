@@ -18,7 +18,7 @@ for tsv in sorted(glob.glob(os.path.join(tsv_dir, "*.tsv"))):
     if table.startswith("_"):
         continue
     with open(tsv, "r", encoding="utf-8") as f:
-        reader = csv.reader(f, delimiter="\t")
+        reader = csv.reader(f, delimiter="\t", quoting=csv.QUOTE_NONE)
         header = next(reader)
         zh_idx = header.index("Chinese-Simple") if "Chinese-Simple" in header else -1
         en_idx = header.index("English") if "English" in header else 2
@@ -55,7 +55,7 @@ for tsv in sorted(glob.glob(os.path.join(tsv_dir, "*.tsv"))):
     if table.startswith("_"):
         continue
     with open(tsv, "r", encoding="utf-8") as f:
-        reader = csv.reader(f, delimiter="\t")
+        reader = csv.reader(f, delimiter="\t", quoting=csv.QUOTE_NONE)
         header = next(reader)
         zh_idx = header.index("Chinese-Simple") if "Chinese-Simple" in header else -1
         en_idx = header.index("English") if "English" in header else 2

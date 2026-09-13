@@ -1125,7 +1125,7 @@
     "Game_MainMenu_HostSettings": "房主设置",
     "Game_MainMenu_ToggleEventInfo": "切换赛事信息",
     "Game_MainMenu_ChooseATeam": "选择车队",
-    "Game_MainMenu_ResetToDefaults": "恢复默认",
+    "Game_MainMenu_ResetToDefaults": "还原默认",
     "Game_MainMenu_OpponentNumber1": "对手数量",
     "Game_MainMenu_OpponentSkill": "对手技术等级",
     "Game_MainMenu_Beginner": "初学者",
@@ -1734,7 +1734,7 @@
     "Game_MainMenu_Gar": "车库",
     "Game_MainMenu_Make": "型号",
     "Game_MainMenu_Model2": "模块",
-    "Game_MainMenu_ResetToDefaults2": "恢复默认",
+    "Game_MainMenu_ResetToDefaults2": "还原默认",
     "Game_MainMenu_Presents": "巨献",
     "Game_MainMenu_PoweredBy": "技术支持",
     "Game_MainMenu_AnyProgressWillBeLos": "将会失去所有进度。",
@@ -7054,7 +7054,14 @@
     "Game_HelpText_FFBType": "- 自定义：仅提供转向轴方向的转向力矩，无路面振动、阻尼和路肩效果。\n- 沉浸：提供更沉浸的体验，包含路面效果和路肩振动。",
     "Game_HelpText_OptionGameRandomFailures": "随机故障决定您的车辆（包括 AI）在比赛中是否会发生随机机械故障。",
     "Game_HelpText_RulesRegulationsLimitedSetup": "封闭区规则：车辆在排位赛中首次驶出维修区后，其设置在正赛开始前无法更改。",
-    "Game_HelpText_ParallaxOcclusionQuality": "视差遮蔽贴图为平坦物体增加深度和光照效果，而不增加几何复杂度。更高的设置以性能为代价提升视觉质量。"
+    "Game_HelpText_ParallaxOcclusionQuality": "视差遮蔽贴图为平坦物体增加深度和光照效果，而不增加几何复杂度。更高的设置以性能为代价提升视觉质量。",
+    "Game_MainMenu_StintLimit": "出场次数限制",
+    "Game_MainMenu_LapLimit": "圈数限制",
+    "Game_InGameMenu_WarnStintLimit": "本次会话你总共有 [NUMSTINTS] 次出场、每次 [NUMLAPS] 圈的排位赛时间。",
+    "Game_InGameMenu_WarnStintLimitParcFerme": "本次排位赛中你有 [NUMSTINTS] 次出场、每次 [NUMLAPS] 圈；完成排位后的车辆设置将作为正赛的起步设置。",
+    "Game_InGameMenu_WarnStintLimitParcFermeWithFuel": "本次排位赛中你有 [NUMSTINTS] 次出场、每次 [NUMLAPS] 圈；完成排位后的车辆设置和燃油量将作为正赛的起步设置。",
+    "Game_HelpText_LapLimit": "圈数限制设定每位车手在本次会话中最多可完成的圈数（含出场圈和回场圈）。启用出场次数限制后，圈数限制将适用于每次出场，而非整个会话。任何时候超出圈数限制都将被取消本次会话资格。",
+    "Game_HelpText_StintLimit": "出场次数限制设定车手在被锁定在车库前，最多可以离开维修区做圈速的次数。通过维修区通道或返回车库即可开始新的一次出场。任何时候超出出场次数限制都将被取消本次会话资格。"
   },
   "General": {
     "General_GraphicsOptions_Bilinear": "双线性",
@@ -8027,7 +8034,8 @@
     "General_MotorsportPresets_FormulaDirt": "Formula Dirt",
     "General_MotorsportPresets_StockUSAGen1": "Stock USA Gen1",
     "General_MotorsportPresets_StockUSAGen2": "Stock USA Gen2",
-    "General_MotorsportPresets_StockUSAGen3": "Stock USA Gen3"
+    "General_MotorsportPresets_StockUSAGen3": "Stock USA Gen3",
+    "General_TrackDetails_Velopark2017STT": "Velopark STT"
   },
   "Pit": {
     "Pit_Engineer_HazardAheadSpeechB1": "黄旗，注意，黄旗",
@@ -11915,7 +11923,10 @@
     "RAC_UI_SteeringLeft": "左转",
     "RAC_HUD_PenaltySmokeViolationText": "轮胎烟雾违规",
     "RAC_HUD_PenaltyClimbingInTheGateText": "爬墙违规",
-    "RAC_HUD_WarningFormLapCollision": "暖胎圈碰撞警告"
+    "RAC_HUD_WarningFormLapCollision": "暖胎圈碰撞警告",
+    "RAC_Controls_TowToPit": "拖回维修区",
+    "RAC_UI_Stint": "出场次数",
+    "RAC_UI_Stints": "出场次数"
   },
   "Career": {
     "Career_SessionNames_FreePractice": "自由练习",

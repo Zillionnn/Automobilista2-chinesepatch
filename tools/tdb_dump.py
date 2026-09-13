@@ -71,7 +71,7 @@ def main():
             for i, k in enumerate(keys):
                 row = [subs[i // (len(keys) // len(subs))] if len(subs) and len(keys) % len(subs) == 0 else "", k]
                 for ln in langs_order:
-                    row.append(langs[ln][i].replace("\t", " ").replace("\n", " "))
+                    row.append(langs[ln][i].replace("\t", " ").replace("\n", " ").replace("\r", " "))
                 f.write("\t".join(row) + "\n")
         print(f"{tname}: keys={len(keys)} langs={counts} untranslated_ZH={untr}")
     with open(os.path.join(OUT, "_summary.txt"), "w", encoding="utf-8") as f:

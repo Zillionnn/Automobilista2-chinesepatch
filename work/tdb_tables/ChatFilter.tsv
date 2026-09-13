@@ -8,7 +8,7 @@ sub	key	English	French	Italian	German	Spanish	Russian	Polish	Japanese	Brazilian-
 	ChatFilter_Allowed_cocky	cocky	veronique	incazzare	bloed	pollazo	шахуй	członek	cocky	caralhudo	pollazo	veronique	cocky	cocky	cocky
 	ChatFilter_Allowed_cocktail	cocktail	cocktail	kazzata	tunte	lefa	сплохуй	członki	cocktail	chupa pau	lefa	cocktail	cocktail	cocktail	cocktail
 	ChatFilter_Allowed_cocker	cocker	conrad	cazzata	stricher	cabrón	страхуй	fiutek	cocker	chupador	cabrón	conrad	cocker	cocker	cocker
-	ChatFilter_Allowed_cockear	cockear	culte	kazzo	zuhaelter	orejotas	подстрахуй застрахуй	stulejarz	cockear	maludo	orejotas	culte	cockear	cockear	cockear
+	ChatFilter_Allowed_cockear	cockear	culte	kazzo	zuhaelter	orejotas	подстрахуй  застрахуй	stulejarz	cockear	maludo	orejotas	culte	cockear	cockear	cockear
 	ChatFilter_Denied_cunt	cunt	salope	fica	Fotze	chocho	пизда	pizda	cunt	puta	chocho	salope	cunt	cunt	cunt
 	ChatFilter_Denied_fuck	fuck	merde	fanculo	Fuck	joder	ебать	kurwa	fuck	foda	joder	merde	fuck	fuck	fuck
 	ChatFilter_Denied_arse	arse	cul	culo	arsch	idiota	жопа	dupa	arse	cu	idiota	cul	arse	arse	arse
@@ -81,8 +81,8 @@ sub	key	English	French	Italian	German	Spanish	Russian	Polish	Japanese	Brazilian-
 	ChatFilter_Substitutions_cnucun	cnu=cun	cnu=cun	cnu=cun	cnu=cun	cnu=cun	пезд=пизд	cnu=cun	cnu=cun	cnu=cun	cnu=cun	cnu=cun	cnu=cun	cnu=cun	cnu=cun
 	ChatFilter_Substitutions_k	к=k	к=k	к=k	к=k	к=k	к=k	к=k	к=k	к=k	к=k	к=k	к=k	к=k	к=k
 	ChatFilter_Substitutions_7t	7=t	7=t	7=t	7=t	7=t	7=т	7=t	7=t	7=t	7=t	7=t	7=t	7=t	7=t
-	ChatFilter_Substitutions_e	ё=е	ё=е	ё=е	ё=е	ё=е	ё=е e=е	ё=е	ё=е	ё=е	ё=е	ё=е	ё=е	ё=е	ё=е
-	ChatFilter_Substitutions_0o	0=o	0=o	0=o	0=o	0=o	0=о o=о	0=o	0=o	0=o	0=o	0=o	0=o	0=o	0=o
+	ChatFilter_Substitutions_e	ё=е	ё=е	ё=е	ё=е	ё=е	ё=е  e=е	ё=е	ё=е	ё=е	ё=е	ё=е	ё=е	ё=е	ё=е
+	ChatFilter_Substitutions_0o	0=o	0=o	0=o	0=o	0=o	0=о  o=о	0=o	0=o	0=o	0=o	0=o	0=o	0=o	0=o
 	ChatFilter_Substitutions_i	í=i	í=i	í=i	í=i	í=i	í=i	í=i	í=i	í=i	í=i	í=i	í=i	í=i	í=i
 	ChatFilter_Substitutions_o	óo	óo	óo	óo	óo	ó=о	ó=o	óo	óo	óo	óo	óo	óo	óo
 	ChatFilter_Substitutions_e2	ê=е	ê=е	ê=е	ê=е	ê=е	ê=е	ê=е	ê=е	ê=е	ê=е	ê=е	ê=е	ê=е	ê=е
