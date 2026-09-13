@@ -1,0 +1,19 @@
+{
+  "Game": {
+    "Game_MainMenu_StintLimit": "出场次数限制",
+    "Game_MainMenu_LapLimit": "圈数限制",
+    "Game_InGameMenu_WarnStintLimit": "本次会话你总共有 [NUMSTINTS] 次出场、每次 [NUMLAPS] 圈的排位赛时间。",
+    "Game_InGameMenu_WarnStintLimitParcFerme": "本次排位赛中你有 [NUMSTINTS] 次出场、每次 [NUMLAPS] 圈；完成排位后的车辆设置将作为正赛的起步设置。",
+    "Game_InGameMenu_WarnStintLimitParcFermeWithFuel": "本次排位赛中你有 [NUMSTINTS] 次出场、每次 [NUMLAPS] 圈；完成排位后的车辆设置和燃油量将作为正赛的起步设置。",
+    "Game_HelpText_LapLimit": "圈数限制设定每位车手在本次会话中最多可完成的圈数（含出场圈和回场圈）。启用出场次数限制后，圈数限制将适用于每次出场，而非整个会话。任何时候超出圈数限制都将被取消本次会话资格。",
+    "Game_HelpText_StintLimit": "出场次数限制设定车手在被锁定在车库前，最多可以离开维修区做圈速的次数。通过维修区通道或返回车库即可开始新的一次出场。任何时候超出出场次数限制都将被取消本次会话资格。"
+  },
+  "General": {
+    "General_TrackDetails_Velopark2017STT": "Velopark STT"
+  },
+  "RAC": {
+    "RAC_Controls_TowToPit": "拖回维修区",
+    "RAC_UI_Stint": "出场次数",
+    "RAC_UI_Stints": "出场次数"
+  }
+}

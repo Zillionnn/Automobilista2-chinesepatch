@@ -661,8 +661,20 @@
   },
   {
     "table": "Game",
+    "key": "Game_MainMenu_OpponentsHigherThanLiveries",
+    "english": "The number of opponents is higher than the number of available liveries.     This is allowed but will result in some liveries being used multiple times.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
     "key": "Game_MainMenu_MaxAvailable",
     "english": "MAX AVAILABLE",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_CustomUppercase",
+    "english": "CUSTOM",
     "chinese": ""
   },
   {
@@ -1015,6 +1027,12 @@
   },
   {
     "table": "Game",
+    "key": "Game_MainMenu_PitCrewDetailLower",
+    "english": "Pit Crew Detail",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
     "key": "Game_MainMenu_TrackDetailLower",
     "english": "Track Detail",
     "chinese": ""
@@ -1327,6 +1345,18 @@
   },
   {
     "table": "Game",
+    "key": "Game_MainMenu_StintLimit",
+    "english": "Stint Limit",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MainMenu_LapLimit",
+    "english": "Lap Limit",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
     "key": "Game_Buttons_TestDay",
     "english": "TEST DAY",
     "chinese": ""
@@ -1419,6 +1449,24 @@
     "table": "Game",
     "key": "Game_MultiplayerMenus_CouldntFindServer",
     "english": "Couldn't find server: [SERVERHOSTNAME]",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MultiplayerMenus_FoundServerWaitingToJoin",
+    "english": "Found server: [SERVERNAME]   but it is not currently joinable.    Waiting...",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MultiplayerMenus_FoundServerButFull",
+    "english": "Found server: [SERVERNAME]  but it is currently full.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_MultiplayerMenus_FoundServerJoining",
+    "english": "Found server: [SERVERNAME]    Joining...",
     "chinese": ""
   },
   {
@@ -1543,8 +1591,68 @@
   },
   {
     "table": "Game",
+    "key": "Game_InGameMenu_WarnShootoutParcFermeWithFuel",
+    "english": "You have only 1 hot lap to qualify in this session; the car setup and fuel load you complete the session with will be what you will start the race with.    Are you ready to leave the garage?",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_WarnShootoutParcFerme",
+    "english": "You have only 1 hot lap to qualify in this session; the car setup you complete the session with will be what you will start the race with.    Are you ready to leave the garage?",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_WarnShootout",
+    "english": "You have only 1 hot lap to qualify in this session.    Are you ready to leave the garage?",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_WarnLapLimitParcFerme",
+    "english": "You have a total of [NUMLAPS] laps to qualify in this session; the car setup you have afterwards will be what you start the race with.    Are you ready to leave the garage?",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_WarnLapLimitParcFermeWithFuel",
+    "english": "You have a total of [NUMLAPS] laps to qualify in this session; the car setup and fuel load you have afterwards will be what you start the race with.    Are you ready to leave the garage?",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
     "key": "Game_InGameMenu_WarnLapLimit",
     "english": "You have a total of [NUMLAPS] laps to qualify in this session.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_WarnParcFerme",
+    "english": "The car setup you have after this session will be what you start the race with.    Are you ready to leave the garage?",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_WarnParcFermeWithFuel",
+    "english": "The car setup and fuel load you have after this session will be what you start the race with.    Are you ready to leave the garage?",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_WarnStintLimit",
+    "english": "You have a total of [NUMSTINTS] stints of [NUMLAPS] laps to qualify in this session.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_WarnStintLimitParcFerme",
+    "english": "You have a total of [NUMSTINTS] stints of [NUMLAPS] laps to qualify in this session; the car setup you have afterwards will be what you start the race with.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_InGameMenu_WarnStintLimitParcFermeWithFuel",
+    "english": "You have a total of [NUMSTINTS] stints of [NUMLAPS] laps to qualify in this session; the car setup and fuel load you have afterwards will be what you start the race with.",
     "chinese": ""
   },
   {
@@ -3979,6 +4087,12 @@
   },
   {
     "table": "Game",
+    "key": "Game_UI_TestDay1",
+    "english": "Test Day",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
     "key": "Game_UI_TimeTrial1",
     "english": "TIME TRIAL.",
     "chinese": ""
@@ -4963,6 +5077,12 @@
   },
   {
     "table": "Game",
+    "key": "Game_UI_MenuMusicVolumeLower",
+    "english": "Menu Music Volume",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
     "key": "Game_UI_PlayerEngineVolumeLower",
     "english": "Player Engine Volume",
     "chinese": ""
@@ -4995,6 +5115,12 @@
     "table": "Game",
     "key": "Game_UI_EnvironmentVolumeLower",
     "english": "Environment Volume",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_UI_SoundFXVolumeLower",
+    "english": "Sound FX Volume",
     "chinese": ""
   },
   {
@@ -5335,6 +5461,12 @@
   },
   {
     "table": "Game",
+    "key": "Game_UI_ControlSchemeLower",
+    "english": "Control Scheme",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
     "key": "Game_UI_UserControlPresetLower",
     "english": "User Control Preset",
     "chinese": ""
@@ -5666,7 +5798,7 @@
   {
     "table": "Game",
     "key": "Game_UI_OpponentThrottleSkillLower",
-    "english": "AI Throttle Skill Scalar",
+    "english": "AI Traction Skill Scalar",
     "chinese": ""
   },
   {
@@ -5797,8 +5929,44 @@
   },
   {
     "table": "Game",
+    "key": "Game_HelpText_OpponentFieldType",
+    "english": "The class of opponents you will be competing against:    - Identical Opponents: AI competitors race in the same vehicle that you have selected.    - Same Class: AI competitors race in the same vehicle class as the vehicle that you have selected.    - Multi-Class: Allows you to configure races with a maximum of 10 vehicle classes. The first slot always matches the vehicle class of the car you have selected in Vehicle Selection, but you can add 9 additional classes for the AI to compete with.  ",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_OptionsCameraHeadMovement",
+    "english": "Increases or decrease the level of smoothing and filtering of bumps as the cockpit camera tracks the virtual horizon. Higher values filter more bumps and result in a slower movement towards the horizon when the car pitches/rolls.    With 'Use Legacy Head Movement' mode enabled a setting of 0 fixes cockpit cameras firmly to the car. At higher values the amount of camera movement relative to the car increases.    NOTE: This setting affects camera movement induced by the cars movement only. G-force effects are controlled separately below.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
     "key": "Game_HelpText_AllowableTrackCutPenalties",
     "english": "The number of track limit warnings that will be issued to a driver before a drive-through or time penalty is given.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_NumberOfOpponentsType",
+    "english": "When set to \"MAX AVAILABLE\" the number of opponents will be automatically set to the maximum supported value without duplicating liveries. For a race of identical vehicles with 10 available liveries the value would be 9.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_TuningSetupTractionControlSlipReversed",
+    "english": "This controls how aggressive the traction control system is.    Higher values allow less wheel slip before the system will cut throttle to prvent wheelspin. This can be beneficial in low grip situations such as a wet track, or when tyre wear must be managed closely.    Low values allow more slip, and are good for high grip situations: dry track, slick tyres, optimal weather.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_LiveTrackPreset",
+    "english": "This setting allows you to set the starting state of the track surface including if it is wet or already rubbered in.    If set to 'Default Progressing' this session will take the rubber state from the previous session (or the 'Medium' preset if it is the first session of the weekend). Any other setting will apply that preset at the session start regardless of previous session end states.    eg. To start a weekend with light rubber then progress each session based on track running set Practice='Light Rubber', Qualifying='Default Progressing', and Race='Default Progressing'    Wet presets are unavailable when using real weather as the starting state is determined by the real weather prior to the event.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_OptionsGameTuningEditUsesRanges",
+    "english": "When set to 'Units', suspension settings on the vehicle setup screen will be displayed as a range of steps from the minimum to maximum available setting.    When set to 'Rates' they will be displayed as their actual rates.    In both cases the total range and step between settings are equal.",
     "chinese": ""
   },
   {
@@ -5823,6 +5991,24 @@
     "table": "Game",
     "key": "Game_HelpText_ICMAutoCloseDelay",
     "english": "the ICM Auto-Close option controls the length of time after the last user input that the In Car Management menu will automatically close",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_ICMResetStrategy",
+    "english": "Dertermines whether the In Car Management menu maintains the current menu position or is reset when the menu closes.    None : The current page and menu selection will be maintained.    Default Option: The currently active page will be maintained but the default menu option will be selected.    Default Page: Both the page and menu option will be reset to default.    (Delayed): These options do the same as their non-delayed counterparts but the reset will take place 30 seconds after the menu closes.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_TuningSetupSteeringLock",
+    "english": "The Steering Lock is the maximum number of degrees of rotation of the front wheels.     A lower Steering Lock value increases the amount of steering wheel movement needed per degree of front wheel rotation,  allowing for finer steering control. Increasing the Steering Lock value will give more responsive steering, decreasing the amount of input needed, and making the car more sensitive to steering input.    Care should be taken to ensure there is enough available lock to negotiate the tightest corner on the circuit at racing speed.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_ControlsAssignment",
+    "english": "Control Assignment:    Click or activate the row of the assignment you wish to edit to start the binding process.    To bind a button, press and release the button when prompted.    To bind an axis such as a pedal or wheel, when prompted, move the axis through at least 50% of its range then return to the zero or centre position.",
     "chinese": ""
   },
   {
@@ -5853,6 +6039,12 @@
     "table": "Game",
     "key": "Game_HelpText_DurationPlusOneLap",
     "english": "When enabled timed races will have one extra complete lap after the timer ends.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_TrackMapMode",
+    "english": "Sets the mode of the HUD track map.    The 'Static' mode has a fixed map showing the whole track.    The 'Dynamic' mode offers a zoomed map oriented to the players direction of travel.",
     "chinese": ""
   },
   {
@@ -5888,19 +6080,25 @@
   {
     "table": "Game",
     "key": "Game_HelpText_OpponentThrottleSkill",
-    "english": "This setting scales the corner exit traction points and how fast the AI applies full throttle from that point; increase it if you find the AI is losing time in corner exits, decrease if you find their traction is too good.",
+    "english": "Scales AI performance in traction zones relative to the main AI Skill setting; Adjust if you find the AI to be too fast or slow out of corners.",
     "chinese": ""
   },
   {
     "table": "Game",
     "key": "Game_HelpText_OpponentBrakeSkill",
-    "english": "This setting scales the corner brake points and how much grip the AI has under braking to apply brakes later and harder; increase it if you find the AI is losing time under braking, decrease if you find they are braking too late.",
+    "english": "Scales AI performance under braking relative to the main AI Skill setting; adjust if you find the AI to be going too fast into corners.",
     "chinese": ""
   },
   {
     "table": "Game",
     "key": "Game_HelpText_OptionsAudioOpponentSamples",
     "english": "Adjusts the performance cost of opponent  and environment  audio playback by limiting the maximum number of samples which can be played simultaneously.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_FFBType",
+    "english": "- Custom offers steering torque around steering axis with no road vibration, damping or friction or allows you to fully configured FFB settings within ffb_custom_settings.txt file located in Documents/Automobilista 2/    - Default adds damping, friction, limited vibrations with a small amount of chassis feedback    - Default+ adds some understeer drop-off, more chassis feedback for feeling the cars weight transfer",
     "chinese": ""
   },
   {
@@ -5930,7 +6128,7 @@
   {
     "table": "Game",
     "key": "Game_HelpText_OpponentWetSkill",
-    "english": "This scales the AI performance in wet conditions relative to the main AI Skill setting; adjust this scalar if you find the AI to be too fast or too slow relative to its dry performance.",
+    "english": "Scales AI performance in wet conditions relative to the main AI Skill setting; adjust if the AI is too fast or slow compared to its dry performance",
     "chinese": ""
   },
   {
@@ -5966,13 +6164,19 @@
   {
     "table": "Game",
     "key": "Game_HelpText_PrivateQualifyingSession",
-    "english": "When Private Session is enabled each driver will compete in isolation with no other vehicles on track as they would in a superpole or oval-style qualifying.",
+    "english": "When Private Session is set to 'Solo', each driver will compete in isolation with no other vehicles on track as they would in a superpole or oval-style qualifying.     When set to 'Same Class' each class competes in isolation from vehicles of other classes.",
     "chinese": ""
   },
   {
     "table": "Game",
     "key": "Game_HelpText_OptionsGameDamageScale",
     "english": "Damage Scale determines the amount of damage your vehicle receives when making contact with a opponents vehicle or trackside object.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_OptionGameRandomFailures",
+    "english": "Random Failures determines whether your vehicle (including Ai) is prone to random failures during a session or not. There are 4 options to choose from:    - Off: By turning off this option, you will prevent random failures from being active during a session.  - x2, x3, x4, x5, x10: These options accelerate random failures by the multiplying number.  - Authentic: By setting this option, random failures will occur at a rate similar to real life.  - Sync To Race: By setting this option, the amount of random failures will occur at a rate that is believable to the race length set.",
     "chinese": ""
   },
   {
@@ -6019,8 +6223,26 @@
   },
   {
     "table": "Game",
-    "key": "Game_CarClasses_Trofeo2005",
-    "english": "Maserati Trofeo 2005",
+    "key": "Game_HelpText_RulesRegulationsLimitedSetup",
+    "english": "Parc Ferme: Once a vehicle leaves the pitlane for the first time in a qualifying session, its setup is locked from further changes with the exception of tyre compound and some limited options to allow balance changes.    Default Setup: Forces the use or default setups and limits changes to tyre compound, fuel levels, and a small selection of changes to aid tuning for different controllers. Changes can be made at any time.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_ParallaxOcclusionQuality",
+    "english": "Parallax Occlusion Mapping adds depth and lighting to flat objects without increasing model complexity    Low: Enables Parallax Occlusion Mapping  Medium: Increases the quality and enables hard self-shadowing  High: Further increases the quality and enables soft self-shadowing",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_LapLimit",
+    "english": "The Lap Limit setting defines the maximum number of laps each driver may complete in this session including in/out laps.    With a Stint Limit enabled, the Lap Limit applies to each stint rather than the session as a whole.    Exceeding the Lap Limit at any time will result in disqualification from the session.",
+    "chinese": ""
+  },
+  {
+    "table": "Game",
+    "key": "Game_HelpText_StintLimit",
+    "english": "The Stint Limit sets the maximum number of times a driver may leave the pits to set laps on track before they are locked to the garage.    New stints can be started by passing through the pit lane or returning to the garage.    Exceeding the Stint Limit at any time will result in disqualification from the session.",
     "chinese": ""
   },
   {
@@ -7105,7 +7327,7 @@
   },
   {
     "table": "General",
-    "key": "General_TrackDetails_VeloparkSTT",
+    "key": "General_TrackDetails_Velopark2017STT",
     "english": "Velopark STT",
     "chinese": ""
   },
@@ -7219,6 +7441,42 @@
   },
   {
     "table": "Platform",
+    "key": "Platform_ControllerPresets_FanatecDD1Combine",
+    "english": "Fanatec DD1 Formula V2 Rim  Combined Pedals",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_ControllerPresets_FanatecDD1PS4Combine",
+    "english": "Fanatec DD1 PS4  Formula V2 Rim  Combined Pedals",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_ControllerPresets_FanatecDD1Seperate",
+    "english": "Fanatec DD1 Formula V2 Rim  Seperate Pedals",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_ControllerPresets_FanatecDD1PS4Seperate",
+    "english": "Fanatec DD1 PS4  Formula V2 Rim  Seperate Pedals",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_ControllerPresets_FanatecDD2Combine",
+    "english": "Fanatec DD2 Formula V2 Rim  Combined Pedals",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_ControllerPresets_FanatecDD2Seperate",
+    "english": "Fanatec DD2 Formula V2 Rim  Seperate Pedals",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
     "key": "Platform_ControllerPresets_SimuCube1",
     "english": "Simucube 1",
     "chinese": ""
@@ -7291,6 +7549,18 @@
   },
   {
     "table": "Platform",
+    "key": "Platform_ControllerPresets_DDGenericCombined",
+    "english": "Direct Drive Generic  Combined Pedals",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
+    "key": "Platform_ControllerPresets_DDGenericSeparate",
+    "english": "Direct Drive Generic  Separate Pedals",
+    "chinese": ""
+  },
+  {
+    "table": "Platform",
     "key": "Platform_Input_DDGeneric",
     "english": "Direct Drive Generic",
     "chinese": ""
@@ -7347,6 +7617,18 @@
     "table": "RAC",
     "key": "RAC_HUD_ThousandSeparator",
     "english": "UNTRANSLATED (3798328613): RAC_HUD_ThousandSeparator",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_HUD_RaceComplete",
+    "english": "RACE COMPLETE",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_HUD_SectorSplitTimesMessages",
+    "english": "SPLIT TIMES",
     "chinese": ""
   },
   {
@@ -8059,6 +8341,12 @@
   },
   {
     "table": "RAC",
+    "key": "RAC_Controls_TowToPit",
+    "english": "Tow To Pit",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
     "key": "RAC_UI_8th",
     "english": "Gear 8",
     "chinese": ""
@@ -8097,6 +8385,12 @@
     "table": "RAC",
     "key": "RAC_UI_GearDown",
     "english": "GEAR DOWN",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_SteeringLeft",
+    "english": "Steer Left",
     "chinese": ""
   },
   {
@@ -8187,6 +8481,18 @@
     "table": "RAC",
     "key": "RAC_UI_MaxLapsRun",
     "english": "Max Laps/Run",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_Stint",
+    "english": "Stint",
+    "chinese": ""
+  },
+  {
+    "table": "RAC",
+    "key": "RAC_UI_Stints",
+    "english": "Stints",
     "chinese": ""
   },
   {

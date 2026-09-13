@@ -10,19 +10,22 @@ Diagnosis (from crash dumps AMS2.exe.*.dmp, e.g. 0xCB2E57CF NX fault):
 
 V4 layout (all new code goes into an appended RWX section ".zh2" so it
 can never overlap anything):
-  .zh2 @ VA 0x142F09000 (RVA 0x2F09000), RawOff after file end, 0x400 B:
+  .zh2 @ VA 0x142F13000 (RVA 0x2F13000), RawOff after file end, 0x800 B:
     +0x000  shared routine (87 B): GetGlyph-fallback + E85C10-fallback
     +0x080  stub (49 B): fb-store capture -> tier slots
-    +0x0C0  slots[3] (24 B): s12 / s17 / s31 asian font pointers
-  .text tail cave (0x1E4707C, 303 B): P4 variant-tolerant strcmp helper
-  .text VSize raised to RawSize so cave bytes stay mapped.
+    +0x100  P4 variant-tolerant strcmp helper (303 B)
+    +0x300  slots[3] (24 B): s12 / s17 / s31 asian font pointers
 
-Hooks:
-  0x140E857C1  glyph-fb   (74 0A 0F B7 D7) -> E9 shared        [only when +0x358==0]
-  0x140E85C4E  E85C10 fb  (48 85 C9 74 12) -> E9 shared        [rcx=[rbx+0x358] preset]
-  0x140F03272  fb-store   (49 89 85 58 03 00 00) -> E9 stub + 2 NOP
-  0x140F02291  P4 cache strcmp   -> E8 helper
-  0x140F0317F  P4 slot strcmp    -> E8 helper
+  2026-09 游戏更新后：新版 .text 尾部只剩 244 B 零填充，放不下 303 B 的
+  P4 helper，因此 P4 也移入 .zh2 段（不再使用 .text tail cave，也不再需要
+  .text VSize 修补）。所有代码地址 = 旧版地址 + 0x5780。
+
+Hooks (新版地址):
+  0x140E8AF41  glyph-fb   (74 0A 0F B7 D7) -> E9 shared        [only when +0x358==0]
+  0x140E8B3CE  E85C10 fb  (48 85 C9 74 12) -> E9 shared        [rcx=[rbx+0x358] preset]
+  0x140F089F2  fb-store   (49 89 85 58 03 00 00) -> E9 stub + 2 NOP
+  0x140F07A11  P4 cache strcmp   -> E8 helper
+  0x140F088FF  P4 slot strcmp    -> E8 helper
 
 Shared routine (entered with rbx=font, rcx=[rbx+0x358], rdi=glyphcode
 (glyph entry, bit31 clear) or rdi=glyph-record (measure entry, bit31 set)):
@@ -33,12 +36,12 @@ done:
   test rcx,rcx ; jz ret0
   test edi,edi ; js measure        ; dispatch on record-vs-code bit31
   glyph: movzx edx,di ; call GetGlyph ; jmp GetGlyph-epilogue
-  measure: jmp 0x140E85C53         ; original tail-recursion into E85C10
-  ret0:  jmp 0x140E857CD / 0x140E85C65 depending on entry
+  measure: jmp 0x140E8B3D3         ; original tail-recursion into E85C10
+  ret0:  jmp 0x140E8AF4D / 0x140E8B3E5 depending on entry
 
 Stub (r13=slot font, rax=asian font just loaded by fallback):
   mov [r13+0x358],rax              ; original instruction (kept)
-  tier = f([r13+0x44]);  slots[tier] = rax ; jmp 0x140F03279 (lock inc)
+  tier = f([r13+0x44]);  slots[tier] = rax ; jmp 0x140F089F9 (lock inc)
 
 Run with the game CLOSED.
 """
@@ -46,32 +49,33 @@ import os
 import struct
 
 EXE = r"F:\SteamLibrary\steamapps\common\Automobilista 2\AMS2.exe"
-BAK = EXE + ".bak-v4-orig"
+# 备份名按未打补丁的文件大小区分版本，游戏更新后不会覆盖老版本的原版备份
+BAK = "%s.bak-v4-orig-%d" % (EXE, os.path.getsize(EXE))
 
 # ---------- constants ----------
-P4_CAVE_FILE = 0x1E4707C
-P4_CAVE_VA = 0x141E47A7C
-P4_CALL1_VA = 0x140F02291
-P4_CALL2_VA = 0x140F0317F
+# 游戏版本：2026-09-12 Steam 更新版（AMS2.exe 43,185,224 字节）
+# 新地址 = 旧版 V4 地址 + 0x5780（引擎代码整体后移；GetGlyph/E85C10 函数
+# 入口 48 字节窗口在新版中逐字节一致，glyph-fb / fb-store 指纹唯一命中）
+P4_CALL1_VA = 0x140F07A11
+P4_CALL2_VA = 0x140F088FF
 
-ZH2_RVA = 0x2F09000
+ZH2_RVA = 0x2F13000
 ZH2_VA = 0x140000000 + ZH2_RVA
-ZH2_RAWSIZE = 0x400
+ZH2_RAWSIZE = 0x800
 SHARED_VA = ZH2_VA + 0x000
 STUB_VA = ZH2_VA + 0x080
-SLOTS_VA = ZH2_VA + 0x0C0
+P4_VA = ZH2_VA + 0x100
+SLOTS_VA = ZH2_VA + 0x300
 
-GLYPH_FB = 0x140E857C1
-E85C4E = 0x140E85C4E
-FB_STORE = 0x140F03272
-FB_NEXT = 0x140F03279
-GETGLYPH = 0x140E85740
-GLYPH_TAIL = 0x140E857CF
-GLYPH_RET0 = 0x140E857CD
-E85C10_RECURSE = 0x140E85C53
-E85C10_RET0 = 0x140E85C65
-
-TEXT_VSIZE_NEW = 0x1E46C00          # = RawSize (VSize fix)
+GLYPH_FB = 0x140E8AF41
+E85C4E = 0x140E8B3CE
+FB_STORE = 0x140F089F2
+FB_NEXT = 0x140F089F9
+GETGLYPH = 0x140E8AEC0
+GLYPH_TAIL = 0x140E8AF4F
+GLYPH_RET0 = 0x140E8AF4D
+E85C10_RECURSE = 0x140E8B3D3
+E85C10_RET0 = 0x140E8B3E5
 
 
 def rel_jmp(to_va, from_va):
@@ -132,13 +136,13 @@ def build_shared():
     o += rel_call(GETGLYPH, ZH2_VA + len(o))            # 74 call GetGlyph
     o += rel_jmp(GLYPH_TAIL, ZH2_VA + len(o))           # 79 jmp epilogue
     doM = len(o)                                        # 84
-    o += rel_jmp(E85C10_RECURSE, ZH2_VA + len(o))       # 84 jmp 0x140E85C53
+    o += rel_jmp(E85C10_RECURSE, ZH2_VA + len(o))       # 84 jmp 0x140E8B3D3
     ret0 = len(o)                                       # 89
     o += bytes.fromhex("85 FF")                         # 89 test edi,edi
     js2 = len(o); o += b"\x78\x00"                      # 91 js ret0M
-    o += rel_jmp(GLYPH_RET0, ZH2_VA + len(o))           # 93 jmp 0x140E857CD
+    o += rel_jmp(GLYPH_RET0, ZH2_VA + len(o))           # 93 jmp 0x140E8AF4D
     ret0M = len(o)                                      # 98
-    o += rel_jmp(E85C10_RET0, ZH2_VA + len(o))          # 98 jmp 0x140E85C65
+    o += rel_jmp(E85C10_RET0, ZH2_VA + len(o))          # 98 jmp 0x140E8B3E5
 
     o[jnz + 1] = rel8(done, jnz)[0]
     o[jle1 + 1] = rel8(gotidx, jle1)[0]
@@ -167,7 +171,7 @@ def build_stub():
     sidx = len(o)                                       # 33
     o += rip_lea(0x0D, SLOTS_VA, STUB_VA + len(o))      # 33 lea rcx,[rip+slots]
     o += bytes.fromhex("48 89 04 D1")                   # 40 mov [rcx+rdx*8],rax
-    o += rel_jmp(FB_NEXT, STUB_VA + len(o))             # 44 jmp 0x140F03279
+    o += rel_jmp(FB_NEXT, STUB_VA + len(o))             # 44 jmp 0x140F089F9
 
     o[jle1 + 1] = rel8(sidx, jle1)[0]
     o[jle2 + 1] = rel8(sidx, jle2)[0]
@@ -246,8 +250,8 @@ def main():
     p4 = assemble_p4()
     print("shared %d B, stub %d B, p4 %d B" % (len(shared), len(stub), len(p4)))
     assert len(shared) <= 0x80, "shared overlaps stub"
-    assert len(stub) <= 0x40, "stub overlaps slots"
-    assert len(p4) <= 0x184, "p4 too big"
+    assert len(stub) <= 0x80, "stub overlaps P4"
+    assert 0x100 + len(p4) + 24 <= ZH2_RAWSIZE, "P4 overlaps slots"
 
     with open(EXE, "rb") as f:
         data = bytearray(f.read())
@@ -271,14 +275,11 @@ def main():
     else:
         print("backup exists, keeping:", BAK)
 
-    # ---- 1. P4 helper into .text tail cave ----
-    assert all(b == 0 for b in data[P4_CAVE_FILE:P4_CAVE_FILE + len(p4)]), \
-        "cave not empty (P4 already applied?)"
-    data[P4_CAVE_FILE:P4_CAVE_FILE + len(p4)] = p4
+    # ---- 1. P4 call sites -> helper in .zh2 ----
     for cva, label in ((P4_CALL1_VA, "cache"), (P4_CALL2_VA, "fallback")):
         f = va2f_text(cva)
-        data[f:f + 5] = rel_call(P4_CAVE_VA, cva)
-        print("%s strcmp %s -> %s" % (label, bytes(data[f:f + 5]).hex(" "), hex(cva)))
+        data[f:f + 5] = rel_call(P4_VA, cva)
+        print("%s strcmp @ %X -> %s" % (label, cva, data[f:f + 5].hex(" ")))
 
     # ---- 2. hooks ----
     for va, new, label, orig in (
@@ -291,23 +292,14 @@ def main():
     ):
         f = va2f_text(va)
         old = bytes(data[f:f + len(new)]).hex(" ")
-        if old != orig.replace(" ", ""):
+        if old.replace(" ", "").lower() != orig.replace(" ", "").lower():
             print("ABORT %s @ %X: got %s, expected %s — 游戏版本不匹配，"
                   "请更新补丁地址后重试" % (label, va, old, orig))
             return
         data[f:f + len(new)] = new
         print("%s @ %X: %s -> %s" % (label, va, old, new.hex(" ")))
 
-    # ---- 3. .text VSize fix ----
-    text_vsize = struct.unpack_from("<I", data, sec + 8)[0]
-    text_rawsize = struct.unpack_from("<I", data, sec + 16)[0]
-    if text_vsize < TEXT_VSIZE_NEW:
-        struct.pack_into("<I", data, sec + 8, TEXT_VSIZE_NEW)
-        print("VSize fix: %X -> %X" % (text_vsize, TEXT_VSIZE_NEW))
-    else:
-        print("VSize ok: %X" % text_vsize)
-
-    # ---- 4. append .zh2 section ----
+    # ---- 3. append .zh2 section (shared + stub + P4 + slots) ----
     file_end = len(data)
     ro = (file_end + 0x1FF) & ~0x1FF
     size_of_image = struct.unpack_from("<I", data, e + 24 + 56)[0]
@@ -320,6 +312,7 @@ def main():
     secdata = bytearray(ZH2_RAWSIZE)
     secdata[0x000:0x000 + len(shared)] = shared
     secdata[0x080:0x080 + len(stub)] = stub
+    secdata[0x100:0x100 + len(p4)] = p4
     # slots stay zero
     data += secdata
     # new section header (name .zh2)

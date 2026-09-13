@@ -14,6 +14,10 @@ from tdb_repack import parse_tdb, build_tdb
 from kap_all import scan_key, rc4, BLOBS, derive_key
 from kap_repack import parse_pak, build_pak
 
+# 强制 UTF-8 输出，避免 cmd(GBK) 下中文乱码；配合 chcp 65001 使用
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 GAME = r"F:\SteamLibrary\steamapps\common\Automobilista 2"
 PAK_DIR = os.path.join(GAME, "Pakfiles")
 EXTRACT = r"F:\Game\AMS2-ZH\work\extract"
@@ -37,16 +41,31 @@ def step1_translate_tdb(translations):
     results = {}  # extract_folder -> {entry_index: translated_path}
 
     if not os.path.isdir(EXTRACT):
-        # extract dir missing (cleaned up): reuse previously translated .tdb
-        print("  (extract dir missing — reusing translated .tdb from %s)" % OUT_DIR)
+        # extract dir missing (cleaned up): re-apply translations to previously
+        # translated .tdb files, so edits to translations.json take effect.
+        print("  (extract dir missing — re-applying translations to %s)" % OUT_DIR)
         for root, dirs, files in os.walk(OUT_DIR):
             for f in sorted(files):
                 if not f.endswith(".tdb") or "_" not in f:
                     continue
-                rel = os.path.relpath(os.path.join(root, f), OUT_DIR)
+                tdb_path = os.path.join(root, f)
+                try:
+                    data = open(tdb_path, "rb").read()
+                    tdb = parse_tdb(data)
+                except Exception as e:
+                    print("  skip %s (parse failed: %s)" % (tdb_path, e))
+                    continue
+                if not translations.get(tdb["tname"]):
+                    continue
+                new_data = build_tdb(tdb, translations)
+                if new_data != data:
+                    with open(tdb_path, "wb") as fout:
+                        fout.write(new_data)
+                    print("  updated %s" % os.path.relpath(tdb_path, OUT_DIR))
+                rel = os.path.relpath(tdb_path, OUT_DIR)
                 folder = rel.split(os.sep)[0]
                 idx = int(f.split("_")[1].split(".")[0])
-                results.setdefault(folder, {})[idx] = os.path.join(root, f)
+                results.setdefault(folder, {})[idx] = tdb_path
         print("  entries:", {k: len(v) for k, v in results.items()})
         return results
 

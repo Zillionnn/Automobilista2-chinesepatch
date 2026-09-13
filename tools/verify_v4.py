@@ -1,34 +1,69 @@
 # -*- coding: utf-8 -*-
-"""Runtime verification V2 for the V4 static patch (run while AMS2.exe is up).
+"""Runtime verification for the V4 static patch (run while the game is up).
+
+适用版本：2026-09-12 Steam 更新版
+  AMS2.exe     原始 43,185,224 → 补丁后 43,187,712
+  AMS2AVX.exe  原始 42,979,912 → 补丁后 42,982,400
+（补丁地址 = 旧版地址 + 0x5780 / +0x56B0）
 
 Checks:
-  1. hooks live in memory (glyph-fb / E85C4E / fb-store / P4 sites)
-  2. slot table 0x142F090C0 (s12/s17/s31)
-  3. font registry: names / sizes / +0x358 links
-  4. provider table flag for Chinese-Simple
+  1. hooks live in memory (glyph-fb / E85C4E / fb-store / P4 sites + .zh2 code)
+  2. slot table (.zh2 + 0x300): s12 / s17 / s31 是否已捕获中文字体
+  3. font registry（仅 AMS2.exe，地址按 .data 段位移推算，仅供参考）
+
+用法: python tools/verify_v4.py [ams2|avx]
 """
 import ctypes
 import struct
+import sys
 
 import psutil
 
 k32 = ctypes.windll.kernel32
-COUNT_VA = 0x14273A4B8      # u32 count (vector at 0x14273A490 -> begin)
-BASE_VA = 0x14273A490
-SLOTS_VA = 0x142F090C0
+
+PROFILES = {
+    "ams2": {
+        "process": "ams2.exe",
+        "slots": 0x142F13300,          # .zh2 (RVA 0x2F13000) + 0x300
+        "hooks": ((0x140E8AF41, 5, "glyph-fb"), (0x140E8B3CE, 5, "E85C4E"),
+                  (0x140F089F2, 7, "fb-store"),
+                  (0x140F07A11, 5, "p4-cache"), (0x140F088FF, 5, "p4-slot")),
+        "base_va": 0x142744A90,        # 字体注册表 vector（.data +0xA000 推算）
+        "count_va": 0x142744AB8,
+    },
+    "avx": {
+        "process": "ams2avx.exe",
+        "slots": 0x142EE0300,          # .zh2 (RVA 0x2EE0000) + 0x300
+        "hooks": ((0x140E82F61, 5, "glyph-fb"), (0x140E833EE, 5, "E85C4E"),
+                  (0x140F00882, 7, "fb-store"),
+                  (0x140EFF8A1, 5, "p4-cache"), (0x140F0078F, 5, "p4-slot")),
+        "base_va": None,
+        "count_va": None,
+    },
+}
 
 
 def main():
+    want = sys.argv[1].lower() if len(sys.argv) > 1 else None
+    prof = None
     pid = None
     for p in psutil.process_iter(["name", "pid"]):
-        if p.info["name"] and p.info["name"].lower() == "ams2.exe":
-            pid = p.info["pid"]
+        name = (p.info["name"] or "").lower()
+        for key, pr in PROFILES.items():
+            if name == pr["process"] and (want is None or want == key):
+                prof, pid = pr, p.info["pid"]
+                break
+        if prof:
             break
-    if pid is None:
-        print("AMS2.exe not running")
+    if prof is None:
+        print("游戏未运行（可用参数指定 ams2 / avx）")
         return
+
+    slots = prof["slots"]
     h = k32.OpenProcess(0x1F0FFF, False, pid)
-    w = ctypes.c_size_t()
+    if not h:
+        print("OpenProcess 失败（需要与游戏相同的权限级别运行）")
+        return
 
     def rd(a, n):
         b = ctypes.create_string_buffer(n)
@@ -51,49 +86,39 @@ def main():
             return None
         return raw.split(b"\x00")[0].decode("latin1", "replace")
 
-    print("pid:", pid)
-    print("--- hooks in memory ---")
-    for va, n, name in ((0x140E857C1, 5, "glyph-fb"), (0x140E85C4E, 5, "E85C4E"),
-                        (0x140F03272, 7, "fb-store"),
-                        (0x140F02291, 5, "p4-cache"), (0x140F0317F, 5, "p4-slot"),
-                        (SLOTS_VA - 0x80, 8, "shared"), (SLOTS_VA - 0x40, 8, "stub")):
+    print("进程: %s (pid=%d)" % (prof["process"], pid))
+    print("--- 钩子（内存中实际字节）---")
+    for va, n, name in prof["hooks"] + (
+            (slots - 0x300, 8, "shared"), (slots - 0x280, 8, "stub")):
         b = rd(va, n)
-        print("  %-9s @%X: %s" % (name, va, b.hex() if b else "<no read>"))
+        ok = ""
+        if b and b[:1] in (b"\xe9", b"\xe8", b"\x48", b"\x49"):
+            ok = "OK"
+        print("  %-9s @%X: %-24s %s" % (name, va, b.hex() if b else "<读取失败>", ok))
 
-    print("--- slots ---")
+    print("--- 槽位（中文字体指针，游戏加载中文后应非 0）---")
     for i, nm in enumerate(("s12", "s17", "s31")):
-        v = u64(SLOTS_VA + i * 8)
+        v = u64(slots + i * 8)
         nm2 = ""
         if v:
-            p = u64(v + 0x340)
-            nm2 = cstr(p) or "?"
-        print("  slot %s = %s (%s)" % (nm, hex(v) if v else "0", nm2))
+            nm2 = cstr(u64(v + 0x340) or 0) or "?"
+        print("  slot %-3s = %-14s %s" % (nm, hex(v) if v else "0", nm2))
 
-    print("--- registry ---")
-    vec = u64(BASE_VA)          # vector object
-    arr = u64(vec) if vec else 0   # begin pointer
-    count = u32(COUNT_VA) or 0
-    print("  vec=%s arr=%s count=%d" % (hex(vec) if vec else "0",
-                                        hex(arr) if arr else "0", count))
-    if arr and count and count < 0x200:
-        for i in range(count):
-            v = u64(arr + i * 8)
-            if not v:
-                continue
-            nm = cstr(u64(v + 0x340) or 0) or "?"
-            size = u32(v + 0x44)
-            fb = u64(v + 0x358)
-            fbn = ""
-            if fb:
-                fbn = cstr(u64(fb + 0x340) or 0) or "?"
-            print("  [%2d] %-46s size=%-3d fb=%s (%s)" % (
-                i, nm[:46], size, hex(fb) if fb else "0", fbn))
-
-    print("--- provider flags ---")
-    for off, nm in ((0x1425EDD40, "Japanese"), (0x1425EDDA8, "Korean"),
-                    (0x1425EDE10, "Chinese-Simple")):
-        flag = u32(off + 0x10)
-        print("  %s flag=%d" % (nm, flag))
+    if prof["base_va"]:
+        print("--- 字体注册表（推算地址，仅供参考）---")
+        vec = u64(prof["base_va"])
+        arr = u64(vec) if vec else 0
+        count = u32(prof["count_va"]) or 0
+        print("  vec=%s arr=%s count=%d" % (hex(vec) if vec else "0",
+                                            hex(arr) if arr else "0", count))
+        if arr and count and count < 0x200:
+            for i in range(count):
+                v = u64(arr + i * 8)
+                if not v:
+                    continue
+                nm = cstr(u64(v + 0x340) or 0) or "?"
+                print("  [%2d] %-46s size=%-3d fb=%s" % (
+                    i, nm[:46], u32(v + 0x44), hex(u64(v + 0x358) or 0)))
 
 
 if __name__ == "__main__":

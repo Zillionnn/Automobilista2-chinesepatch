@@ -5,25 +5,25 @@ The user's Steam launch actually runs AMS2AVX.exe (AMS2.exe is a
 bootstrapper that re-launches AMS2AVX.exe on AVX-capable CPUs). This
 applies the same CJK-fallback patch to the AVX build.
 
-AVX addresses (pattern-verified against AMS2):
-  GetGlyph            0x140E7D830
-  glyph-fb hook       0x140E7D8B1   (74 0A 0F B7 D7)
-  GetGlyph epilogue   0x140E7D8BF
-  GetGlyph ret0       0x140E7D8BD
-  E85C10 (measure)    0x140E7DD00
-  E85C10 fb hook      0x140E7DD3E   (48 85 C9 74 12)
-  E85C10 recurse      0x140E7DD43
-  E85C10 ret0         0x140E7DD55
-  fb-store            0x140EFB1D2   (49 89 85 58 03 00 00)
-  fb-store next       0x140EFB1D9
-  P4 cache strcmp     0x140EFA1F1
-  P4 slot strcmp      0x140EFB0DF
+AVX addresses (pattern-verified against AMS2; 2026-09 更新版 = 旧版 + 0x56B0):
+  GetGlyph            0x140E82EE0
+  glyph-fb hook       0x140E82F61   (74 0A 0F B7 D7)
+  GetGlyph epilogue   0x140E82F6F
+  GetGlyph ret0       0x140E82F6D
+  E85C10 (measure)    0x140E833B0
+  E85C10 fb hook      0x140E833EE   (48 85 C9 74 12)
+  E85C10 recurse      0x140E833F3
+  E85C10 ret0         0x140E83405
+  fb-store            0x140F00882   (49 89 85 58 03 00 00)
+  fb-store next       0x140F00889
+  P4 cache strcmp     0x140EFF8A1
+  P4 slot strcmp      0x140F0078F
 
-New .zh2 section @ RVA 0x2ED7000 (right after .bind end), 0x800 bytes:
+New .zh2 section @ RVA 0x2EE0000 (right after .bind end), 0x800 bytes:
   +0x000 shared routine (87 B)
   +0x080 stub (49 B)
   +0x100 P4 variant-tolerant strcmp helper (303 B)
-  +0x200 slots[3] (24 B)
+  +0x300 slots[3] (24 B)
 
 Run with the game CLOSED.
 """
@@ -31,9 +31,10 @@ import os
 import struct
 
 EXE = r"F:\SteamLibrary\steamapps\common\Automobilista 2\AMS2AVX.exe"
-BAK = EXE + ".bak-v4-orig"
+# 备份名按未打补丁的文件大小区分版本，游戏更新后不会覆盖老版本的原版备份
+BAK = "%s.bak-v4-orig-%d" % (EXE, os.path.getsize(EXE))
 
-ZH2_RVA = 0x2ED7000
+ZH2_RVA = 0x2EE0000
 ZH2_VA = 0x140000000 + ZH2_RVA
 ZH2_RAWSIZE = 0x800
 SHARED_VA = ZH2_VA + 0x000
@@ -41,17 +42,18 @@ STUB_VA = ZH2_VA + 0x080
 P4_VA = ZH2_VA + 0x100
 SLOTS_VA = ZH2_VA + 0x300
 
-GLYPH_FB = 0x140E7D8B1
-E85C4E = 0x140E7DD3E
-FB_STORE = 0x140EFB1D2
-FB_NEXT = 0x140EFB1D9
-GETGLYPH = 0x140E7D830
-GLYPH_TAIL = 0x140E7D8BF
-GLYPH_RET0 = 0x140E7D8BD
-E85C10_RECURSE = 0x140E7DD43
-E85C10_RET0 = 0x140E7DD55
-P4_CALL1_VA = 0x140EFA1F1
-P4_CALL2_VA = 0x140EFB0DF
+# 2026-09 更新版地址 = 旧版 + 0x56B0
+GLYPH_FB = 0x140E82F61
+E85C4E = 0x140E833EE
+FB_STORE = 0x140F00882
+FB_NEXT = 0x140F00889
+GETGLYPH = 0x140E82EE0
+GLYPH_TAIL = 0x140E82F6F
+GLYPH_RET0 = 0x140E82F6D
+E85C10_RECURSE = 0x140E833F3
+E85C10_RET0 = 0x140E83405
+P4_CALL1_VA = 0x140EFF8A1
+P4_CALL2_VA = 0x140F0078F
 
 
 def rel_jmp(to_va, from_va):
@@ -261,7 +263,7 @@ def main():
     ):
         f = va2f_text(va)
         old = bytes(data[f:f + len(new)]).hex(" ")
-        if old != orig.replace(" ", ""):
+        if old.replace(" ", "").lower() != orig.replace(" ", "").lower():
             print("ABORT %s @ %X: got %s, expected %s — 游戏版本不匹配，"
                   "请更新补丁地址后重试" % (label, va, old, orig))
             return

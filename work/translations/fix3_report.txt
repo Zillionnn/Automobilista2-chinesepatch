@@ -1,0 +1,159 @@
+[term] Game/Game_MainMenu_ExternalWebSite
+  旧: 此操作将进入外部连结，确定要继续吗？
+  新: 此操作将进入外部链接，确定要继续吗？
+
+[term] Game/Game_MainMenu_ViewPhotos
+  旧: 看看其他玩家拍摄的最佳相片
+  新: 看看其他玩家拍摄的最佳照片
+
+[term] Game/Game_MainMenu_UnlockPics
+  旧: 解锁游戏开发过程中的相片及视频
+  新: 解锁游戏开发过程中的照片及视频
+
+[term] Game/Game_MainMenu_TakeAPhoto
+  旧: 相片模式
+  新: 照片模式
+
+[term] Game/Game_MainMenu_Maximum3Characters
+  旧: 输入 3 个字元
+  新: 输入 3 个字符
+
+[term] Game/Game_MainMenu_FilterGamesBy
+  旧: 筛选游戏透过…
+  新: 游戏筛选方式…
+
+[term] Game/Game_MainMenu_NoPhotosYetSaved
+  旧: 尚未保存相片
+  新: 尚未保存照片
+
+[term] Game/Game_MainMenu_AccessYourScreenshots
+  旧: 检视你所拍摄的截图与相片
+  新: 检视你所拍摄的截图与照片
+
+[term] Game/Game_MainMenu_PhotoCapturedYourCap
+  旧: 相片已拍摄。你可以在赛事中心“个人资料”的影像画面中，回顾你所拍摄的相片。
+  新: 照片已拍摄。你可以在赛事中心“个人资料”的影像画面中，回顾你所拍摄的照片。
+
+[term] Game/Game_InGameMenu_PhotoMode
+  旧: 相片模式
+  新: 照片模式
+
+[term] Game/Game_Tutorials_WelcomeToProjectCARSThe
+  旧: 欢迎来到‘Project CARS 2’——终极车手之旅。在比赛中心你可以选择自己的赛车之路。创立一个新的车手并逐步登上荣耀的殿堂，独自享受
+  新: 欢迎来到‘Project CARS 2’——终极车手之旅。在比赛中心你可以选择自己的赛车之路。创立一个新的车手并逐步登上荣耀的殿堂，独自享受
+
+[term] Game/Game_Tutorials_NowChooseTheStartingPoi
+  旧: 为你的职业生涯选择一个起点。你可以从任何一个可选车赛开始，透过在比赛中获胜来获得参加其他车赛的邀请。
+  新: 为你的职业生涯选择一个起点。你可以从任何一个可选车赛开始，通过在比赛中获胜来获得参加其他车赛的邀请。
+
+[term] Game/Game_Tutorials_InSeasonModeYouCanPlayC
+  旧: 在赛季模式里，你可以完成‘Project CARS 2’团队和社区创建的锦标赛和系列赛。或者，你也可以创建你自己的比赛，并透过车手网络共享给
+  新: 在赛季模式里，你可以完成‘Project CARS 2’团队和社区创建的锦标赛和系列赛。或者，你也可以创建你自己的比赛，并通过车手网络共享给
+
+[term] Game/Game_UI_PHO
+  旧: 相片模式
+  新: 照片模式
+
+[term] Game/Game_UI_Are
+  旧: 确定要退出这个赛程吗？所有进度将会消失，但你可以透过快速比赛周末内的继续功能返回此赛程。
+  新: 确定要退出这个赛程吗？所有进度将会消失，但你可以通过快速比赛周末内的继续功能返回此赛程。
+
+[term] Game/Game_UI_Fil
+  旧: 筛选游戏透过…
+  新: 游戏筛选方式…
+
+[term] Game/Game_UI_Tak
+  旧: 拍摄相片
+  新: 拍摄照片
+
+[term] Game/Game_UI_Thi7
+  旧: 你之后可以透过这个屏幕来更改比赛地点，但是现在请照常按下上面的按钮。
+  新: 你之后可以通过这个屏幕来更改比赛地点，但是现在请照常按下上面的按钮。
+
+[term] Game/Game_UI_Thi8
+  旧: 你之后可以透过这个菜单来更改赛车，但是现在请照常按下右边的“我的车库”。
+  新: 你之后可以通过这个菜单来更改赛车，但是现在请照常按下右边的“我的车库”。
+
+[term] Game/Game_UI_Sho8
+  旧: 显示88张相片
+  新: 显示88张照片
+
+[term] Game/Game_UI_NAM3
+  旧: 车辆应用连结名称
+  新: 车辆应用链接名称
+
+[term] Game/Game_UI_Pho2
+  旧: 相片
+  新: 照片
+
+[term] Game/Game_HelpText_InTheHighlightsSecti
+  旧: 在车手网络个人资料的重点区块中，你可使用你保存的相片或回放，并以全屏幕观看。你也可以从你的个人资料管理及删除你保存的相片和视频。
+  新: 在车手网络个人资料的重点区块中，你可使用你保存的照片或回放，并以全屏幕观看。你也可以从你的个人资料管理及删除你保存的照片和视频。
+
+[term] Game/Game_HelpText_PhotoModePhotoFilter
+  旧: 相片滤镜可让你分别使用多种可用于照相的滤镜，重现多样可套用于摄像机的滤镜，以及各式类型的底片及色彩分级。
+  新: 照片滤镜可让你分别使用多种可用于照相的滤镜，重现多样可套用于摄像机的滤镜，以及各式类型的底片及色彩分级。
+
+[term] Game/Game_HelpText_PhotoModeFilterIntensity
+  旧: 滤镜强度可让你调整相片滤镜的效果强度。
+  新: 滤镜强度可让你调整照片滤镜的效果强度。
+
+[term] Game/Game_HelpText_PhotosAndReplaysSaved
+  旧: 你所拍的相片和保存的回放，都可以在你的车手网络精彩瞬间查
+  新: 你所拍的照片和保存的回放，都可以在你的车手网络精彩瞬间查
+
+[term] Game/Game_Tutorials1stTime_DNP
+  旧: 这是你的车手网络个人资料。你可在此检视你的赛车竞争执照的细节，编辑你的在线个人资料的信息，以及观看你的所有游戏成绩、相片及视频。
+  新: 这是你的车手网络个人资料。你可在此检视你的赛车竞争执照的细节，编辑你的在线个人资料的信息，以及观看你的所有游戏成绩、照片及视频。
+
+[term] Game/Game_Tutorials1stTime_PhotoMode
+  旧: 相片模式让你可以截取赛道上的静止画面。你可在此看到多种摄像机控制和功能，协助你从几乎任何角度，产出具备你独有风格的高质量相片。任何使用相片模
+  新: 照片模式让你可以截取赛道上的静止画面。你可在此看到多种摄像机控制和功能，协助你从几乎任何角度，产出具备你独有风格的高质量照片。任何使用照片模
+
+[term] Game/Game_Tutorials1stTime_PhotoMode1
+  旧: 你可在此看到多种摄像机控制和功能，协助你从几乎任何角度，产出具备你独有风格的高质量相片。任何使用相片模式拍出的相片都会被保存，并可在你的车手
+  新: 你可在此看到多种摄像机控制和功能，协助你从几乎任何角度，产出具备你独有风格的高质量照片。任何使用照片模式拍出的照片都会被保存，并可在你的车手
+
+[term] Game/Game_LoadingScreenHints_CheckOutExclusiveBeh
+  旧: 快来看看独家的幕后花絮及抢先看相片：www.instagram.com/projectcarsgame
+  新: 快来看看独家的幕后花絮及抢先看照片：www.instagram.com/projectcarsgame
+
+[term] Game/Game_LoadingScreenHints_TheCarShowroomAllows
+  旧: 你可以在车辆展厅中细节丰富的车库环境，检视所选择的车辆及涂装，并截取相片供你使用于车手网络个人资料。
+  新: 你可以在车辆展厅中细节丰富的车库环境，检视所选择的车辆及涂装，并截取照片供你使用于车手网络个人资料。
+
+[term] Game/Game_LoadingScreenHints_AnyPhotosYouVeTakenA
+  旧: 你可以在车手网络头条中回顾你所保存的任何相片及回放。
+  新: 你可以在车手网络头条中回顾你所保存的任何照片及回放。
+
+[term] Game/Game_LoadingScreenHints_TheInCarManagementIc
+  旧: 你可以透过车内管理(ICM)菜单，在赛道上实时调整车辆及维修站策略。确保你已设置在控制选项的按键配置区块中。
+  新: 你可以通过车内管理(ICM)菜单，在赛道上实时调整车辆及维修站策略。确保你已设置在控制选项的按键配置区块中。
+
+[term] Game/Game_LoadingScreenHints_AnyPhotosYouVeTakenA1
+  旧: 你可以在赛事中心“个人资料”中，回顾你所保存的任何相片及回放。
+  新: 你可以在赛事中心“个人资料”中，回顾你所保存的任何照片及回放。
+
+[term] Platform/Platform_Input_ControllerDisconnectedPS4
+  旧: 控制器已解除连结。请重新连接控制器。
+  新: 控制器已断开连接。请重新连接控制器。
+
+[term] Platform/Platform_Input_ControllerDisconnectedXB1
+  旧: 控制器已解除连结。请重新连接控制器。
+  新: 控制器已断开连接。请重新连接控制器。
+
+[term] Platform/Platform_SaveGame_MediaInvalid32Text
+  旧: 此视频由 32 位元版本游戏保存，无法在 64 位版本中读取。
+  新: 此视频由 32 位版本游戏保存，无法在 64 位版本中读取。
+
+[term] Platform/Platform_SaveGame_MediaInvalid64Text
+  旧: 此视频由 64 位元版本游戏保存，无法在 32 位版本中读取。
+  新: 此视频由 64 位版本游戏保存，无法在 32 位版本中读取。
+
+[term] Platform/Platform_SaveGame_PS4PhotoTitle
+  旧: Project CARS 相片
+  新: Project CARS 照片
+
+[term] Platform/Platform_SaveGame_PS4PhotoSubtitle
+  旧: 相片
+  新: 照片
