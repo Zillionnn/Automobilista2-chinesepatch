@@ -6,20 +6,20 @@ bootstrapper that re-launches AMS2AVX.exe on AVX-capable CPUs). This
 applies the same CJK-fallback patch to the AVX build.
 
 AVX addresses (pattern-verified against AMS2; 2026-09 更新版 = 旧版 + 0x56B0):
-  GetGlyph            0x140E82EE0
-  glyph-fb hook       0x140E82F61   (74 0A 0F B7 D7)
-  GetGlyph epilogue   0x140E82F6F
-  GetGlyph ret0       0x140E82F6D
-  E85C10 (measure)    0x140E833B0
-  E85C10 fb hook      0x140E833EE   (48 85 C9 74 12)
-  E85C10 recurse      0x140E833F3
-  E85C10 ret0         0x140E83405
-  fb-store            0x140F00882   (49 89 85 58 03 00 00)
-  fb-store next       0x140F00889
-  P4 cache strcmp     0x140EFF8A1
-  P4 slot strcmp      0x140F0078F
+  GetGlyph            0x140E83020
+  glyph-fb hook       0x140E830A1   (74 0A 0F B7 D7)
+  GetGlyph epilogue   0x140E830AF
+  GetGlyph ret0       0x140E830AD
+  E85C10 (measure)    0x140E834F0
+  E85C10 fb hook      0x140E8352E   (48 85 C9 74 12)
+  E85C10 recurse      0x140E83533
+  E85C10 ret0         0x140E83545
+  fb-store            0x140F009C2   (49 89 85 58 03 00 00)
+  fb-store next       0x140F009C9
+  P4 cache strcmp     0x140EFF9E1
+  P4 slot strcmp      0x140F008CF
 
-New .zh2 section @ RVA 0x2EE0000 (right after .bind end), 0x800 bytes:
+New .zh2 section @ RVA 0x2EE1000 (right after .bind end), 0x800 bytes:
   +0x000 shared routine (87 B)
   +0x080 stub (49 B)
   +0x100 P4 variant-tolerant strcmp helper (303 B)
@@ -32,9 +32,15 @@ import struct
 
 EXE = r"F:\SteamLibrary\steamapps\common\Automobilista 2\AMS2AVX.exe"
 # 备份名按未打补丁的文件大小区分版本，游戏更新后不会覆盖老版本的原版备份
-BAK = "%s.bak-v4-orig-%d" % (EXE, os.path.getsize(EXE))
+def _sha8(path):
+    """内容哈希前 8 位：09-18 版与上一版 AMS2.exe 大小相同，只按大小会误判已备份"""
+    import hashlib
+    return hashlib.sha256(open(path, "rb").read()).hexdigest()[:8].upper()
 
-ZH2_RVA = 0x2EE0000
+
+BAK = "%s.bak-v4-orig-%d-%s" % (EXE, os.path.getsize(EXE), _sha8(EXE))
+
+ZH2_RVA = 0x2EE1000
 ZH2_VA = 0x140000000 + ZH2_RVA
 ZH2_RAWSIZE = 0x800
 SHARED_VA = ZH2_VA + 0x000
@@ -42,18 +48,18 @@ STUB_VA = ZH2_VA + 0x080
 P4_VA = ZH2_VA + 0x100
 SLOTS_VA = ZH2_VA + 0x300
 
-# 2026-09 更新版地址 = 旧版 + 0x56B0
-GLYPH_FB = 0x140E82F61
-E85C4E = 0x140E833EE
-FB_STORE = 0x140F00882
-FB_NEXT = 0x140F00889
-GETGLYPH = 0x140E82EE0
-GLYPH_TAIL = 0x140E82F6F
-GLYPH_RET0 = 0x140E82F6D
-E85C10_RECURSE = 0x140E833F3
-E85C10_RET0 = 0x140E83405
-P4_CALL1_VA = 0x140EFF8A1
-P4_CALL2_VA = 0x140F0078F
+# 2026-09-18 更新版地址 = 上一版 + 0x140
+GLYPH_FB = 0x140E830A1
+E85C4E = 0x140E8352E
+FB_STORE = 0x140F009C2
+FB_NEXT = 0x140F009C9
+GETGLYPH = 0x140E83020
+GLYPH_TAIL = 0x140E830AF
+GLYPH_RET0 = 0x140E830AD
+E85C10_RECURSE = 0x140E83533
+E85C10_RET0 = 0x140E83545
+P4_CALL1_VA = 0x140EFF9E1
+P4_CALL2_VA = 0x140F008CF
 
 
 def rel_jmp(to_va, from_va):

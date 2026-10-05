@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """Runtime verification for the V4 static patch (run while the game is up).
 
-适用版本：2026-09-12 Steam 更新版
+适用版本：2026-09-18 Steam 更新版（v1.6.9.96.3436）
   AMS2.exe     原始 43,185,224 → 补丁后 43,187,712
-  AMS2AVX.exe  原始 42,979,912 → 补丁后 42,982,400
-（补丁地址 = 旧版地址 + 0x5780 / +0x56B0）
+  AMS2AVX.exe  原始 42,980,424 → 补丁后 42,982,912
+（补丁地址 = 2026-09-12 版地址 + 0x150 / +0x140）
 
 Checks:
   1. hooks live in memory (glyph-fb / E85C4E / fb-store / P4 sites + .zh2 code)
@@ -25,18 +25,18 @@ PROFILES = {
     "ams2": {
         "process": "ams2.exe",
         "slots": 0x142F13300,          # .zh2 (RVA 0x2F13000) + 0x300
-        "hooks": ((0x140E8AF41, 5, "glyph-fb"), (0x140E8B3CE, 5, "E85C4E"),
-                  (0x140F089F2, 7, "fb-store"),
-                  (0x140F07A11, 5, "p4-cache"), (0x140F088FF, 5, "p4-slot")),
+        "hooks": ((0x140E8B091, 5, "glyph-fb"), (0x140E8B51E, 5, "E85C4E"),
+                  (0x140F08B42, 7, "fb-store"),
+                  (0x140F07B61, 5, "p4-cache"), (0x140F08A4F, 5, "p4-slot")),
         "base_va": 0x142744A90,        # 字体注册表 vector（.data +0xA000 推算）
         "count_va": 0x142744AB8,
     },
     "avx": {
         "process": "ams2avx.exe",
-        "slots": 0x142EE0300,          # .zh2 (RVA 0x2EE0000) + 0x300
-        "hooks": ((0x140E82F61, 5, "glyph-fb"), (0x140E833EE, 5, "E85C4E"),
-                  (0x140F00882, 7, "fb-store"),
-                  (0x140EFF8A1, 5, "p4-cache"), (0x140F0078F, 5, "p4-slot")),
+        "slots": 0x142EE1300,          # .zh2 (RVA 0x2EE1000) + 0x300
+        "hooks": ((0x140E830A1, 5, "glyph-fb"), (0x140E8352E, 5, "E85C4E"),
+                  (0x140F009C2, 7, "fb-store"),
+                  (0x140EFF9E1, 5, "p4-cache"), (0x140F008CF, 5, "p4-slot")),
         "base_va": None,
         "count_va": None,
     },

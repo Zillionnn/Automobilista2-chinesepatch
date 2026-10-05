@@ -18,14 +18,14 @@ can never overlap anything):
 
   2026-09 游戏更新后：新版 .text 尾部只剩 244 B 零填充，放不下 303 B 的
   P4 helper，因此 P4 也移入 .zh2 段（不再使用 .text tail cave，也不再需要
-  .text VSize 修补）。所有代码地址 = 旧版地址 + 0x5780。
+  .text VSize 修补）。所有代码地址 = 上一版地址 + 0x150（2026-09-18 版）。
 
-Hooks (新版地址):
-  0x140E8AF41  glyph-fb   (74 0A 0F B7 D7) -> E9 shared        [only when +0x358==0]
-  0x140E8B3CE  E85C10 fb  (48 85 C9 74 12) -> E9 shared        [rcx=[rbx+0x358] preset]
-  0x140F089F2  fb-store   (49 89 85 58 03 00 00) -> E9 stub + 2 NOP
-  0x140F07A11  P4 cache strcmp   -> E8 helper
-  0x140F088FF  P4 slot strcmp    -> E8 helper
+Hooks (2026-09-18 版地址):
+  0x140E8B091  glyph-fb   (74 0A 0F B7 D7) -> E9 shared        [only when +0x358==0]
+  0x140E8B51E  E85C10 fb  (48 85 C9 74 12) -> E9 shared        [rcx=[rbx+0x358] preset]
+  0x140F08B42  fb-store   (49 89 85 58 03 00 00) -> E9 stub + 2 NOP
+  0x140F07B61  P4 cache strcmp   -> E8 helper
+  0x140F08A4F  P4 slot strcmp    -> E8 helper
 
 Shared routine (entered with rbx=font, rcx=[rbx+0x358], rdi=glyphcode
 (glyph entry, bit31 clear) or rdi=glyph-record (measure entry, bit31 set)):
@@ -36,12 +36,12 @@ done:
   test rcx,rcx ; jz ret0
   test edi,edi ; js measure        ; dispatch on record-vs-code bit31
   glyph: movzx edx,di ; call GetGlyph ; jmp GetGlyph-epilogue
-  measure: jmp 0x140E8B3D3         ; original tail-recursion into E85C10
-  ret0:  jmp 0x140E8AF4D / 0x140E8B3E5 depending on entry
+  measure: jmp 0x140E8B523         ; original tail-recursion into E85C10
+  ret0:  jmp 0x140E8B09D / 0x140E8B535 depending on entry
 
 Stub (r13=slot font, rax=asian font just loaded by fallback):
   mov [r13+0x358],rax              ; original instruction (kept)
-  tier = f([r13+0x44]);  slots[tier] = rax ; jmp 0x140F089F9 (lock inc)
+  tier = f([r13+0x44]);  slots[tier] = rax ; jmp 0x140F08B49 (lock inc)
 
 Run with the game CLOSED.
 """
@@ -49,15 +49,21 @@ import os
 import struct
 
 EXE = r"F:\SteamLibrary\steamapps\common\Automobilista 2\AMS2.exe"
-# 备份名按未打补丁的文件大小区分版本，游戏更新后不会覆盖老版本的原版备份
-BAK = "%s.bak-v4-orig-%d" % (EXE, os.path.getsize(EXE))
+# 备份名 = 大小 + 内容哈希前 8 位：游戏更新后新原版不会被老备份挡住
+# （2026-09-18 版 AMS2.exe 与 09-12 版大小相同，只按大小会误判为已备份）
+def _sha8(path):
+    import hashlib
+    return hashlib.sha256(open(path, "rb").read()).hexdigest()[:8].upper()
+
+
+BAK = "%s.bak-v4-orig-%d-%s" % (EXE, os.path.getsize(EXE), _sha8(EXE))
 
 # ---------- constants ----------
-# 游戏版本：2026-09-12 Steam 更新版（AMS2.exe 43,185,224 字节）
-# 新地址 = 旧版 V4 地址 + 0x5780（引擎代码整体后移；GetGlyph/E85C10 函数
-# 入口 48 字节窗口在新版中逐字节一致，glyph-fb / fb-store 指纹唯一命中）
-P4_CALL1_VA = 0x140F07A11
-P4_CALL2_VA = 0x140F088FF
+# 游戏版本：2026-09-18 Steam 更新版（v1.6.9.96.3436，AMS2.exe 43,185,224 字节）
+# 新地址 = 2026-09-12 版地址 + 0x150（引擎代码整体后移；GetGlyph/E85C10 函数
+# 入口 48 字节窗口逐字节一致，P4 strcmp 调用目标同步平移 0x150，指纹唯一命中）
+P4_CALL1_VA = 0x140F07B61
+P4_CALL2_VA = 0x140F08A4F
 
 ZH2_RVA = 0x2F13000
 ZH2_VA = 0x140000000 + ZH2_RVA
@@ -67,15 +73,15 @@ STUB_VA = ZH2_VA + 0x080
 P4_VA = ZH2_VA + 0x100
 SLOTS_VA = ZH2_VA + 0x300
 
-GLYPH_FB = 0x140E8AF41
-E85C4E = 0x140E8B3CE
-FB_STORE = 0x140F089F2
-FB_NEXT = 0x140F089F9
-GETGLYPH = 0x140E8AEC0
-GLYPH_TAIL = 0x140E8AF4F
-GLYPH_RET0 = 0x140E8AF4D
-E85C10_RECURSE = 0x140E8B3D3
-E85C10_RET0 = 0x140E8B3E5
+GLYPH_FB = 0x140E8B091
+E85C4E = 0x140E8B51E
+FB_STORE = 0x140F08B42
+FB_NEXT = 0x140F08B49
+GETGLYPH = 0x140E8B010
+GLYPH_TAIL = 0x140E8B09F
+GLYPH_RET0 = 0x140E8B09D
+E85C10_RECURSE = 0x140E8B523
+E85C10_RET0 = 0x140E8B535
 
 
 def rel_jmp(to_va, from_va):
@@ -136,13 +142,13 @@ def build_shared():
     o += rel_call(GETGLYPH, ZH2_VA + len(o))            # 74 call GetGlyph
     o += rel_jmp(GLYPH_TAIL, ZH2_VA + len(o))           # 79 jmp epilogue
     doM = len(o)                                        # 84
-    o += rel_jmp(E85C10_RECURSE, ZH2_VA + len(o))       # 84 jmp 0x140E8B3D3
+    o += rel_jmp(E85C10_RECURSE, ZH2_VA + len(o))       # 84 jmp 0x140E8B523
     ret0 = len(o)                                       # 89
     o += bytes.fromhex("85 FF")                         # 89 test edi,edi
     js2 = len(o); o += b"\x78\x00"                      # 91 js ret0M
-    o += rel_jmp(GLYPH_RET0, ZH2_VA + len(o))           # 93 jmp 0x140E8AF4D
+    o += rel_jmp(GLYPH_RET0, ZH2_VA + len(o))           # 93 jmp 0x140E8B09D
     ret0M = len(o)                                      # 98
-    o += rel_jmp(E85C10_RET0, ZH2_VA + len(o))          # 98 jmp 0x140E8B3E5
+    o += rel_jmp(E85C10_RET0, ZH2_VA + len(o))          # 98 jmp 0x140E8B535
 
     o[jnz + 1] = rel8(done, jnz)[0]
     o[jle1 + 1] = rel8(gotidx, jle1)[0]
@@ -171,7 +177,7 @@ def build_stub():
     sidx = len(o)                                       # 33
     o += rip_lea(0x0D, SLOTS_VA, STUB_VA + len(o))      # 33 lea rcx,[rip+slots]
     o += bytes.fromhex("48 89 04 D1")                   # 40 mov [rcx+rdx*8],rax
-    o += rel_jmp(FB_NEXT, STUB_VA + len(o))             # 44 jmp 0x140F089F9
+    o += rel_jmp(FB_NEXT, STUB_VA + len(o))             # 44 jmp 0x140F08B49
 
     o[jle1 + 1] = rel8(sidx, jle1)[0]
     o[jle2 + 1] = rel8(sidx, jle2)[0]
