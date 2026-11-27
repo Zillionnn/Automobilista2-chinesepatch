@@ -14,6 +14,10 @@ Desktop.ini
 
 # 可再生的解包/备份产物
 work/extract/
+work/extract_*/
+work/orig_*/
+work/test/
+work/stale_*/
 work/deploy/backup/
 
 *.7z

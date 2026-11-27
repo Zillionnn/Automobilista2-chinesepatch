@@ -5,8 +5,8 @@ Automobilista 2 简体中文本地化补丁，包含字体渲染修复和完整�
 
 ## 适用版本
 
-- 游戏版本：**2026-09-12 Steam 更新版**
-  （原始文件大小：AMS2.exe 43,185,224、AMS2AVX.exe 42,979,912、Pakfiles\BOOTFLOW.bff 32,258,449）
+- 游戏版本：**2026-09-18 Steam 更新版（v1.6.9.96.3436）**
+  （原始文件大小：AMS2.exe 43,185,224、AMS2AVX.exe 42,980,424、Pakfiles\BOOTFLOW.bff 32,260,497）
 - AMS2.exe（非 AVX）与 AMS2AVX.exe（Steam 实际启动的，CPU 支持 AVX 时由 AMS2.exe 转启）
 - Steam 启动参数：`-novr -lang Chinese-Simple`
 - 地址表与"游戏更新后重新定位"方法：`deliverables/docs/addresses.md`
@@ -39,7 +39,11 @@ AMS2 的字体系统在渲染中文字符时显示为 `*`/方块，原因是多�
 3. **槽位捕获 stub**（49 字节，挂在游戏自动关联处）— 游戏为 5 个槽位字体加载中文字体时，
    按字号把中文字体指针存入 3 个全局槽位。
 4. **独立 `.zh2` PE 段** — 全部新代码放入追加段（RWX），杜绝旧版补丁代码重叠崩溃问题。
-5. 备份自动生成：`AMS2.exe.bak-v4-orig-<原始大小>`（按文件大小区分版本，仅首次创建，游戏更新后不会覆盖旧备份）。
+5. 备份自动生成：`AMS2.exe.bak-v4-orig-<原始大小>-<SHA256前8位>`（按版本区分，仅首次创建；
+   游戏更新后新原版不会被老备份挡住——9/18 版 AMS2.exe 与 9/12 版大小相同，只按大小会误判）。
+6. 版本绑定：补丁地址绑定游戏版本（当前 2026-09-18 / v1.6.9.96.3436，相对 09-12 版
+   AMS2.exe 全体 +0x150、AMS2AVX.exe 全体 +0x140）。游戏更新后必须先用
+   `tools/relocate_v4.py` 重新定位地址。
 
 补丁脚本可重复运行（已打补丁自动跳过）；若游戏更新导致地址失效会**自动中止**而非写坏文件。
 
@@ -87,6 +91,8 @@ AMS2 的字体系统在渲染中文字符时显示为 `*`/方块，原因是多�
 
 本次更新后清零的原版 `UNTRANSLATED` 缺口：**1,489 条**
 （Game 1094、RAC 220、General 138、Platform 32、Pit 4、Presence 1）。
+2026-09-18 版与 09-12 版的文本表**键集合完全一致**（仅 Game 表 4 字节元数据差异），
+因此 9/18 汉化无需新翻译，重新解包后复用既有译文回包即可。
 
 其余表（Credits 305、SetupEngineer 161、Splash 14）游戏原版自带完整中文：
 Credits 位于 `MenuSetup.bff`，无缺口，不需要替换。
@@ -95,7 +101,8 @@ Credits 位于 `MenuSetup.bff`，无缺口，不需要替换。
 
 | 工具 | 用途 |
 |------|------|
-| `patch_v4.py` / `patch_v4_avx.py` | 字体补丁（AMS2 / AMS2AVX，可重复运行） |
+| `relocate_v4.py` | **游戏更新后**：扫描特征字节自动重定位补丁地址（校验统一差值 + P4 调用点），输出可直接粘贴的常量块 |
+| `patch_v4.py` / `patch_v4_avx.py` | 字体补丁（AMS2 / AMS2AVX，可重复运行，地址常量=2026-09-18 版） |
 | `kap_all.py` | .bff 解包（RC4 解密 + zlib/Oodle 解压） |
 | `kap_repack.py` | .bff 回包（目录重加密 + zlib 压缩） |
 | `tdb_dump.py` | .tdb 解析导出多语言 TSV |
@@ -148,21 +155,40 @@ python tools\deploy.py --deploy
   `kap_all.py` 解包 → `tdb_dump.py` → `tdb_extract.py` → `check_missing.py` 列出新键
   → 补进 translations.json → `deploy.py --deploy`。详见"游戏更新后如何恢复"。
 
-## 游戏更新后如何恢复（本次已验证流程）
+## 游戏更新后如何恢复（2026-09-18 更新已按此流程验证）
 
-**第 1 步：先判断是不是新版本**——对比原始文件大小（`deliverables/docs/checksums.txt` 有记录）：
+**第 0 步：判断游戏是否真的更新了**——比对原始文件大小 **和 SHA256**
+（`deliverables/docs/checksums.txt` 有记录）：
 
-- 大小一致 → 只是被还原，重新覆盖 `deliverables/` 里的文件即可。
-- 大小不一致 → 新版本，**旧 exe 不能再用**（补丁地址失效），必须重新定位。
+- 大小与哈希都一致 → 只是被还原，重新覆盖 `deliverables/` 里的文件即可。
+- 不一致 → 新版本，**旧 exe 不能再用**（补丁地址失效），走下面流程。
+  ⚠ 9/18 版 `AMS2.exe` 与 9/12 版**大小完全相同**（43,185,224）但内容不同，
+  **只比大小会误判**，必须比哈希。
 
-**第 2 步：重定位地址 + 重新汉化**
+**第 1 步：用 Steam 还原出新的原版文件**（旧 exe 已覆盖、且没有新原版备份时必需）
 
 ```cmd
-rem ① 用旧版原 exe 的特征字节在新 exe 里搜索新地址（方法见 deliverables/docs/addresses.md）
-rem    本次实测结果：AMS2.exe 全体 +0x5780、AMS2AVX.exe 全体 +0x56B0（GetGlyph/E85C10
-rem    函数入口 48 字节逐字节一致，glyph-fb 与 fb-store 特征唯一命中）
-rem ② 更新 tools\patch_v4.py / patch_v4_avx.py 的地址常量 + ZH2_RVA 等
-rem ③ 重新打补丁（钩子字节不符会打印 ABORT 且完全不写盘，安全）
+rem Steam 库 → 右键 Automobilista 2 → 属性 → 已安装文件 → 验证游戏文件完整性
+rem （会重新下载被改动的 exe / pak，本次约 120MB；153GB 的校验耗时约 20 分钟）
+```
+
+**故障症状识别**：版本不符时游戏**不是崩溃**，而是启动几秒后静默退出（exit code 0，
+无弹窗、WER 无 APPCRASH）。看日志 `Documents\Automobilista 2\log\online.log`：
+
+```
+[Session][BuildVerInject] SMSPHX.20260912.3432...   <-- exe 自带版本
+[Session][BuildVer]       SMSPHX.20260918.3436...   <-- 游戏内容版本（不一致 → 退出）
+```
+
+**第 2 步：重定位地址 + 重新打补丁**
+
+```cmd
+rem ① 自动重定位：扫特征字节、校验统一差值、算出新常量与 .zh2 RVA
+python tools\relocate_v4.py
+rem    本次实测结果：AMS2.exe 全体 +0x150、AMS2AVX.exe 全体 +0x140
+rem    （GetGlyph/E85C10 入口 48 字节逐字节一致；P4 两处 strcmp 调用目标同步平移）
+rem ② 按输出把常量写进 tools\patch_v4.py / patch_v4_avx.py（含 ZH2_RVA）
+rem ③ 打补丁（钩子字节不符会打印 ABORT 且完全不写盘，安全）
 python tools\patch_v4.py
 python tools\patch_v4_avx.py
 
@@ -173,12 +199,17 @@ python tools\tdb_extract.py
 python tools\check_missing.py
 
 rem ⑤ 把 need_translation.json 里的新键翻译后补进 translations.json
-rem ⑥ 重新打包并部署（自动备份新版原版 pak）
+rem    （9/18 更新时该文件为空——键集合未变，译文 100% 复用）
+rem ⑥ 重新打包并部署（自动备份新版原版 pak 到 work\deploy\backup\）
 python tools\deploy.py --deploy
+
+rem ⑦ 实测：启动游戏确认不再静默退出，并目视确认中文渲染（V1.6.9.96.3436 界面全中文、无 * 与 UNTRANSLATED）
 ```
 
 **第 3 步：更新交付物**——把游戏目录的 `AMS2.exe`、`AMS2AVX.exe`、`Pakfiles\BOOTFLOW.bff`
-复制到 `deliverables/` 对应目录，并更新 `deliverables/docs/checksums.txt` 的哈希与原始大小。
+复制到 `deliverables/` 对应目录，并更新 `deliverables/docs/checksums.txt` 的哈希与原始大小、
+`deliverables/docs/addresses.md` 的地址表、`deliverables/docs/verify_v4.py` 的运行时校验地址，
+以及两个 README 的版本号与版本记录。
 
 > 排查提示：`tdb_dump.py` 的 TSV 导出必须把 `\r`/`\n`/`\t` 全部替换为空格，
 > 且 `tdb_extract.py` 读 TSV 要用 `csv.QUOTE_NONE`——否则值里的回车/引号会拆断行，
@@ -199,3 +230,6 @@ Steam 库 → 右键游戏 → 属性 → 已安装文件 → **验证游戏文�
   中文表缺失条目的表现；**当前包内已 0 条**。游戏再次更新后按"游戏更新后如何恢复"流程补翻。
 - 每次游戏更新都会还原 exe 与 pak；版本变化时旧 exe 的补丁地址失效
   （补丁脚本会校验并安全中止，不会写坏文件）。
+- **版本不符的旧 exe 会让游戏静默退出**（exit code 0，无任何报错提示），
+  排查时优先看 `Documents\Automobilista 2\log\online.log` 的 `BuildVerInject` 与 `BuildVer` 是否一致。
+- 判定游戏版本不能只比文件大小：2026-09-18 版 `AMS2.exe` 与 09-12 版同为 43,185,224 字节。

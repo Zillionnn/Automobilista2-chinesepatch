@@ -163,6 +163,11 @@ def step2_repack_paks(translated_entries):
     return True
 
 
+def _sha8(path):
+    import hashlib
+    return hashlib.sha256(open(path, "rb").read()).hexdigest()[:8].upper()
+
+
 def step3_deploy():
     """Copy repacked .bff files to game directory with backup."""
     print("\n--- Step 3: Deploy to game ---")
@@ -172,17 +177,20 @@ def step3_deploy():
     for pak_name in PAK_TDB_MAP:
         src = os.path.join(DEPLOY_DIR, pak_name)
         dst = os.path.join(PAK_DIR, pak_name)
-        bak = os.path.join(backup_dir, pak_name + ".bak")
+        # 备份名带内容哈希：游戏更新后新原版不会被老版本备份挡住
+        bak = os.path.join(backup_dir, "%s.bak-%s" % (pak_name, _sha8(dst)))
 
         if not os.path.exists(src):
             print("  %s: no repacked file" % pak_name)
             continue
 
-        # Backup original
+        # Backup original (per-version, never overwritten)
         if not os.path.exists(bak):
             import shutil
             shutil.copy2(dst, bak)
             print("  %s: backed up to %s" % (pak_name, bak))
+        else:
+            print("  %s: backup exists, keeping %s" % (pak_name, bak))
 
         # Copy repacked to game
         import shutil
